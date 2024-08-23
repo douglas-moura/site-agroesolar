@@ -1,4 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@media only screen and (max-width: 1440px) {
+  body {
+    font-size: 14px !important;
+  }
+  body nav, body main, body footer, body #banner > section {
+    padding: 1rem 10% !important;
+  }
+  body #nav-logo {
+    height: 3rem !important;
+  }
+  body #banner {
+    height: 90vh !important;
+    max-height: 90vh !important;
+  }
+  body h1 {
+    font-size: 3rem !important;
+  }
+  body #fim-banner {
+    margin-top: calc(90vh - 5rem) !important;
+  }
+}
 html {
   scroll-behavior: smooth;
 }
@@ -10,7 +31,7 @@ html {
 }
 * body {
   margin: 0;
-  font-size: 16px !important;
+  font-size: 16px;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   color: #999;
 }
@@ -24,7 +45,7 @@ html {
   z-index: 997;
 }
 * body nav, * body main, * body footer, * body #banner > section {
-  padding: 1rem 20% !important;
+  padding: 1rem 20%;
 }
 * body h1, * body h2, * body h3, * body h4, * body h5, * body h6 {
   margin-bottom: 1rem !important;
@@ -138,10 +159,9 @@ html {
 }
 * body .btn {
   border-radius: 50rem;
-  padding: 1rem 2.5rem;
+  padding: 1rem 2rem;
   outline: none;
   border: 0;
-  font-size: 1.2rem !important;
   font-weight: 600;
   display: inline-flex;
   align-items: center;

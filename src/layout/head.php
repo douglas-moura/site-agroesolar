@@ -6,7 +6,7 @@
         <nav>
             <img id="nav-logo" src="./src/img/logo-agro-e-solar-2.png" alt="">
             <ul id="nav-menu">
-                <li><a href="/">Inicio</a></li>
+                <!--<li><a href="/">Inicio</a></li>-->
                 <li><a href="#sctn-agr">Agro</a></li>
                 <li><a href="#sctn-res">Residencial</a></li>
                 <li><a href="#sctn-peq">Pequenos Negócios</a></li>
