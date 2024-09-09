@@ -63,9 +63,15 @@ body a, body button, body svg {
   cursor: pointer;
   margin: 0 !important;
 }
+body ul {
+  padding-left: 2rem;
+}
+body ul li {
+  margin-bottom: 1rem;
+}
 body li, body p {
   font-size: 1rem;
-  line-height: 1.5rem !important;
+  line-height: 2rem !important;
 }
 body nav {
   position: absolute;
@@ -99,28 +105,27 @@ body main {
 }
 body main h2 {
   color: #B3DE00;
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 body main h3 {
   color: #6e6e6e;
   font-size: 1.5rem;
 }
 body main section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
 }
 body main #to-top {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
-  background-color: #fff;
   border-radius: 50%;
-  color: #0045A0;
+  color: #B3DE00;
 }
 body main #banner {
   width: 100%;
-  height: 80vh;
-  max-height: 80vh;
+  height: 100vh;
+  max-height: 100vh;
   overflow: hidden;
   position: relative;
   background-image: url("../../src/img/agro-e-solar-banner-paineis-solares-3.jpg");
@@ -142,6 +147,7 @@ body main #banner > div #texto h1 {
 }
 body main #banner > div #texto p {
   margin: 0 15%;
+  line-height: 1.5rem !important;
 }
 body main #banner > div #pelicula {
   left: 0;
@@ -177,6 +183,15 @@ body footer section h5 {
   margin: 0 !important;
 }
 
+#sctn-cnt p {
+  display: flex;
+  align-items: center;
+}
+#sctn-cnt p svg {
+  margin-right: 1rem !important;
+  color: #B3DE00;
+}
+
 .btn {
   border-radius: 50rem;
   padding: 1rem 2rem;
@@ -195,25 +210,55 @@ body footer section h5 {
   margin-left: 1rem !important;
 }
 
-.btn-3 {
-  background-color: #fff;
-  color: #0045A0;
-}
-
 .col-100 {
   width: 100%;
 }
 
 .col-70 {
-  width: 69%;
+  width: 68%;
+}
+
+.col-60 {
+  width: 58%;
 }
 
 .col-50 {
-  width: 49%;
+  width: 48%;
+}
+
+.col-40 {
+  width: 38%;
 }
 
 .col-30 {
-  width: 29%;
+  width: 28%;
+}
+
+.btn-verde {
+  background-color: #B3DE00;
+  color: #fff;
+}
+
+.btn-azul {
+  background-color: #0045A0;
+  color: #fff;
+}
+
+.btn-branco {
+  background-color: #fff;
+  color: #0045A0;
+}
+
+.bg-verde {
+  background-color: #faffe3 !important;
+}
+
+.bg-cinza {
+  background-color: #f5f5f5 !important;
+}
+
+.bg-preto {
+  background-color: #252525 !important;
 }
 
 /*# sourceMappingURL=output.css.map */
