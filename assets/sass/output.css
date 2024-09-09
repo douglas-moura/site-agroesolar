@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @media only screen and (max-width: 1440px) {
   body {
     font-size: 14px !important;
   }
-  body nav, body main, body footer, body #banner > section {
+  body nav, body footer, body #banner > section {
     padding: 1rem 10% !important;
   }
   body #nav-logo {
@@ -28,136 +28,156 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
-* body {
+
+body {
   margin: 0;
-  font-size: 16px;
-  font-family: "Raleway", Arial, Helvetica, sans-serif;
-  color: #999;
+  font-size: 14px;
+  color: #a5a5a5;
+  background-color: #fff;
 }
-* body nav {
+body nav {
   z-index: 999;
 }
-* body #to-top {
+body #to-top {
   z-index: 998;
 }
-* body #banner {
+body #banner {
   z-index: 997;
 }
-* body nav, * body main, * body footer, * body #banner > section {
-  padding: 1rem 20%;
+body #banner #texto {
+  z-index: 997;
 }
-* body h1, * body h2, * body h3, * body h4, * body h5, * body h6 {
+body #banner #pelicula {
+  z-index: 996;
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
   margin-bottom: 1rem !important;
 }
-* body h1 {
+body h1 {
   font-size: 4rem;
 }
-* body a, * body button, * body svg {
+body a, body button, body svg {
   text-decoration: none;
   cursor: pointer;
   margin: 0 !important;
 }
-* body li, * body p {
+body li, body p {
+  font-size: 1rem;
   line-height: 1.5rem !important;
 }
-* body nav {
-  position: relative;
-  padding: 2rem;
-  display: flex;
-  justify-content: space-between;
+body nav {
+  position: absolute;
+  width: 100%;
   align-items: center;
   min-height: 5rem !important;
 }
-* body nav a {
-  color: white !important;
+body nav a {
+  color: #fff !important;
 }
-* body nav #nav-logo {
+body nav #nav-logo {
   height: 3.5rem;
 }
-* body nav #nav-menu li {
+body nav #nav-menu {
+  display: flex;
+  align-items: center;
+}
+body nav #nav-menu li {
   display: inline;
-  margin-left: 2rem;
-  padding-bottom: 0.5rem;
+  font-size: 0.8rem;
+  margin-left: 3rem;
+  padding: 0.5rem 0;
   border-bottom: 0.2rem solid rgba(0, 0, 0, 0);
   transition: 0.2s;
 }
-* body nav #nav-menu li:hover {
+body nav #nav-menu li:hover {
   border-bottom: 0.2rem solid #B3DE00;
 }
-* body main {
+body main {
   min-height: 100vh;
 }
-* body main > section {
-  padding: 3rem 0;
+body main h2 {
+  color: #B3DE00;
+  font-size: 2rem;
 }
-* body main section {
+body main h3 {
+  color: #6e6e6e;
+  font-size: 1.5rem;
+}
+body main section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+body main #to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #fff;
+  border-radius: 50%;
+  color: #0045A0;
+}
+body main #banner {
   width: 100%;
+  height: 80vh;
+  max-height: 80vh;
+  overflow: hidden;
+  position: relative;
+  background-image: url("../../src/img/agro-e-solar-banner-paineis-solares-3.jpg");
+  background-size: cover;
+  background-position: center -10rem;
+}
+body main #banner > div {
+  margin: auto;
+}
+body main #banner > div #texto {
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+body main #banner > div #texto h1 {
+  width: 100%;
+  font-weight: 300;
+  line-height: 4.2rem;
+}
+body main #banner > div #texto p {
+  margin: 0 15%;
+}
+body main #banner > div #pelicula {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(rgba(0, 69, 160, 0.7) 0%, rgba(0, 69, 160, 0.2) 80%);
+}
+body section {
+  width: 100%;
+  padding: 1rem 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body section > div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-* body main section .col-100 {
-  width: 100%;
-}
-* body main section .col-70 {
-  width: 69%;
-}
-* body main section .col-50 {
-  width: 49%;
-}
-* body main section .col-30 {
-  width: 29%;
-}
-* body main section h2 {
-  color: #B3DE00;
-}
-* body main #to-top {
-  position: fixed;
-  bottom: 2rem;
-  right: 2rem;
-  background-color: white;
-  border-radius: 50%;
-  color: #0045A0;
-}
-* body main #banner {
-  width: 100%;
-  padding: 0;
-  position: absolute;
-  height: 80vh;
-  max-height: 80vh;
-  left: 0;
-  top: 0;
-  background-image: url("../../src/img/agro-e-solar-banner-paineis-solares-3.jpg");
-  background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
-* body main #banner > section {
-  background: linear-gradient(rgba(0, 69, 160, 0.7) 0%, rgba(0, 69, 160, 0.2) 80%);
-  width: 100%;
-  height: 100%;
-  align-items: center;
+body footer {
+  margin-top: 5rem;
   text-align: center;
+  background-color: #252525;
 }
-* body main #banner > section div {
-  color: white;
-  padding: 0 20%;
+body footer section {
+  padding: 2rem 0;
 }
-* body main #banner > section div h1 {
-  width: 100%;
-  font-weight: 300;
+body footer section h5 {
+  color: rgb(197, 197, 197) !important;
+  font-weight: 400;
+  margin: 0 !important;
 }
-* body main #fim-banner {
-  margin-top: calc(80vh - 5rem);
-  opacity: 0;
-}
-* body footer {
-  text-align: center;
-  background-color: black;
-  color: white !important;
-}
-* body .btn {
+
+.btn {
   border-radius: 50rem;
   padding: 1rem 2rem;
   outline: none;
@@ -167,16 +187,33 @@ html {
   align-items: center;
   transition: 0.2s;
 }
-* body .btn svg {
+.btn svg {
   margin-left: 0.5rem !important;
   transition: 0.2s;
 }
-* body .btn:hover svg {
+.btn:hover svg {
   margin-left: 1rem !important;
 }
-* body .btn-3 {
-  background-color: white;
+
+.btn-3 {
+  background-color: #fff;
   color: #0045A0;
+}
+
+.col-100 {
+  width: 100%;
+}
+
+.col-70 {
+  width: 69%;
+}
+
+.col-50 {
+  width: 49%;
+}
+
+.col-30 {
+  width: 29%;
 }
 
 /*# sourceMappingURL=output.css.map */

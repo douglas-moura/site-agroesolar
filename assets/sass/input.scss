@@ -1,16 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+$branco: #fff;
+$preto: #252525;
+$cinza: #6e6e6e;
+$cinza-claro: #a5a5a5;
+$azul: #0045A0;
+$verde: #B3DE00;
 
 @media only screen and (max-width: 1440px) {
     body {
         font-size: 14px !important;
 
-        nav, main, footer, #banner>section {
+        nav, footer, #banner>section {
             padding: 1rem 10% !important;
         } 
 
         #nav-logo {
             height: 3rem !important;
-        }       
+        }
 
         #banner {
             height: 90vh !important;
@@ -35,185 +42,215 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    body {
-        margin: 0;
-        font-size: 16px;
-        font-family: 'Raleway', Arial, Helvetica, sans-serif;
-        color: #999;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
 
-        nav { z-index: 999; }
-        #to-top { z-index: 998; }
-        #banner { z-index: 997; }
+body {
+    margin: 0;
+    font-size: 14px;
+    color: $cinza-claro;
+    background-color: $branco;
 
-        nav, main, footer, #banner>section {
-            padding: 1rem 20%;
-            //border: .1rem solid red;
+    nav { z-index: 999; }
+    #to-top { z-index: 998; }
+    #banner { z-index: 997; }    
+    #banner #texto { z-index: 997; }
+    #banner #pelicula { z-index: 996; }
+
+    h1, h2, h3, h4, h5, h6 {
+        margin-bottom: 1rem !important;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    a, button, svg {
+        text-decoration: none;
+        cursor: pointer;
+        margin: 0 !important;
+    }
+
+    li, p {
+        font-size: 1rem;
+        line-height: 1.5rem !important;
+    }
+
+    nav {
+        position: absolute;
+        width: 100%;
+        align-items: center;
+        min-height: 5rem !important;
+
+        a {
+            color: $branco !important;
         }
 
-        h1, h2, h3, h4, h5, h6 {
-            margin-bottom: 1rem !important;
+        #nav-logo {
+            height: 3.5rem;
+            //filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
         }
-
-        h1 {
-            font-size: 4rem;
-        }
-
-        a, button, svg {
-            text-decoration: none;
-            cursor: pointer;
-            margin: 0 !important;
-        }
-
-        li, p {
-            line-height: 1.5rem !important;
-        }
-
-        nav {
-            position: relative;
-            padding: 2rem;
+        
+        #nav-menu {
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            min-height: 5rem !important;
 
-            a {
-                color: white !important;
-            }
-
-            #nav-logo {
-                height: 3.5rem;
-                //filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
-            }
-            
-            #nav-menu {
-                li {
-                    display: inline;
-                    margin-left: 2rem;
-                    padding-bottom: .5rem;
-                    border-bottom: .2rem solid rgba(0, 0, 0, 0);
-                    transition: .2s;
-
-                    &:hover {
-                        border-bottom: .2rem solid #B3DE00;
-                    }
-                }
-            }
-        }
-
-        main {
-            min-height: 100vh;
-
-            >section {
-                //border: .1rem solid green;
-                padding: 3rem 0;
-            }
-
-            section {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-
-                .col-100 {
-                    width: 100%;
-                }
-
-                .col-70 {
-                    width: 69%;
-                }
-
-                .col-50 {
-                    width: 49%;
-                }
-
-                .col-30 {
-                    width: 29%;
-                }
-
-                h2 {
-                    color: #B3DE00;
-                }
-            }
-
-            #to-top {
-                position: fixed;
-                bottom: 2rem;
-                right: 2rem;
-                background-color: white;
-                border-radius: 50%;
-                color: #0045A0;
-            }
-
-            #banner {
-                width: 100%;
-                padding: 0;
-                position: absolute;
-                height: 80vh;
-                max-height: 80vh;
-                left: 0;
-                top: 0;
-                background-image: url('../../src/img/agro-e-solar-banner-paineis-solares-3.jpg');
-                background-size: cover;
-                background-position: center center;
-                background-attachment: fixed;
-
-                >section {
-                    background: linear-gradient(rgba(#0045A0, 0.7) 0%, rgba(#0045A0, 0.2) 80%);
-                    width: 100%;
-                    height: 100%;
-                    align-items: center;
-                    text-align: center;
-
-                    div {
-                        color: white;
-                        padding: 0 20%;
-
-                        h1 {
-                            width: 100%;
-                            font-weight: 300;
-                        }
-                    }
-                }
-            }
-
-            #fim-banner {
-                margin-top: calc(80vh - 5rem);
-                opacity: 0;
-            }
-        }
-
-        footer {
-            text-align: center;
-            background-color: black;
-            color: white !important;
-        }
-
-        .btn {
-            border-radius: 50rem;
-            padding: 1rem 2rem;
-            outline: none;
-            border: 0;
-            font-weight: 600;
-            display: inline-flex;
-            align-items: center;
-            transition: .2s;
-
-            svg {
-                margin-left: .5rem !important;
+            li {
+                display: inline;
+                font-size: .8rem;
+                margin-left: 3rem;
+                padding: .5rem 0;
+                border-bottom: .2rem solid rgba(0, 0, 0, 0);
                 transition: .2s;
-            }
 
-            &:hover {
-                svg {
-                    margin-left: 1rem !important;
+                &:hover {
+                    border-bottom: .2rem solid $verde;
                 }
             }
-        }
-
-        .btn-3 {
-            background-color: white;
-            color: #0045A0;
         }
     }
+
+    main {
+        min-height: 100vh;
+
+        h2 {
+            color: $verde;
+            font-size: 2rem;
+        }
+
+        h3 {
+            color: $cinza;
+            font-size: 1.5rem;
+        }
+
+        section {
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+        }
+
+        #to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background-color: $branco;
+            border-radius: 50%;
+            color: $azul;
+        }
+
+        #banner {
+            width: 100%;
+            height: 80vh;
+            max-height: 80vh;
+            overflow: hidden;
+            position: relative;
+            background-image: url('../../src/img/agro-e-solar-banner-paineis-solares-3.jpg');
+            background-size: cover;
+            background-position: center -10rem;
+            //background-attachment: fixed;
+
+            >div {
+                margin: auto;
+
+                #texto {
+                    align-items: center;
+                    text-align: center;
+                    color: $branco;
+                    
+                    h1 {
+                        width: 100%;
+                        font-weight: 300;
+                        line-height: 4.2rem;
+                    }
+
+                    p {
+                        margin: 0 15%;
+                    }
+                }
+                
+                #pelicula {
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    background: linear-gradient(rgba($azul, 0.7) 0%, rgba($azul, 0.2) 80%);
+                }
+            }
+        }
+    }
+
+    section {
+        width: 100%;
+        padding: 1rem 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        //border: .1rem solid red;
+
+        >div {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    }
+
+    footer {
+        margin-top: 5rem;
+        text-align: center;
+        background-color: $preto;
+        
+        section {
+            padding: 2rem 0;
+
+            h5 {
+                color: rgb(197, 197, 197) !important;
+                font-weight: 400;
+                margin: 0 !important;
+            }
+        }
+
+    }
+}
+
+.btn {
+    border-radius: 50rem;
+    padding: 1rem 2rem;
+    outline: none;
+    border: 0;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    transition: .2s;
+
+    svg {
+        margin-left: .5rem !important;
+        transition: .2s;
+    }
+
+    &:hover {
+        svg {
+            margin-left: 1rem !important;
+        }
+    }
+}
+
+.btn-3 {
+    background-color: $branco;
+    color: $azul;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.col-70 {
+    width: 69%;
+}
+
+.col-50 {
+    width: 49%;
+}
+
+.col-30 {
+    width: 29%;
 }
