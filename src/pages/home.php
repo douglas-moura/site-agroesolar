@@ -2,15 +2,21 @@
 <section id="sctn-emp">
     <h2>Sobre a Empresa</h2>
     <div>
-        <p class="col-50">Somos totalmente voltados à solução dos principais problemas da Humanidade – alimentos e energia. Desenvolvemos estudos de retorno financeiro e providenciamos desde o projeto das estruturas, seu financiamento, instalação e manutenção, além da venda da energia excedente. Defendemos o uso compartilhado do solo para a produção de alimentos e energia elétrica através de uma solução a que chamamos AGROE SOLAR. Para isso desenvolvemos soluções que permitem, a partir de uma área de terra obter:</p>
-        <ul class="col-50">
-            <li>Alto rendimento de culturas;</li>
-            <li>Geração de energia elétrica fotovoltaíca com alto rendimento;</li>
-            <li>Irrigação com redução de consumo específico de água para as plantas;</li>
-            <li>Recuperação de águas de chuva.</li>
-            <li>Iluminação complementar para aumento do período de fotossíntese e redução de período de plantio.</li>
-            <li>Alinhados às principais espectativas de ESG, defendemos um mundo novo onde a agricultura e a geração de energia se encontrem em simbiose, altamente proveitosa para as duas atividades, aumentando significativamente o rendimento financeiro da terra, criando bem estar para plantas e animais e um circulo virtuoso de desenvolvimento sustentável.</li>
-        </ul>
+        <div class="col-60">
+            <p>Desenvolvemos estudos de retorno financeiro e providenciamos desde o projeto das estruturas, seu financiamento, instalação e manutenção, além da venda da energia excedente. Para isso desenvolvemos soluções que permitem, a partir de uma área de terra obter:</p>
+            <br>
+            <ul>
+                <li>Alto rendimento de culturas;</li>
+                <li>Geração de energia elétrica fotovoltaíca com alto rendimento;</li>
+                <li>Irrigação com redução de consumo específico de água para as plantas;</li>
+                <li>Recuperação de águas de chuva.</li>
+                <li>Iluminação complementar para aumento do período de fotossíntese e redução de período de plantio.</li>
+                <li>Alinhados às principais espectativas de ESG, defendemos um mundo novo onde a agricultura e a geração de energia se encontrem em simbiose, altamente proveitosa para as duas atividades, aumentando significativamente o rendimento financeiro da terra, criando bem estar para plantas e animais e um circulo virtuoso de desenvolvimento sustentável.</li>
+            </ul>
+        </div>
+        <div class="col-40">
+            <img src="./src/img/sobre.jpg" class="img-padrao">
+        </div>
     </div>
 </section>
 <!--
@@ -40,7 +46,7 @@
     </div>
 </section>
 -->
-<section id="sctn-agr" class="bg-cinza">
+<section id="sctn-agr" class="bg-preto">
     <h2>Agro</h2>
     <div>
         <div class="col-50">
@@ -51,36 +57,31 @@
 <section id="sctn-res">
     <h2>Residencial</h2>
     <div>
-        <div class="col-50">
+        <div class="col-60">
             <p>A instalação de sistemas fotovoltaicos em residências permite aos moradores reduzir significativamente suas contas de luz, uma vez que a energia gerada pode suprir parte ou toda a demanda elétrica da casa. Além disso, qualquer excedente de energia produzido pode ser injetado na rede elétrica, gerando créditos que podem ser utilizados em momentos de menor geração, como à noite.</p>
-        </div>
-        <div class="col-50">
+            <br>
             <p>A procura por energia solar no mercado residencial tem crescido devido a fatores como a queda nos custos dos equipamentos, a disponibilidade de linhas de financiamento e a conscientização sobre a importância de adotar práticas mais sustentáveis. Além de proporcionar economia, a instalação de painéis solares valoriza o imóvel e contribui para a redução das emissões de gases de efeito estufa, tornando a residência mais ecológica.</p>
         </div>
-    </div>
-</section>
-<section id="sctn-peq" class="bg-">
-    <h2>Pequenos Negócios</h2>
-    <div>
-        <div class="col-50">
-        </div>
-        <div class="col-50">
-            <p>No mercado de pequenos negócios, a instalação de painéis fotovoltaicos pode oferecer soluções personalizadas que ajudam empresas de menor porte a reduzir seus custos operacionais e aumentar a sustentabilidade de suas operações. Pequenos negócios, como lojas, escritórios, restaurantes, e pequenas indústrias, podem se beneficiar ao instalar sistemas solares, pois isso permite que eles gerem parte ou toda a energia que consomem, diminuindo significativamente suas contas de eletricidade.</p>
+        <div class="col-40">
+            <img src="./src/img/residencial.jpg" class="img-padrao">
         </div>
     </div>
 </section>
-<section id="sctn-grd">
-    <h2>Grandes Negócios</h2>
+<section id="sctn-grd" class="bg-">
     <div>
         <div class="col-50">
+            <h2>Grandes Negócios</h2>
             <p>No mercado de grandes negócios, uma empresa de instalação de painéis fotovoltaicos pode desempenhar um papel crucial na transição para fontes de energia mais sustentáveis e na redução dos custos operacionais dessas organizações. Grandes empresas, como indústrias, centros de distribuição, shoppings, e corporações com múltiplas unidades, têm um consumo energético elevado, o que faz da energia solar uma solução atraente para diminuir as despesas com eletricidade e melhorar a sustentabilidade corporativa.</p>
+            
         </div>
         <div class="col-50">
-            <p>Para grandes negócios, a instalação de sistemas fotovoltaicos em larga escala pode não apenas atender a uma parte significativa da demanda energética, mas também possibilitar a implementação de microgrids, que aumentam a resiliência energética da empresa e reduzem a dependência da rede elétrica pública. Além disso, ao gerar energia limpa, essas empresas podem reduzir suas emissões de carbono, cumprindo metas ambientais e regulatórias, e reforçando sua imagem de responsabilidade social e ambiental.</p>
+            <h2>Pequenos Negócios</h2>
+            <p>No mercado de pequenos negócios, a instalação de painéis fotovoltaicos pode oferecer soluções personalizadas que ajudam empresas de menor porte a reduzir seus custos operacionais e aumentar a sustentabilidade de suas operações. Pequenos negócios, como lojas, escritórios, restaurantes, e pequenas indústrias, podem se beneficiar ao instalar sistemas solares, pois isso permite que eles gerem parte ou toda a energia que consomem, diminuindo significativamente suas contas de eletricidade.</p>
+            
         </div>
     </div>
 </section>
-<section id="sctn-cnt" class="bg-">
+<section id="sctn-cnt" class="bg-cinza">
     <h2>Entre em Contato</h2>
     <div>
         <div class="col-40">
