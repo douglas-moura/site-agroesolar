@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-    @apply text-7xl font-light
+    @apply font-light text-7xl
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -38,6 +38,10 @@ li, p {
     @apply grid gap-16 xl:w-2/3
 }
 
+.coluna {
+    @apply flex flex-col
+}
+
 .btn {
-    @apply text-base outline-none border-0 font-semibold inline-flex items-center transition-all py-4 px-8 rounded-full
+    @apply text-base outline-none border-0 font-semibold inline-flex items-center transition-all py-4 px-8 rounded-full hover:px-10
 }
