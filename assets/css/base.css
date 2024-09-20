@@ -13,87 +13,17 @@
     height: 90vh !important;
     max-height: 90vh !important;
   }
-  body h1 {
-    font-size: 3rem !important;
-  }
   body #fim-banner {
     margin-top: calc(90vh - 5rem) !important;
   }
 }
-html {
-  scroll-behavior: smooth;
-}
-
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
 }
 
-body {
-  margin: 0;
-  font-size: 14px;
-  color: #a5a5a5;
-  background-color: #fff;
-}
-body nav {
-  z-index: 999;
-}
-body #to-top {
-  z-index: 998;
-}
-body #banner {
-  z-index: 997;
-}
-body #banner #texto {
-  z-index: 997;
-}
-body #banner #pelicula {
-  z-index: 996;
-}
-body h1, body h2, body h3, body h4, body h5, body h6 {
-  margin-bottom: 1rem !important;
-}
-body h1 {
-  font-size: 4rem;
-}
-body a, body button, body svg {
-  text-decoration: none;
-  cursor: pointer;
-  margin: 0 !important;
-}
-body li, body p {
-  font-size: 1rem;
-  line-height: 1.5rem !important;
-}
-body nav {
-  position: absolute;
-  width: 100%;
-  align-items: center;
-  min-height: 5rem !important;
-}
-body nav a {
-  color: #fff !important;
-}
-body nav #nav-logo {
-  height: 3.5rem;
-}
-body nav #nav-menu {
-  display: flex;
-  align-items: center;
-}
-body nav #nav-menu li {
-  display: inline;
-  font-size: 0.8rem;
-  margin-left: 3rem;
-  padding: 0.5rem 0;
-  border-bottom: 0.2rem solid rgba(0, 0, 0, 0);
-  transition: 0.2s;
-}
-body nav #nav-menu li:hover {
-  border-bottom: 0.2rem solid #B3DE00;
-}
 body main {
   min-height: 100vh;
 }
@@ -105,10 +35,6 @@ body main h3 {
   color: #6e6e6e;
   font-size: 1.5rem;
 }
-body main section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
-}
 body main #to-top {
   position: fixed;
   bottom: 2rem;
@@ -117,14 +43,7 @@ body main #to-top {
   color: #B3DE00;
 }
 body main #banner {
-  width: 100%;
-  height: 100vh;
-  max-height: 100vh;
-  overflow: hidden;
-  position: relative;
   background-image: url("../../src/img/agro-e-solar-banner-paineis-solares-3.jpg");
-  background-size: cover;
-  background-position: center bottom;
 }
 body main #banner > div {
   margin: auto;
@@ -150,18 +69,6 @@ body main #banner > div #pelicula {
   height: 100%;
   position: absolute;
   background: linear-gradient(rgba(0, 69, 160, 0.7) 0%, rgba(0, 69, 160, 0.2) 80%);
-}
-body section {
-  width: 100%;
-  padding: 1rem 15%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-body section > div {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 body footer {
   text-align: center;
@@ -225,24 +132,6 @@ body footer section h5 {
 #sctn-cnt div p svg {
   margin-right: 1rem !important;
   color: #B3DE00;
-}
-
-.btn {
-  border-radius: 50rem;
-  padding: 1rem 2rem;
-  outline: none;
-  border: 0;
-  font-weight: 600;
-  display: inline-flex;
-  align-items: center;
-  transition: 0.2s;
-}
-.btn svg {
-  margin-left: 0.5rem !important;
-  transition: 0.2s;
-}
-.btn:hover svg {
-  margin-left: 1rem !important;
 }
 
 .col-100 {
@@ -407,4 +296,4 @@ body footer section h5 {
   }
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=base.css.map */

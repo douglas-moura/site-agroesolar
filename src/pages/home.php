@@ -19,7 +19,7 @@
         </div>
     </div>
 </section>
-<section id="sctn-esp">
+<section id="sctn-esp" class="text-red-600">
     <h2>Equipe de Especialistas</h2>
     <div class="col-100">
         <div class="col-30">

@@ -1,23 +1,24 @@
 <html>
     <head>
-        <link rel="stylesheet" href="./assets/sass/output.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./assets/css/output.css">
+        <link rel="stylesheet" href="./assets/css/base.css">
     </head>
     <body>
-        <nav>
-            <section>
-                <div>
-                    <img id="nav-logo" src="./src/img/logo-agro-e-solar-2.png" alt="">
-                    <ul id="nav-menu">
-                        <!--<li><a href="/">Inicio</a></li>-->
-                        <li><a href="#sctn-agr">Agro</a></li>
-                        <li><a href="#sctn-res">Residencial</a></li>
-                        <li><a href="#sctn-peq">Pequenos Negócios</a></li>
-                        <li><a href="#sctn-grd">Grandes Negócios</a></li>
-                        <li><a href="#sctn-orc">Orçamento</a></li>
-                        <li><a href="#sctn-cnt">Fale Conosco</a></li>
-                    </ul>
-                </div>
-            </section>
+        <nav class="z-50 flex absolute top-0 w-full items-center min-h-20">
+            <container class="conteudo grid-cols-3 py-6 m-auto">
+                <img class="h-14 col-span-1" src="./src/img/logo-agro-e-solar-2.png" alt="">
+                <ul class="flex justify-end right-0 items-center col-span-2">
+                    <!--<li><a href="/">Inicio</a></li>-->
+                    <li><a class="nav-link" href="#sctn-agr">Agro</a></li>
+                    <li><a class="nav-link" href="#sctn-res">Residencial</a></li>
+                    <li><a class="nav-link" href="#sctn-peq">Pequenos Negócios</a></li>
+                    <li><a class="nav-link" href="#sctn-grd">Grandes Negócios</a></li>
+                    <li><a class="nav-link" href="#sctn-orc">Orçamento</a></li>
+                    <li><a class="nav-link" href="#sctn-cnt">Fale Conosco</a></li>
+                </ul>
+            </container>
         </nav>
         <main>
             <a href="/agroesolar/#nav-logo">
