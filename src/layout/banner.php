@@ -9,19 +9,19 @@
             </button>
         </div>
         <div class="py-8 grid gap-y-10">
-            <span class="coluna">
+            <span class="coluna animate-fade-in-right transition-all">
                 <h3 class="text-verde font-semibold border-b-2 border-branco py-3 mb-2">Agrofotovoltáico</h3>
                 <p class="font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur hic consectetur nulla, facere, quibusdam reprehenderit neque ex nostrum.</p>
             </span>
-            <span class="coluna">
+            <span class="coluna animate-fade-in-right transition-all">
                 <h3 class="text-verde font-semibold border-b-2 border-branco py-3 mb-2">Locação de Placas</h3>
                 <p class="font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur hic consectetur nulla, facere, quibusdam reprehenderit neque ex nostrum.</p>
             </span>
-            <span class="coluna">
+            <span class="coluna animate-fade-in-right transition-all">
                 <h3 class="text-verde font-semibold border-b-2 border-branco py-3 mb-2">Grandes Negócios</h3>
                 <p class="font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur hic consectetur nulla, facere, quibusdam reprehenderit neque ex nostrum.</p>
             </span>
-            <span class="coluna">
+            <span class="coluna animate-fade-in-right transition-all">
                 <h3 class="text-verde font-semibold border-b-2 border-branco py-3 mb-2">Pequenos Negócios e Residencial</h3>
                 <p class="font-extralight">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur hic consectetur nulla, facere, quibusdam reprehenderit neque ex nostrum.</p>
             </span>

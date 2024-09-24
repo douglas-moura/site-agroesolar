@@ -1,4 +1,90 @@
 <?php include_once './src/layout/banner.php'; ?>
+<section class="sessao">
+    <container class="conteudo grid-cols-5">
+        <div class="col-span-2">
+            <h2>Agrifotovoltaíco</h2>
+            <p class="mb-4">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola. Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
+            <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas mantendo (ou aumentando) a produtividade. Pelo fato de o sistema manter temperaturas mais baixas no microclima da plantação consegue-se obter também redução significativa no uso de água pela diminuição da evapotranspiração. Os mesmos princípios podem ser aplicados à produção animal.</p>
+            <p class="mb-4">Seguem alguns exemplos ao lado:</p>
+        </div>
+        <div class="col-span-3">
+            <div class="relative m-auto">
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
+                    <img src="./src/img/img-slide-1.png" class="w-full h-full object-cover">
+                    <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">COREIA DO SUL - EXPERIMENTO COM PLANTAÇÃO DE BROCOLIS </div>
+                </div>
+                <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
+                    <img src="./src/img/img-slide-2.png" class="w-full h-full object-cover">
+                    <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">HOLANDA 3,8 HÁ DE FRAMBOESA – 2,7MW</div>
+                </div>
+                <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
+                    <img src="./src/img/img-slide-3.png" class="w-full h-full object-cover">
+                    <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">ESTUFAS COM PAINÉIS SOLARES AO INVÉS DE “SOMBRITE”</div>
+                </div>
+                <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
+                    <img src="./src/img/img-slide-4.png" class="w-full h-full object-cover">
+                    <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">FRANÇA – CONSÓRCIO ENTRE ENERGIA SOLAR FOTOVOLTAICA E UVAS</div>
+                </div>
+                <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
+                    <img src="./src/img/img-slide-5.png" class="w-full h-full object-cover">
+                    <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
+                </div>
+                <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
+                    <img src="./src/img/img-slide-6.jpg" class="w-full h-full object-cover">
+                    <div class="h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="w-auto cursor-pointer absolute top-1/2 -m-1 p-4 text-branco font-bold text-3xl duration-75 rounded-md hover:bg-[rgba(0,0,0,0.8)]" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="w-auto cursor-pointer absolute top-1/2 -m-1 p-4 text-branco font-bold text-3xl duration-75 rounded-md hover:bg-[rgba(0,0,0,0.8)] right-0" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <!-- The dots/circles -->
+            <div class="dots w-full text-center mt-4 justify-center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+            </div>
+        </div>
+    </container>
+    <container>
+        
+    </container>
+</section>
+
+<section class="sessao bg-cinza-claro-2">
+    <container class="conteudo grid-cols-3">
+        <h2 class="col-span-3">Equipe de Especialistas</h2>
+        <span>
+            <h3>Reynaldo Wongtschowski</h3>
+            <p>Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e  geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
+        </span>
+        <span>
+            <h3>Neuler Peçanha</h3>
+            <p>Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
+        </span>
+        <span>
+            <h3>Claudio Bianor Sverzut</h3>
+            <p>Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
+        </span>
+        <span>
+            <h3>João Domingos Biaggi</h3>
+            <p>Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
+        </span>
+        <span>
+            <h3>Ricardo Araújo Ferreira Jr</h3>
+            <p>Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
+        </span>
+        <span>
+            <h3>Aryoldo Machado</h3>
+            <p>Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
+        </span>
+    </container>
+</section>
+
+<!--
 <section id="sctn-emp">
     <h2>Sobre a Empresa</h2>
     <div>
@@ -19,109 +105,8 @@
         </div>
     </div>
 </section>
-<section id="sctn-esp" class="text-red-600">
-    <h2>Equipe de Especialistas</h2>
-    <div class="col-100">
-        <div class="col-30">
-            <p>
-                <h3>Reynaldo Wongtschowski</h3>
-                <p>Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e  geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
-            </p>
-        </div>
-        <div class="col-30">
-            <p>
-                <h3>Neuler Peçanha</h3>
-                <p>Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
-            </p>
-        </div>
-        <div class="col-30">
-            <p>
-                <h3>Claudio Bianor Sverzut</h3>
-                <p>Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
-            </p>
-        </div>
-    </div>
-    <br>
-    <br>
-    <div class="col-100">
-        <div class="col-30">
-            <p>
-                <h3>João Domingos Biaggi</h3>
-                <p>Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
-            </p>
-        </div>
-        <div class="col-30">
-            <p>
-                <h3>Ricardo Araújo Ferreira Jr</h3>
-                <p>Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
-            </p>
-        </div>
-        <div class="col-30">
-            <p>
-                <h3>Aryoldo Machado</h3>
-                <p>Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
-            </p>
-        </div>
-    </div>
-</section>
-<section id="sctn-sld" class="bg-cinza">
-    <div>
-        <div class="col-100">
-            <h2>Agrifotovoltaíco</h2>
-            <p>O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola. Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
-            <br>
-            <p>Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas mantendo (ou aumentando) a produtividade. Pelo fato de o sistema manter temperaturas mais baixas no microclima da plantação consegue-se obter também redução significativa no uso de água pela diminuição da evapotranspiração. Os mesmos princípios podem ser aplicados à produção animal.</p>
-            <br>
-            <p>Seguem alguns exemplos:</p>
-            <div class="slideshow-container col-70">
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade col-100">
-                    <div class="numbertext">1 / 6</div>
-                    <img src="./src/img/img-slide-1.png" style="width:100%">
-                    <div class="text">COREIA DO SUL - EXPERIMENTO COM PLANTAÇÃO DE BROCOLIS </div>
-                </div>
-                <div class="mySlides fade col-100">
-                    <div class="numbertext">2 / 6</div>
-                    <img src="./src/img/img-slide-2.png" style="width:100%">
-                    <div class="text">HOLANDA 3,8 HÁ DE FRAMBOESA – 2,7MW</div>
-                </div>
-                <div class="mySlides fade col-100">
-                    <div class="numbertext">3 / 6</div>
-                    <img src="./src/img/img-slide-3.png" style="width:100%">
-                    <div class="text">ESTUFAS COM PAINÉIS SOLARES AO INVÉS DE “SOMBRITE”</div>
-                </div>
-                <div class="mySlides fade col-100">
-                    <div class="numbertext">4 / 6</div>
-                    <img src="./src/img/img-slide-4.png" style="width:100%">
-                    <div class="text">FRANÇA – CONSÓRCIO ENTRE ENERGIA SOLAR FOTOVOLTAICA E UVAS</div>
-                </div>
-                <div class="mySlides fade col-100">
-                    <div class="numbertext">5 / 6</div>
-                    <img src="./src/img/img-slide-5.png" style="width:100%">
-                    <div class="text">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
-                </div>
-                <div class="mySlides fade col-100">
-                    <div class="numbertext">6 / 6</div>
-                    <img src="./src/img/img-slide-6.jpg" style="width:100%">
-                    <div class="text">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
-                </div>
-                <!-- Next and previous buttons -->
-                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <!-- The dots/circles -->
-            <div style="text-align:center" class="dots col-100">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-            </div>
+-->
 
-        </div>
-    </div>
-</section>
 <section id="sctn-fot" class="bg-preto">
     <h2>Fotossíntese</h2>
     <div>
