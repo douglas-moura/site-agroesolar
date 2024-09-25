@@ -1,4 +1,4 @@
-<?php include_once './src/layout/banner.php'; ?>
+<?php include_once './src/layouts/banner.php'; ?>
 <section class="sessao">
     <container class="conteudo grid-cols-5">
         <div class="col-span-2">
@@ -11,27 +11,27 @@
             <div class="relative m-auto">
                 <!-- Full-width images with number and caption text -->
                 <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/img/img-slide-1.png" class="w-full h-full object-cover">
+                    <img src="./src/assets/img/img-slide-1.png" class="w-full h-full object-cover">
                     <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">COREIA DO SUL - EXPERIMENTO COM PLANTAÇÃO DE BROCOLIS </div>
                 </div>
                 <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/img/img-slide-2.png" class="w-full h-full object-cover">
+                    <img src="./src/assets/img/img-slide-2.png" class="w-full h-full object-cover">
                     <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">HOLANDA 3,8 HÁ DE FRAMBOESA – 2,7MW</div>
                 </div>
                 <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/img/img-slide-3.png" class="w-full h-full object-cover">
+                    <img src="./src/assets/img/img-slide-3.png" class="w-full h-full object-cover">
                     <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">ESTUFAS COM PAINÉIS SOLARES AO INVÉS DE “SOMBRITE”</div>
                 </div>
                 <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/img/img-slide-4.png" class="w-full h-full object-cover">
+                    <img src="./src/assets/img/img-slide-4.png" class="w-full h-full object-cover">
                     <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">FRANÇA – CONSÓRCIO ENTRE ENERGIA SOLAR FOTOVOLTAICA E UVAS</div>
                 </div>
                 <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/img/img-slide-5.png" class="w-full h-full object-cover">
+                    <img src="./src/assets/img/img-slide-5.png" class="w-full h-full object-cover">
                     <div class=" h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
                 </div>
                 <div class="mySlides hidden h-160 transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/img/img-slide-6.jpg" class="w-full h-full object-cover">
+                    <img src="./src/assets/img/img-slide-6.jpg" class="w-full h-full object-cover">
                     <div class="h-12 text-branco bg-preto text-4 leading-4 py-4 px-0 absolute bottom-0 w-full text-center">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
                 </div>
                 <!-- Next and previous buttons -->

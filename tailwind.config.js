@@ -3,6 +3,12 @@ module.exports = {
     content: ["./src/**/*.{html,js,php}"],
     theme: {
         extend: {
+            fontFamily: {
+                nunito: ['Nunito', 'sans-serif']
+            },
+            backgroundImage: {
+                'img-banner': "url('../img/agro-e-solar-banner-paineis-solares-3.jpg')"
+            },
             animation: {
                 'fade-in-right': 'fadeInRight 2s ease-in-out',
             },

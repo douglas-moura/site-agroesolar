@@ -2,13 +2,15 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./assets/css/output.css">
-        <link rel="stylesheet" href="./assets/css/base.css">
+        <link rel="stylesheet" href="src/assets/css/output.css">
+        <!--
+        <link rel="stylesheet" href="../src/css/base.css">
+        -->
     </head>
     <body>
         <nav class="z-40 flex absolute top-0 w-full items-center min-h-20">
             <container class="conteudo grid-cols-3 py-6 m-auto">
-                <img class="h-14 col-span-1" src="./src/img/logo-agro-e-solar-2.png" alt="">
+                <img class="h-14 col-span-1" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">
                 <ul class="flex justify-end right-0 items-center col-span-2">
                     <!--<li><a href="/">Inicio</a></li>-->
                     <li><a class="nav-link" href="#sctn-agr">Agro</a></li>

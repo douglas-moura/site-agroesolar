@@ -39,7 +39,7 @@ body main #to-top {
   color: #B3DE00;
 }
 body main #banner {
-  background-image: url("../../src/img/agro-e-solar-banner-paineis-solares-3.jpg");
+  background-image: url("../../src/assets/img/agro-e-solar-banner-paineis-solares-3.jpg");
 }
 body main #banner > div {
   margin: auto;

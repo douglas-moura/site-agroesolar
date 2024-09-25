@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply m-0 p-0 box-border
+    }
+
+    html {
+        @apply scroll-smooth
+    }
+    
+    body {
+        @apply font-nunito m-0 text-base text-cinza-claro bg-branco
+    }
+
+    main {
+        @apply min-h-full
+    }
+    
+    h1 {
+        @apply font-light text-7xl
+    }
+    
+    h2 {
+        @apply text-verde text-5xl
+    }
+
+    h3 {
+        @apply text-cinza text-2xl
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        @apply mb-6
+    }
+    
+    a, svg, button {
+        @apply no-underline cursor-pointer m-0
+    }
+    
+    li, p {
+        @apply text-base leading-6 
+    }
+}
+
+@layer components {
+    .sessao {
+        @apply py-32 px-0 w-full flex-col flex
+    }
+    
+    .conteudo {
+        @apply grid gap-16 mx-auto xl:w-2/3
+    }
+    
+    .coluna {
+        @apply flex flex-col
+    }
+    
+    .btn {
+        @apply text-base outline-none border-0 font-semibold inline-flex items-center transition-all py-4 px-8 rounded-full hover:px-10
+    }
+    
+    .nav-link {
+        @apply text-branco inline text-xl ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
+    }
+    
+    .dot {
+        @apply cursor-pointer h-4 w-4 my-0 mx-4 bg-cinza-claro rounded-full inline-block transition-all hover:bg-verde
+    }
+}
+
+@layer utilities {
+    .active {
+        @apply bg-preto
+    }
+}
