@@ -14,7 +14,7 @@
     }
     
     body {
-        @apply font-nunito m-0 text-base text-cinza-claro bg-branco
+        @apply font-nunito m-0 text-xl text-cinza-claro bg-branco
     }
 
     main {
@@ -42,17 +42,21 @@
     }
     
     li, p {
-        @apply text-base leading-6 
+        @apply leading-7 
+    }
+
+    p {
+        @apply mb-4
     }
 }
 
 @layer components {
     .sessao {
-        @apply py-32 px-0 w-full flex-col flex
+        @apply py-20 px-0 w-full flex-col flex
     }
     
     .conteudo {
-        @apply grid gap-16 mx-auto xl:w-2/3
+        @apply grid gap-y-4 gap-x-16 mx-auto w-8/12
     }
     
     .coluna {
@@ -64,7 +68,7 @@
     }
     
     .nav-link {
-        @apply text-branco inline text-xl ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
+        @apply text-branco inline text-lg ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
     }
     
     .dot {

@@ -8,19 +8,19 @@
         -->
     </head>
     <body>
+        
         <nav class="z-40 flex absolute top-0 w-full items-center min-h-20">
-            <container class="conteudo grid-cols-3 py-6 m-auto">
-                <img class="h-14 col-span-1" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">
-                <ul class="flex justify-end right-0 items-center col-span-2">
+            <div class="flex w-8/12 mx-auto justify-between">
+                <!--<img class="h-14 col-span-2" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">-->
+                <ul class="flex justify-between items-center w-full">
                     <!--<li><a href="/">Inicio</a></li>-->
-                    <li><a class="nav-link" href="#sctn-agr">Agro</a></li>
-                    <li><a class="nav-link" href="#sctn-res">Residencial</a></li>
-                    <li><a class="nav-link" href="#sctn-peq">Pequenos Negócios</a></li>
+                    <li><a class="nav-link" href="#sctn-agr">Agrofotovoltáico</a></li>
+                    <li><a class="nav-link" href="#sctn-res">Locação de Placas</a></li>
                     <li><a class="nav-link" href="#sctn-grd">Grandes Negócios</a></li>
-                    <li><a class="nav-link" href="#sctn-orc">Orçamento</a></li>
+                    <li><a class="nav-link" href="#sctn-peq">Pequenos Negócios e Residencias</a></li>
                     <li><a class="nav-link" href="#sctn-cnt">Fale Conosco</a></li>
                 </ul>
-            </container>
+            </div>
         </nav>
         <main>
             <a href="/agroesolar/#nav-logo" class="z-50 fixed bottom-16 right-16">
