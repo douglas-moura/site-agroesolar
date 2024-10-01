@@ -12,23 +12,23 @@
             -->
         </div>
         <div class="grid grid-cols-4 gap-8">
-            <span class="flex flex-col animate-fade-in-right transition-all bg-branco rounded-lg overflow-hidden">
-                <h4 class="text-branco bg-verde h-16 font-semibold px-4 pt-4 pb-0 mb-0">Agrofotovoltáico</h5>
+            <span class="banner-box">
+                <h4 class="">Agrofotovoltáico</h5>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
                 <p class="p-4 text-xs text-cinza">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
             </span>
-            <span class="flex flex-col animate-fade-in-right transition-all bg-branco rounded-lg overflow-hidden">
-                <h4 class="text-branco bg-verde h-16 font-semibold px-4 pt-4 pb-0 mb-0">Locação de<br>Placas</h5>
+            <span class="banner-box">
+                <h4 class="">Locação de<br>Placas</h5>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
-                <p class="p-4 text-xs text-cinza">A Agro & Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de placas solares.</p>
+                <p class="p-4 text-xs text-cinza">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de placas solares.</p>
             </span>
-            <span class="flex flex-col animate-fade-in-right transition-all bg-branco rounded-lg overflow-hidden">
-                <h4 class="text-branco bg-verde h-16 font-semibold px-4 pt-4 pb-0 mb-0">Grandes<br>Negócios</h4>
+            <span class="banner-box">
+                <h4 class="">Grandes<br>Negócios</h4>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
                 <p class="p-4 text-xs text-cinza">Entendemos que grandes empresas buscam não apenas reduzir custos, mas também se destacar em práticas sustentáveis.</p>
             </span>
-            <span class="flex flex-col animate-fade-in-right transition-all bg-branco rounded-lg overflow-hidden">
-                <h4 class="text-branco bg-verde h-16 font-semibold px-4 pt-4 pb-0 mb-0">Pequenos Negócios<br>e Residencial</h4>
+            <span class="banner-box">
+                <h4 class="">Pequenos Negócios<br>e Residencial</h4>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
                 <p class="p-4 text-xs text-cinza">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur hic consectetur nulla, facere, quibusdam reprehenderit neque ex nostrum.</p>
             </span>
