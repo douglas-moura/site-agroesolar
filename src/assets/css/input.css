@@ -14,7 +14,7 @@
     }
     
     body {
-        @apply font-nunito m-0 text-xl text-cinza-claro bg-branco
+        @apply font-nunito m-0 text-base text-cinza-claro bg-branco
     }
 
     main {
@@ -22,15 +22,19 @@
     }
     
     h1 {
-        @apply font-light text-7xl
+        @apply font-light text-5xl
     }
     
     h2 {
-        @apply text-verde text-5xl
+        @apply text-verde text-3xl leading-9
     }
 
     h3 {
-        @apply text-cinza text-2xl
+        @apply text-cinza text-xl
+    }
+
+    h4 {
+        @apply text-sm
     }
     
     h1, h2, h3, h4, h5, h6 {
@@ -42,7 +46,7 @@
     }
     
     li, p {
-        @apply leading-7 
+        @apply text-sm leading-5
     }
 
     p {
@@ -52,7 +56,7 @@
 
 @layer components {
     .sessao {
-        @apply py-20 px-0 w-full flex-col flex
+        @apply py-20 px-0 w-full flex-col flex z-40
     }
     
     .conteudo {
@@ -64,15 +68,15 @@
     }
     
     .btn {
-        @apply text-base outline-none border-0 font-semibold inline-flex items-center transition-all py-4 px-8 rounded-full hover:px-10
+        @apply text-sm outline-none border-0 font-semibold inline-flex items-center transition-all py-3 px-6 rounded-full hover:px-10
     }
     
     .nav-link {
-        @apply text-branco inline text-lg ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
+        @apply text-branco inline text-sm ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
     }
     
     .dot {
-        @apply cursor-pointer h-4 w-4 my-0 mx-4 bg-cinza-claro rounded-full inline-block transition-all hover:bg-verde
+        @apply cursor-pointer h-2 w-2 my-0 mx-4 bg-cinza-claro rounded-full inline-block transition-all hover:bg-verde
     }
 }
 

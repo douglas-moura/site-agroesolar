@@ -8,8 +8,7 @@
         -->
     </head>
     <body>
-        
-        <nav class="z-40 flex absolute top-0 w-full items-center min-h-20">
+        <nav id="nav-logo" class="z-40 flex absolute top-0 w-full items-center min-h-20">
             <div class="flex w-8/12 mx-auto justify-between">
                 <!--<img class="h-14 col-span-2" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">-->
                 <ul class="flex justify-between items-center w-full">
@@ -23,6 +22,6 @@
             </div>
         </nav>
         <main>
-            <a href="/agroesolar/#nav-logo" class="z-50 fixed bottom-16 right-16">
-                <svg class="text-verde h-16 w-16" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-up-circle"><circle cx="12" cy="12" r="10"></circle><polyline points="16 12 12 8 8 12"></polyline><line x1="12" y1="16" x2="12" y2="8"></line></svg>
+            <a href="/agroesolar/#nav-logo" class="z-50 fixed flex bottom-8 right-8 w-10 aspect-square">
+                <iconify-icon icon="lucide:circle-arrow-up" class="text-verde" width="100%"></iconify-icon>
             </a>
