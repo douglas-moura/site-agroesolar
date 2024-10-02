@@ -10,6 +10,8 @@
             <h2>Agro&Solar</h2>
             <p class="mb-4">A Agro&Solar tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. A empresa busca oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
             <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecida pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
+            <p class="mb-4">Confira um exemplo de projeto agrofotovoltaico:</p>
+            <a href="http://"><strong class=" text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
         </div>
     </container>
     <container class="conteudo grid-cols-2 gap-y-8 z-20">
@@ -18,27 +20,27 @@
             Equipe de Especialistas
         </h2>
         <span>
-            <h3 class=" font-extrabold flex items-center">Reynaldo Wongtschowski</h3>
+            <h3 class="flex items-center">Reynaldo Wongtschowski</h3>
             <p class="">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e  geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
         </span>
         <span>
-            <h3 class=" font-extrabold flex items-center">Neuler Peçanha</h3>
+            <h3 class="flex items-center">Neuler Peçanha</h3>
             <p class="">Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
         </span>
         <span>
-            <h3 class=" font-extrabold flex items-center">Claudio Bianor Sverzut</h3>
+            <h3 class="flex items-center">Claudio Bianor Sverzut</h3>
             <p class="">Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
         </span>
         <span>
-            <h3 class=" font-extrabold flex items-center">João Domingos Biaggi</h3>
+            <h3 class="flex items-center">João Domingos Biaggi</h3>
             <p class="">Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
         </span>
         <span>
-            <h3 class=" font-extrabold flex items-center">Ricardo Araújo Ferreira Jr</h3>
+            <h3 class="flex items-center">Ricardo Araújo Ferreira Jr</h3>
             <p class="">Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
         </span>
         <span>
-            <h3 class=" font-extrabold flex items-center">Aryoldo Machado</h3>
+            <h3 class="flex items-center">Aryoldo Machado</h3>
             <p class="">Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
         </span>
     </container>
@@ -50,9 +52,11 @@
 <section class="sessao relative">
     <container class="conteudo grid-cols-2 ">
         <div class="coluna justify-center relative">
-            <h2 class="flex items-center"><iconify-icon icon="lucide:sun" class="mr-4"></iconify-icon>Agrofotovoltaíco</h2>
-            <p class="mb-4">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola. Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
-            <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas mantendo (ou aumentando) a produtividade. Pelo fato de o sistema manter temperaturas mais baixas no microclima da plantação consegue-se obter também redução significativa no uso de água pela diminuição da evapotranspiração. Os mesmos princípios podem ser aplicados à produção animal.</p>
+            <h2 class="flex items-center"><iconify-icon icon="lucide:sun" class="mr-4"></iconify-icon>Agrofotovoltaico</h2>
+            <p class="mb-4">O sistema solar (agrofotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
+            <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
+            <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia  solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
+            <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
             <p class="mb-4">Seguem alguns exemplos ao lado:</p>
         </div>
         <div class="relative">
@@ -95,6 +99,53 @@
                 <span class="dot" onclick="currentSlide(5)"></span>
                 <span class="dot" onclick="currentSlide(6)"></span>
             </div>
+        </div>
+    </container>
+    <container class="conteudo grid-cols-3 mt-24">
+        <h3 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h3>
+        <div>
+            <p><strong>1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
+        </div>
+        <div>
+            <p><strong>2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
+            <ul>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reuso de água de chuva
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p><strong>3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
+            <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
+            <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
+            <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
+        </div>
+    </container>
+</section>
+
+<hr>
+
+<section class="sessao bg-verde text-[#000000]">
+    <container class="conteudo">
+        <div>
+            <h3>PESQUISA EM ANDAMENTO SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
+            <p class="">Local = usina santa clotilde – rio largo – alagoas</p>
+            <p class=" text-black">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
+            <p class=" text-black">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
+            <p class=" text-black">Experimento agronômico em execução, já gerando energia.</p>
+            <img src="./src/assets/img/Imagem1.png" alt="" class="mt-8 rounded-lg">
         </div>
     </container>
 </section>
@@ -192,7 +243,6 @@
         </div>
     </container>
 </section>
-
 
 <!--
 <section id="sctn-fot" class="bg-preto">

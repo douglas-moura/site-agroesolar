@@ -30,7 +30,7 @@
     }
 
     h3 {
-        @apply text-cinza text-xl
+        @apply text-cinza text-xl font-extrabold 
     }
 
     h4 {
