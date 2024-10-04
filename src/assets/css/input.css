@@ -64,7 +64,7 @@
     }
     
     .conteudo {
-        @apply grid gap-y-4 gap-x-16 mx-auto w-8/12
+        @apply grid gap-y-4 gap-x-8 mx-auto w-8/12
     }
     
     .coluna {
@@ -89,11 +89,23 @@
 
     .dot {
         @apply cursor-pointer h-2 w-2 my-0 mx-4 bg-cinza-claro rounded-full inline-block transition-all hover:bg-verde
-    }    
+    }
+
+    .tab-celular {
+        @apply min-h-12 p-2 border-[1px] border-cinza bg-[#fff] text-xs text-center text-preto
+    }
+
+    .tab-invest {
+        @apply h-3 min-w-16 p-0 text-[.75rem]
+    }
+
+    .active {
+        @apply bg-preto
+    }
 }
 
 @layer utilities {
-    .active {
-        @apply bg-preto
+    * {
+        /*border: 1px solid red;*/
     }
 }

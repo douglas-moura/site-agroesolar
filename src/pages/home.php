@@ -137,16 +137,109 @@
 
 <hr>
 
-<section class="sessao bg-verde text-[#000000]">
-    <container class="conteudo">
-        <div>
-            <h3>PESQUISA EM ANDAMENTO SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
+<section class="sessao bg-cinza-claro-2">
+    <container class="conteudo grid-cols-2">
+        <div class=" col-span-2">
+            <h2>PESQUISA EM ANDAMENTO SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h2>
             <p class="">Local = usina santa clotilde – rio largo – alagoas</p>
-            <p class=" text-black">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
-            <p class=" text-black">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
-            <p class=" text-black">Experimento agronômico em execução, já gerando energia.</p>
-            <img src="./src/assets/img/Imagem1.png" alt="" class="mt-8 rounded-lg">
+            <p class="">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
+            <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
+            <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
+        <img src="./src/assets/img/plantacao-cana-alagoas-1.png" alt="" class=" shadow-2xl rounded-lg aspect-square object-cover">
+        <img src="./src/assets/img/plantacao-cana-alagoas-2.png" alt="" class=" shadow-2xl rounded-lg aspect-square object-cover">
+        <img src="./src/assets/img/plantacao-cana-alagoas-grafico.png" alt="" class="w-full shadow-2xl my-8 rounded-lg col-span-2">
+        <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
+            <thead>
+                <tr>
+                    <th class="tab-celular bg-verde" colspan="6">ESTUDO DE RETORNO SOBRE ÁREA SOMBREADA POR USINA DE GERAÇÃO FOTOVOLTAICA. POR HECTARE (10.000 m²)</th>
+                </tr>
+                <tr>
+                    <th class="tab-celular bg-verde">ÁREAS</th>
+                    <th class="tab-celular bg-verde">TESTE AGRO&SOLAR</th>
+                    <th class="tab-celular bg-verde">TESTEMUNHA</th>
+                    <th class="tab-celular bg-verde">DIFERENÇA</th>
+                    <th class="tab-celular bg-verde">COMPARATIVO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="tab-celular"></td>
+                    <td class="tab-celular">Área sombreada</td>
+                    <td class="tab-celular">Área não sombreada</td>
+                    <td class="tab-celular"></td>
+                    <td class="tab-celular"></td>
+                </tr>
+                <tr><td class="tab-celular" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celular">Produtividade</td>
+                    <td class="tab-celular">84,5 Toneladas por Hectare</td>
+                    <td class="tab-celular">59,1 Toneladas por Hectare</td>
+                    <td class="tab-celular">Mais 25,4 Tons por hectare</td>
+                    <td class="tab-celular">42,98% a mais</td>
+                </tr>
+                <tr><td class="tab-celular" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celular">Receita Bruta por Hectare</td>
+                    <td class="tab-celular">R$ 15.737,79</td>
+                    <td class="tab-celular">R$ 11.007,14</td>
+                    <td class="tab-celular">R$ 4.730,65</td>
+                    <td class="tab-celular">42,98%</td>
+                </tr>
+                <tr>
+                    <td class="tab-celular">Custo de Produção por Hectare</td>
+                    <td class="tab-celular">R$ 11.277,99 (*)</td>
+                    <td class="tab-celular">R$ 10.465,19</td>
+                    <td class="tab-celular">R$ 812,80</td>
+                    <td class="tab-celular">7,77%</td>
+                </tr>
+                <tr>
+                    <td class="tab-celular">Lucro por Hectare</td>
+                    <td class="tab-celular">R$ 4.459,80</td>
+                    <td class="tab-celular">R$ 541,95</td>
+                    <td class="tab-celular">R$ 3.917,85</td>
+                    <td class="tab-celular">722,92%</td>
+                </tr>
+                <tr><td class="tab-celular" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celular"></td>
+                    <td class="tab-celular">Com mais 7% de ATR</td>
+                    <td class="tab-celular"></td>
+                    <td class="tab-celular"></td>
+                    <td class="tab-celular"></td>
+                </tr>
+                <tr>
+                    <td class="tab-celular">Receita Bruta por Hectare</td>
+                    <td class="tab-celular">R$ 16.839,44</td>
+                    <td class="tab-celular">R$ 11.007,14</td>
+                    <td class="tab-celular">R$ 5.832,30</td>
+                    <td class="tab-celular">52,99%</td>
+                </tr>
+                <tr>
+                    <td class="tab-celular">Custo de Produção por Hectare</td>
+                    <td class="tab-celular">R$ 11.277,99 (*)</td>
+                    <td class="tab-celular">R$ 10.465,19</td>
+                    <td class="tab-celular">R$ 812,80</td>
+                    <td class="tab-celular">7,77%</td>
+                </tr>
+                <tr>
+                    <td class="tab-celular">Lucro por Hectare</td>
+                    <td class="tab-celular">R$ 5.561,45</td>
+                    <td class="tab-celular">R$ 541,95</td>
+                    <td class="tab-celular">R$ 5.019,50</td>
+                    <td class="tab-celular">926,19%</td>
+                </tr>
+                <tr><td class="tab-celular" colspan="5"></td></tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td class="tab-celular bg-verde-claro font-extrabold" colspan="6">RESULTADO LEVA A CONCLUSÃO QUE A LUCRATIVIDADE POR HECTARE SOMBREADO PASSA DE 10 VEZES A DE ÁREA NÃO SOMBREADA</td>
+                </tr>
+                <tr>
+                    <td class="tab-celular" colspan="6">(*) Custo maior com a colheita devido ao aumento de produtividade</td>
+                </tr>
+            </tfoot>
+        </table>
     </container>
 </section>
 
@@ -155,25 +248,715 @@
 <section class="sessao">
     <container class="conteudo grid-cols-2">
         <div>
-        <img src="./src/assets/img/img-slide-5.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/img-slide-5.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Placas</h2>
             <p class="mb-16">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de placas solares. Neste modelo, o cliente adquire as placas solares e paga um aluguel acessível para instalação e manutenção. Em troca, obtém significativa redução na conta de energia elétrica. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.</p>
             <strong>
-            <ul class="grid gap-4">
-                <!--
-                <li><strong>Redução Imediata na Conta de Luz:</strong> Ao instalar as placas solares, você começa a gerar sua própria energia limpa, diminuindo instantaneamente o valor da sua conta de energia elétrica.</li>
-                <li><strong>Economia a Longo Prazo:</strong> Além de reduzir custos mensais, o cliente se beneficia do retorno financeiro ao longo do tempo, já que a energia excedente pode ser vendida para a rede elétrica.</li>
-                <li><strong>Flexibilidade e Acessibilidade:</strong> Este modelo permite que pequenos e médios produtores, empresas e residências tenham acesso à tecnologia solar sem a necessidade de altos investimentos iniciais. O aluguel das placas garante o acesso à energia solar com um custo mais acessível.</li>
-                <li><strong>Energia Limpa e Estável:</strong> Diferente de outras fontes de energia, a solar oferece uma estabilidade de produção, não dependendo de variações no preço de combustíveis fósseis ou de problemas de fornecimento nas redes de energia convencionais.</li>
-                -->
-                <li>Redução Imediata na Conta de Luz</li>
-                <li>Economia a Longo Prazo</li>
-                <li>Flexibilidade e Acessibilidade</li>
-                <li>Energia Limpa e Estável</li>
-            </ul>
+                <ul class="grid gap-4">
+                    <li>Redução Imediata na Conta de Luz</li>
+                    <li>Economia a Longo Prazo</li>
+                    <li>Flexibilidade e Acessibilidade</li>
+                    <li>Energia Limpa e Estável</li>
+                </ul>
             </strong>
+        </div>
+        <div id="tabela-investmento" class="col-span-2 mt-16">
+            <h3 class="mx-auto w-full text-center">ECONOMIA NAS CONTAS DE ELETRICIDADE 1Kw = R$ 1,00 (em R$)</h3>
+            <div class="w-full flex overflow-hidden">
+                <div class="w-2/5">
+                    <table class="w-full" cellspacing="0" cellpadding="5">
+                        <thead>
+                            <tr>
+                                <th class="tab-celular h-8 w-1/4 bg-verde font-black py-2">CONTA</th>
+                                <th class="tab-celular h-8 w-1/4 bg-verde font-black py-2">CONTA</th>
+                                <th class="tab-celular h-8 w-1/4 bg-verde font-black py-2">CONSUMO</th>
+                                <th class="tab-celular h-8 w-1/4 bg-verde font-black py-2">COMPRA</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0] font-black py-2">Mensal</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2] font-black py-2">Anual</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5] font-black py-2">KWh/mês</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8] font-black py-2">Invest.</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest text-[#fff]" colspan="4">50%</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">1.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">12.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">1.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">25.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">1.500</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">18.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">1.500</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">35.000</td>
+                            </tr>                            
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">2.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">24.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">2.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">45.000</td>
+                            </tr>                            
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">3.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">36.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">2.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">65.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">4.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">48.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">4.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">85.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">5.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">60.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">5.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">105.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">6.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">72.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">6.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">125.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">7.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">84.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">7.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">145.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">8.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">96.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">8.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">165.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">9.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">108.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">9.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">185.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">10.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">120.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">10.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">205.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">11.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">132.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">11.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">225.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">12.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">144.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">12.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">245.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">13.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">156.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">13.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">265.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">14.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">168.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">14.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">285.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">15.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">180.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">15.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">305.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">16.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">192.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">16.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">325.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">17.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">204.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">17.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">345.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">18.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">216.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">18.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">365.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">19.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">228.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">19.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">385.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0]">20.000</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2]">240.000</td>
+                                <td class="tab-celular tab-invest bg-[#FBE2D5]">20.000</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8]">405.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="w-3/5 overflow-x-scroll">
+                    <table class="" cellspacing="0" cellpadding="5">
+                        <thead>
+                            <tr>
+                                <th class="tab-celular h-8 bg-verde font-black" colspan="10">ECONOMIA POR ANO</th>
+                                <th class="tab-celular h-8 bg-verde font-black" colspan="10">ECONOMIA POR ANO</th>
+                                <th class="tab-celular h-8 min-w-44 bg-verde font-black">ECONOMIA TOTAL</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 01</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 02</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 03</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 04</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 05</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 06</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 07</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 08</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 09</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 10</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 11</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 12</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 13</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 14</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 15</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 16</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 17</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 18</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 19</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 20</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6] font-black py-2">TOTAL</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">20%</td>
+                                <td class="tab-celular tab-invest">20%</td>
+                                <td class="tab-celular tab-invest">30%</td>
+                                <td class="tab-celular tab-invest">30%</td>
+                                <td class="tab-celular tab-invest">40%</td>
+                                <td class="tab-celular tab-invest">40%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest">50%</td>
+                                <td class="tab-celular tab-invest"></td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">2.400</td>
+                                <td class="tab-celular tab-invest">2.400</td>
+                                <td class="tab-celular tab-invest">3.600</td>
+                                <td class="tab-celular tab-invest">3.600</td>
+                                <td class="tab-celular tab-invest">4.800</td>
+                                <td class="tab-celular tab-invest">4.800</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest">6.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">105.600</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">3.600</td>
+                                <td class="tab-celular tab-invest">3.600</td>
+                                <td class="tab-celular tab-invest">5.400</td>
+                                <td class="tab-celular tab-invest">5.400</td>
+                                <td class="tab-celular tab-invest">7.200</td>
+                                <td class="tab-celular tab-invest">7.200</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest">9.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">158.400</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">4.800</td>
+                                <td class="tab-celular tab-invest">4.800</td>
+                                <td class="tab-celular tab-invest">7.200</td>
+                                <td class="tab-celular tab-invest">7.200</td>
+                                <td class="tab-celular tab-invest">9.600</td>
+                                <td class="tab-celular tab-invest">9.600</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">211.200</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">7.200</td>
+                                <td class="tab-celular tab-invest">7.200</td>
+                                <td class="tab-celular tab-invest">10.800</td>
+                                <td class="tab-celular tab-invest">10.800</td>
+                                <td class="tab-celular tab-invest">14.400</td>
+                                <td class="tab-celular tab-invest">14.400</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">316.800</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">9.600</td>
+                                <td class="tab-celular tab-invest">9.600</td>
+                                <td class="tab-celular tab-invest">14.400</td>
+                                <td class="tab-celular tab-invest">14.400</td>
+                                <td class="tab-celular tab-invest">19.200</td>
+                                <td class="tab-celular tab-invest">19.200</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">422.400</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">12.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">18.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest">30.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">528.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">14.400</td>
+                                <td class="tab-celular tab-invest">14.400</td>
+                                <td class="tab-celular tab-invest">21.600</td>
+                                <td class="tab-celular tab-invest">21.600</td>
+                                <td class="tab-celular tab-invest">28.800</td>
+                                <td class="tab-celular tab-invest">28.800</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">633.600</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">16.800</td>
+                                <td class="tab-celular tab-invest">16.800</td>
+                                <td class="tab-celular tab-invest">25.200</td>
+                                <td class="tab-celular tab-invest">25.200</td>
+                                <td class="tab-celular tab-invest">33.600</td>
+                                <td class="tab-celular tab-invest">33.600</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest">42.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">739.200</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">19.200</td>
+                                <td class="tab-celular tab-invest">19.200</td>
+                                <td class="tab-celular tab-invest">28.800</td>
+                                <td class="tab-celular tab-invest">28.800</td>
+                                <td class="tab-celular tab-invest">38.400</td>
+                                <td class="tab-celular tab-invest">38.400</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">844.800</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">21.600</td>
+                                <td class="tab-celular tab-invest">21.600</td>
+                                <td class="tab-celular tab-invest">32.400</td>
+                                <td class="tab-celular tab-invest">32.400</td>
+                                <td class="tab-celular tab-invest">43.200</td>
+                                <td class="tab-celular tab-invest">43.200</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">950.400</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">24.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest">60.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.056.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">26.400</td>
+                                <td class="tab-celular tab-invest">26.400</td>
+                                <td class="tab-celular tab-invest">39.600</td>
+                                <td class="tab-celular tab-invest">39.600</td>
+                                <td class="tab-celular tab-invest">52.800</td>
+                                <td class="tab-celular tab-invest">52.800</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest">66.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.161.600</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">28.800</td>
+                                <td class="tab-celular tab-invest">28.800</td>
+                                <td class="tab-celular tab-invest">43.200</td>
+                                <td class="tab-celular tab-invest">43.200</td>
+                                <td class="tab-celular tab-invest">57.600</td>
+                                <td class="tab-celular tab-invest">57.600</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.267.200</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">31.200</td>
+                                <td class="tab-celular tab-invest">31.200</td>
+                                <td class="tab-celular tab-invest">46.800</td>
+                                <td class="tab-celular tab-invest">46.800</td>
+                                <td class="tab-celular tab-invest">62.400</td>
+                                <td class="tab-celular tab-invest">62.400</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest">78.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.372.800</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">33.600</td>
+                                <td class="tab-celular tab-invest">33.600</td>
+                                <td class="tab-celular tab-invest">50.400</td>
+                                <td class="tab-celular tab-invest">50.400</td>
+                                <td class="tab-celular tab-invest">67.200</td>
+                                <td class="tab-celular tab-invest">67.200</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest">84.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.478.400</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">36.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">54.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest">90.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.584.000</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">38.400</td>
+                                <td class="tab-celular tab-invest">38.400</td>
+                                <td class="tab-celular tab-invest">57.600</td>
+                                <td class="tab-celular tab-invest">57.600</td>
+                                <td class="tab-celular tab-invest">76.800</td>
+                                <td class="tab-celular tab-invest">76.800</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.689.600</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">40.800</td>
+                                <td class="tab-celular tab-invest">40.800</td>
+                                <td class="tab-celular tab-invest">61.200</td>
+                                <td class="tab-celular tab-invest">61.200</td>
+                                <td class="tab-celular tab-invest">81.600</td>
+                                <td class="tab-celular tab-invest">81.600</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest">102.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.795.200</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">43.200</td>
+                                <td class="tab-celular tab-invest">43.200</td>
+                                <td class="tab-celular tab-invest">64.800</td>
+                                <td class="tab-celular tab-invest">64.800</td>
+                                <td class="tab-celular tab-invest">86.400</td>
+                                <td class="tab-celular tab-invest">86.400</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest">108.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.900.800</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">45.600</td>
+                                <td class="tab-celular tab-invest">45.600</td>
+                                <td class="tab-celular tab-invest">68.400</td>
+                                <td class="tab-celular tab-invest">68.400</td>
+                                <td class="tab-celular tab-invest">91.200</td>
+                                <td class="tab-celular tab-invest">91.200</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest">114.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.006.400</td>
+                            </tr>
+                            <tr>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">48.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">72.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">96.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest">120.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.112.000</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
         </div>
     </container>
 </section>
