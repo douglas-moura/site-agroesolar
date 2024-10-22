@@ -7,53 +7,18 @@
             <iconify-icon icon="lucide:chevrons-left" class="z-40 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
         </div>
         <div class="coluna justify-center">
-            <h2>Agro&Solar</h2>
+            <h2>Agrifotovoltáico</h2>
+            <h4 class="font-extrabold">Agrifotovoltáico para agricultura mais produtiva</h4>
             <p class="mb-4">A Agro&Solar tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. A empresa busca oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
             <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecida pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
-            <p class="mb-4">Confira um exemplo de projeto agrofotovoltaico:</p>
+            <p class="mb-4">Para tanto, participamos de uma pesquisa para desenvolvimento de todo o potencial nesse segmento, confira nosso projeto de aumento da produtividade da cana em Santa Clotilde.</p>
             <a href="http://"><strong class=" text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
         </div>
     </container>
-    <container class="conteudo grid-cols-2 gap-y-8 z-20">
-        <h2 class="col-span-2 flex items-center">
-            <iconify-icon icon="lucide:circle-user-round" class="text-4xl mr-4"></iconify-icon>
-            Equipe de Especialistas
-        </h2>
-        <span>
-            <h3 class="flex items-center">Reynaldo Wongtschowski</h3>
-            <p class="">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e  geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
-        </span>
-        <span>
-            <h3 class="flex items-center">Neuler Peçanha</h3>
-            <p class="">Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
-        </span>
-        <span>
-            <h3 class="flex items-center">Claudio Bianor Sverzut</h3>
-            <p class="">Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
-        </span>
-        <span>
-            <h3 class="flex items-center">João Domingos Biaggi</h3>
-            <p class="">Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
-        </span>
-        <span>
-            <h3 class="flex items-center">Ricardo Araújo Ferreira Jr</h3>
-            <p class="">Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
-        </span>
-        <span>
-            <h3 class="flex items-center">Aryoldo Machado</h3>
-            <p class="">Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
-        </span>
-    </container>
-    <div class="flex -bottom-1/3 left-1/3 absolute w-full aspect-square opacity-5 z-10">
-        <iconify-icon icon="lucide:sun" class="text-cinza transform rotate-12" width="100%"></iconify-icon>
-    </div>
-</section>
-
-<section class="sessao relative">
     <container class="conteudo grid-cols-2 ">
         <div class="coluna justify-center relative">
             <h2 class="flex items-center"><iconify-icon icon="lucide:sun" class="mr-4"></iconify-icon>Agrofotovoltaico</h2>
-            <p class="mb-4">O sistema solar (agrofotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
+            <p class="mb-4">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
             <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
             <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia  solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
             <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
@@ -100,6 +65,43 @@
                 <span class="dot" onclick="currentSlide(6)"></span>
             </div>
         </div>
+    </container>
+    
+    <div class="flex -bottom-1/3 left-1/3 absolute w-full aspect-square opacity-5 z-10">
+        <iconify-icon icon="lucide:sun" class="text-cinza transform rotate-12" width="100%"></iconify-icon>
+    </div>
+</section>
+
+<section class="sessao relative">
+<container class="conteudo grid-cols-2 gap-y-8 z-20">
+        <h2 class="col-span-2 flex items-center">
+            <iconify-icon icon="lucide:circle-user-round" class="text-4xl mr-4"></iconify-icon>
+            Equipe de Especialistas
+        </h2>
+        <span>
+            <h3 class="flex items-center">Reynaldo Wongtschowski</h3>
+            <p class="">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e  geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
+        </span>
+        <span>
+            <h3 class="flex items-center">Neuler Peçanha</h3>
+            <p class="">Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
+        </span>
+        <span>
+            <h3 class="flex items-center">Claudio Bianor Sverzut</h3>
+            <p class="">Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
+        </span>
+        <span>
+            <h3 class="flex items-center">João Domingos Biaggi</h3>
+            <p class="">Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
+        </span>
+        <span>
+            <h3 class="flex items-center">Ricardo Araújo Ferreira Jr</h3>
+            <p class="">Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
+        </span>
+        <span>
+            <h3 class="flex items-center">Aryoldo Machado</h3>
+            <p class="">Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
+        </span>
     </container>
     <container class="conteudo grid-cols-3 mt-24">
         <h3 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h3>
@@ -233,7 +235,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td class="tab-celular bg-verde-claro font-extrabold" colspan="6">RESULTADO LEVA A CONCLUSÃO QUE A LUCRATIVIDADE POR HECTARE SOMBREADO PASSA DE 10 VEZES A DE ÁREA NÃO SOMBREADA</td>
+                    <td class="tab-celular bg-[#990000] text-branco font-extrabold" colspan="6">RESULTADO LEVA A CONCLUSÃO QUE A LUCRATIVIDADE POR HECTARE SOMBREADO PASSA DE 10 VEZES A DE ÁREA NÃO SOMBREADA</td>
                 </tr>
                 <tr>
                     <td class="tab-celular" colspan="6">(*) Custo maior com a colheita devido ao aumento de produtividade</td>
@@ -251,7 +253,7 @@
             <img src="./src/assets/img/img-slide-5.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
-            <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Placas</h2>
+            <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Sistemas</h2>
             <p class="mb-16">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de placas solares. Neste modelo, o cliente adquire as placas solares e paga um aluguel acessível para instalação e manutenção. Em troca, obtém significativa redução na conta de energia elétrica. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.</p>
             <strong>
                 <ul class="grid gap-4">
@@ -263,9 +265,9 @@
             </strong>
         </div>
         <div id="tabela-investmento" class="col-span-2 mt-16">
-            <h3 class="mx-auto w-full text-center">ECONOMIA NAS CONTAS DE ELETRICIDADE 1Kw = R$ 1,00 (em R$)</h3>
+            <h3 class="mx-auto w-full text-center mt-16">ECONOMIA NAS CONTAS DE ELETRICIDADE 1Kw = R$ 1,00 (em R$)</h3>
             <div class="w-full flex overflow-hidden">
-                <div class="w-2/5">
+                <div class="w-3/6">
                     <table class="w-full" cellspacing="0" cellpadding="5">
                         <thead>
                             <tr>
@@ -277,10 +279,10 @@
                         </thead>
                         <tbody>
                             <tr>
-                                <td class="tab-celular tab-invest bg-[#DAF2D0] font-black py-2">Mensal</td>
-                                <td class="tab-celular tab-invest bg-[#B5E6A2] font-black py-2">Anual</td>
+                                <td class="tab-celular tab-invest bg-[#DAF2D0] font-black py-2">Mensal R$</td>
+                                <td class="tab-celular tab-invest bg-[#B5E6A2] font-black py-2">Anual R$</td>
                                 <td class="tab-celular tab-invest bg-[#FBE2D5] font-black py-2">KWh/mês</td>
-                                <td class="tab-celular tab-invest bg-[#DAE9F8] font-black py-2">Invest.</td>
+                                <td class="tab-celular tab-invest bg-[#DAE9F8] font-black py-2">Invest. R$</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest text-[#fff]" colspan="4">50%</td>
@@ -414,13 +416,12 @@
                         </tbody>
                     </table>
                 </div>
-                <div class="w-3/5 overflow-x-scroll">
+                <div class="w-3/6 overflow-x-scroll">
                     <table class="" cellspacing="0" cellpadding="5">
                         <thead>
                             <tr>
-                                <th class="tab-celular h-8 bg-verde font-black" colspan="10">ECONOMIA POR ANO</th>
-                                <th class="tab-celular h-8 bg-verde font-black" colspan="10">ECONOMIA POR ANO</th>
-                                <th class="tab-celular h-8 min-w-44 bg-verde font-black">ECONOMIA TOTAL</th>
+                                <th class="tab-celular h-8 bg-verde font-black" colspan="7">ECONOMIA POR ANO</th>
+                                <th class="tab-celular h-8 min-w-44 bg-verde font-black" colspan="2">ECONOMIA TOTAL R$</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -431,21 +432,9 @@
                                 <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 04</td>
                                 <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 05</td>
                                 <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 06</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 07</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 08</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 09</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 10</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 11</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 12</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 13</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 14</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 15</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 16</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 17</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 18</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 19</td>
-                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 20</td>
+                                <td class="tab-celular tab-invest bg-verde font-black py-2">Ano 07 até 20</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6] font-black py-2">TOTAL</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6] font-black py-2">TOTAL C/ LUCRO</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">20%</td>
@@ -454,19 +443,6 @@
                                 <td class="tab-celular tab-invest">30%</td>
                                 <td class="tab-celular tab-invest">40%</td>
                                 <td class="tab-celular tab-invest">40%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
-                                <td class="tab-celular tab-invest">50%</td>
                                 <td class="tab-celular tab-invest">50%</td>
                                 <td class="tab-celular tab-invest"></td>
                             </tr>
@@ -478,20 +454,8 @@
                                 <td class="tab-celular tab-invest">4.800</td>
                                 <td class="tab-celular tab-invest">4.800</td>
                                 <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
-                                <td class="tab-celular tab-invest">6.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">105.600</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">356.358</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">3.600</td>
@@ -500,21 +464,9 @@
                                 <td class="tab-celular tab-invest">5.400</td>
                                 <td class="tab-celular tab-invest">7.200</td>
                                 <td class="tab-celular tab-invest">7.200</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
-                                <td class="tab-celular tab-invest">9.000</td>
                                 <td class="tab-celular tab-invest">9.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">158.400</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">407.399</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">4.800</td>
@@ -523,21 +475,9 @@
                                 <td class="tab-celular tab-invest">7.200</td>
                                 <td class="tab-celular tab-invest">9.600</td>
                                 <td class="tab-celular tab-invest">9.600</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
-                                <td class="tab-celular tab-invest">12.000</td>
                                 <td class="tab-celular tab-invest">12.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">211.200</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">466.238</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">7.200</td>
@@ -546,21 +486,9 @@
                                 <td class="tab-celular tab-invest">10.800</td>
                                 <td class="tab-celular tab-invest">14.400</td>
                                 <td class="tab-celular tab-invest">14.400</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
-                                <td class="tab-celular tab-invest">18.000</td>
                                 <td class="tab-celular tab-invest">18.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">316.800</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">583.916</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">9.600</td>
@@ -569,21 +497,9 @@
                                 <td class="tab-celular tab-invest">14.400</td>
                                 <td class="tab-celular tab-invest">19.200</td>
                                 <td class="tab-celular tab-invest">19.200</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">24.000</td>
                                 <td class="tab-celular tab-invest">24.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">422.400</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">701.594</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">12.000</td>
@@ -592,21 +508,9 @@
                                 <td class="tab-celular tab-invest">18.000</td>
                                 <td class="tab-celular tab-invest">24.000</td>
                                 <td class="tab-celular tab-invest">24.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
-                                <td class="tab-celular tab-invest">30.000</td>
                                 <td class="tab-celular tab-invest">30.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">528.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">819.272</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">14.400</td>
@@ -615,21 +519,9 @@
                                 <td class="tab-celular tab-invest">21.600</td>
                                 <td class="tab-celular tab-invest">28.800</td>
                                 <td class="tab-celular tab-invest">28.800</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
-                                <td class="tab-celular tab-invest">36.000</td>
                                 <td class="tab-celular tab-invest">36.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">633.600</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">936.949</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">16.800</td>
@@ -638,21 +530,9 @@
                                 <td class="tab-celular tab-invest">25.200</td>
                                 <td class="tab-celular tab-invest">33.600</td>
                                 <td class="tab-celular tab-invest">33.600</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
-                                <td class="tab-celular tab-invest">42.000</td>
                                 <td class="tab-celular tab-invest">42.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">739.200</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.054.627</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">19.200</td>
@@ -661,21 +541,9 @@
                                 <td class="tab-celular tab-invest">28.800</td>
                                 <td class="tab-celular tab-invest">38.400</td>
                                 <td class="tab-celular tab-invest">38.400</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">48.000</td>
                                 <td class="tab-celular tab-invest">48.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">844.800</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.172.305</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">21.600</td>
@@ -684,21 +552,9 @@
                                 <td class="tab-celular tab-invest">32.400</td>
                                 <td class="tab-celular tab-invest">43.200</td>
                                 <td class="tab-celular tab-invest">43.200</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
-                                <td class="tab-celular tab-invest">54.000</td>
                                 <td class="tab-celular tab-invest">54.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">950.400</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.289.983</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">24.000</td>
@@ -707,21 +563,9 @@
                                 <td class="tab-celular tab-invest">36.000</td>
                                 <td class="tab-celular tab-invest">48.000</td>
                                 <td class="tab-celular tab-invest">48.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
-                                <td class="tab-celular tab-invest">60.000</td>
                                 <td class="tab-celular tab-invest">60.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.056.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.407.661</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">26.400</td>
@@ -730,21 +574,9 @@
                                 <td class="tab-celular tab-invest">39.600</td>
                                 <td class="tab-celular tab-invest">52.800</td>
                                 <td class="tab-celular tab-invest">52.800</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
-                                <td class="tab-celular tab-invest">66.000</td>
                                 <td class="tab-celular tab-invest">66.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.161.600</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.525.338</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">28.800</td>
@@ -753,21 +585,9 @@
                                 <td class="tab-celular tab-invest">43.200</td>
                                 <td class="tab-celular tab-invest">57.600</td>
                                 <td class="tab-celular tab-invest">57.600</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">72.000</td>
                                 <td class="tab-celular tab-invest">72.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.267.200</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.643.016</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">31.200</td>
@@ -776,21 +596,9 @@
                                 <td class="tab-celular tab-invest">46.800</td>
                                 <td class="tab-celular tab-invest">62.400</td>
                                 <td class="tab-celular tab-invest">62.400</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
-                                <td class="tab-celular tab-invest">78.000</td>
                                 <td class="tab-celular tab-invest">78.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.372.800</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.760.694</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">33.600</td>
@@ -799,21 +607,9 @@
                                 <td class="tab-celular tab-invest">50.400</td>
                                 <td class="tab-celular tab-invest">67.200</td>
                                 <td class="tab-celular tab-invest">67.200</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
-                                <td class="tab-celular tab-invest">84.000</td>
                                 <td class="tab-celular tab-invest">84.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.478.400</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.878.372</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">36.000</td>
@@ -822,21 +618,9 @@
                                 <td class="tab-celular tab-invest">54.000</td>
                                 <td class="tab-celular tab-invest">72.000</td>
                                 <td class="tab-celular tab-invest">72.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
-                                <td class="tab-celular tab-invest">90.000</td>
                                 <td class="tab-celular tab-invest">90.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.584.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">1.996.050</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">38.400</td>
@@ -845,21 +629,9 @@
                                 <td class="tab-celular tab-invest">57.600</td>
                                 <td class="tab-celular tab-invest">76.800</td>
                                 <td class="tab-celular tab-invest">76.800</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
-                                <td class="tab-celular tab-invest">96.000</td>
                                 <td class="tab-celular tab-invest">96.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.689.600</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.113.727</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">40.800</td>
@@ -868,21 +640,9 @@
                                 <td class="tab-celular tab-invest">61.200</td>
                                 <td class="tab-celular tab-invest">81.600</td>
                                 <td class="tab-celular tab-invest">81.600</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
-                                <td class="tab-celular tab-invest">102.000</td>
                                 <td class="tab-celular tab-invest">102.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.795.200</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.231.405</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">43.200</td>
@@ -891,21 +651,9 @@
                                 <td class="tab-celular tab-invest">64.800</td>
                                 <td class="tab-celular tab-invest">86.400</td>
                                 <td class="tab-celular tab-invest">86.400</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
-                                <td class="tab-celular tab-invest">108.000</td>
                                 <td class="tab-celular tab-invest">108.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">1.900.800</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.349.083</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">45.600</td>
@@ -914,21 +662,9 @@
                                 <td class="tab-celular tab-invest">68.400</td>
                                 <td class="tab-celular tab-invest">91.200</td>
                                 <td class="tab-celular tab-invest">91.200</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
-                                <td class="tab-celular tab-invest">114.000</td>
                                 <td class="tab-celular tab-invest">114.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">2.006.400</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.466.761</td>
                             </tr>
                             <tr>
                                 <td class="tab-celular tab-invest">48.000</td>
@@ -938,20 +674,8 @@
                                 <td class="tab-celular tab-invest">96.000</td>
                                 <td class="tab-celular tab-invest">96.000</td>
                                 <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
-                                <td class="tab-celular tab-invest">120.000</td>
                                 <td class="tab-celular tab-invest bg-[#ADD8E6]">2.112.000</td>
+                                <td class="tab-celular tab-invest bg-[#ADD8E6]">2.584.439</td>
                             </tr>
                         </tbody>
                     </table>
@@ -966,8 +690,8 @@
 <section class="sessao">
     <container class="conteudo grid-cols-2"> 
         <div class="coluna justify-center">
-            <h2 class="flex items-center"><iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>Grandes Empresas</h2>
-            <p>Na Agro&Solar, entendemos que grandes empresas buscam não apenas reduzir custos, mas também se destacar em práticas sustentáveis. Nossas soluções de energia solar são personalizadas para atender às suas necessidades específicas, proporcionando uma fonte de energia limpa e confiável. Com a integração de sistemas agrifotovoltaicos, sua empresa pode maximizar a utilização do espaço, aumentar a eficiência energética e contribuir para a preservação ambiental.</p>
+            <h2 class="flex items-center"><iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>Grandes Projetos</h2>
+            <p>Oferecemos projetos completos que incluem estudos topográficos, parecer de acesso, opções de investimento e autenticação com órgãos regionais. Trabalhamos com a abordagem 'turnkey', onde cuidamos de todas as etapas do projeto, desde a concepção até a execução, garantindo que você tenha uma solução pronta para uso. Além disso, analisamos investimentos e retornos para garantir a melhor solução para você.</p>
             <!--<p>A Lupo é uma renomada fábrica brasileira especializada em meias, cuecas e roupas íntimas, reconhecida pela qualidade e inovação em seus produtos. Com sede no interior de São Paulo, a empresa tem se destacado no mercado nacional e internacional, priorizando sustentabilidade e eficiência em suas operações. Ao adotar soluções como sistemas agrifotovoltaicos, empresas como a Lupo podem reduzir custos com energia e reforçar seu compromisso com práticas ambientais responsáveis.</p>-->
         </div>
         <div>
@@ -984,8 +708,8 @@
             <img src="./src/assets/img/residencial.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
-            <h2 class="flex items-top"><iconify-icon icon="lucide:house" class="mr-4"></iconify-icon>Pequenas Empresas e Residências</h2>
-            <p>Na Agro&Solar, entendemos que pequenos negócios e residências buscam soluções acessíveis e sustentáveis. Nossos sistemas de energia solar são projetados para reduzir significativamente suas contas de luz, permitindo que você economize e invista em outras áreas. Com a locação de placas solares, você pode gerar sua própria energia sem altos investimentos iniciais, promovendo um ambiente mais sustentável. Junte-se a nós e transforme seu espaço em um exemplo de eficiência e responsabilidade ambiental.</p>
+            <h2 class="flex items-top"><iconify-icon icon="lucide:house" class="mr-4"></iconify-icon>Pequenos Projetos</h2>
+            <p>Na Agro&Solar, entendemos que pequenos negócios e residências buscam soluções acessíveis e sustentáveis. Nossos sistemas de energia solar são projetados para reduzir significativamente suas contas de luz, permitindo que você economize e invista em outras áreas. E o melhor: toda análise é gratuita! Você pode gerar sua própria energia sem altos investimentos iniciais, promovendo um ambiente mais sustentável. Junte-se a nós e transforme seu espaço em um exemplo de eficiência e responsabilidade ambiental.</p>
         </div>
     </container>
 </section>

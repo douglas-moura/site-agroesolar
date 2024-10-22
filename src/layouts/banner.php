@@ -13,24 +13,36 @@
         </div>
         <div class="grid grid-cols-4 gap-8">
             <span class="banner-box">
-                <h4 class="">Agrofotovoltáico</h5>
+                <div class="box-titulo">
+                    <h4 class="text-branco font-extrabold mb-0">Agrifotovoltáico</h5>
+                    <p class="text-branco text-xs">Agrifotovoltáico para agricultura mais produtiva</p>
+                </div>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
                 <p class="p-4 text-xs text-cinza">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
             </span>
             <span class="banner-box">
-                <h4 class="">Locação de<br>Placas</h5>
+                <div class="box-titulo">
+                    <h4 class="text-branco font-extrabold mb-0">Locação de Sistemas</h5>
+                    <p class="text-branco text-xs">Economia com zero investimanto</p>
+                </div>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
                 <p class="p-4 text-xs text-cinza">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de placas solares.</p>
             </span>
             <span class="banner-box">
-                <h4 class="">Grandes<br>Negócios</h4>
+                <div class="box-titulo">
+                    <h4 class="text-branco font-extrabold mb-0">Grandes Projetos</h5>
+                    <p class="text-branco text-xs">Projetos Turnkey com melhor custo benefício</p>
+                </div>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
-                <p class="p-4 text-xs text-cinza">Entendemos que grandes empresas buscam não apenas reduzir custos, mas também se destacar em práticas sustentáveis.</p>
+                <p class="p-4 text-xs text-cinza">Entendemos que grandes empresas buscam não apenas reduzir custos, mas também se destacar em práticas sustentáveis com aquisição dos melhores componentes internacionalmente.</p>
             </span>
             <span class="banner-box">
-                <h4 class="">Pequenos Negócios<br>e Residencial</h4>
+                <div class="box-titulo">
+                    <h4 class="text-branco font-extrabold mb-0">Pequenos Projetos</h5>
+                    <p class="text-branco text-xs">Projetos para residências e pequenos negócios</p>
+                </div>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
-                <p class="p-4 text-xs text-cinza">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam consequuntur hic consectetur nulla, facere, quibusdam reprehenderit neque ex nostrum.</p>
+                <p class="p-4 text-xs text-cinza">Oferecemos projetos de sistemas solares fotovoltaicos sem custo inicial, permitindo que você comece a economizar desde o primeiro mês!</p>
             </span>
         </div>
     </div>

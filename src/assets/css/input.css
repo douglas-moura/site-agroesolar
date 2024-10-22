@@ -83,8 +83,8 @@
         @apply coluna animate-fade-in-right transition-all bg-branco rounded-lg overflow-hidden
     }
 
-    .banner-box h4 {
-        @apply text-branco bg-verde h-16 font-extrabold px-4 pt-4 pb-0 mb-0
+    .box-titulo {
+        @apply bg-verde px-4 pt-4 pb-0 mb-0
     }
 
     .dot {
@@ -96,7 +96,7 @@
     }
 
     .tab-invest {
-        @apply h-3 min-w-16 p-0 text-[.75rem]
+        @apply h-3 min-w-28 p-0 text-[.75rem]
     }
 
     .active {
