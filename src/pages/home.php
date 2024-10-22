@@ -12,7 +12,7 @@
             <p class="mb-4">A Agro&Solar tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. A empresa busca oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
             <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecida pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
             <p class="mb-4">Para tanto, participamos de uma pesquisa para desenvolvimento de todo o potencial nesse segmento, confira nosso projeto de aumento da produtividade da cana em Santa Clotilde.</p>
-            <a href="http://"><strong class=" text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
+            <a href="./src/assets/projeto_agrofotovoltaico_usina_santa_clotilde.pdf" target="_blank"><strong class="cursor-pointer text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
         </div>
     </container>
     <container class="conteudo grid-cols-2 ">
@@ -66,10 +66,11 @@
             </div>
         </div>
     </container>
-    
-    <div class="flex -bottom-1/3 left-1/3 absolute w-full aspect-square opacity-5 z-10">
+    <!--
+    <div class="flex -bottom-1/3 left-1/3 absolute w-full aspect-square opacity-5 z-0">
         <iconify-icon icon="lucide:sun" class="text-cinza transform rotate-12" width="100%"></iconify-icon>
     </div>
+    -->
 </section>
 
 <section class="sessao relative">
@@ -142,14 +143,14 @@
 <section class="sessao bg-cinza-claro-2">
     <container class="conteudo grid-cols-2">
         <div class=" col-span-2">
-            <h2>PESQUISA EM ANDAMENTO SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h2>
+            <h2 class="text-center">PESQUISA EM ANDAMENTO SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h2>
             <p class="">Local = usina santa clotilde – rio largo – alagoas</p>
             <p class="">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
-        <img src="./src/assets/img/plantacao-cana-alagoas-1.png" alt="" class=" shadow-2xl rounded-lg aspect-square object-cover">
-        <img src="./src/assets/img/plantacao-cana-alagoas-2.png" alt="" class=" shadow-2xl rounded-lg aspect-square object-cover">
+        <img src="./src/assets/img/plantacao-cana-alagoas-1.png" alt="" class=" shadow-2xl rounded-lg aspect-video object-cover">
+        <img src="./src/assets/img/plantacao-cana-alagoas-2.png" alt="" class=" shadow-2xl rounded-lg aspect-video object-cover">
         <img src="./src/assets/img/plantacao-cana-alagoas-grafico.png" alt="" class="w-full shadow-2xl my-8 rounded-lg col-span-2">
         <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
             <thead>
@@ -250,7 +251,7 @@
 <section class="sessao">
     <container class="conteudo grid-cols-2">
         <div>
-            <img src="./src/assets/img/img-slide-5.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/5b2d47c9-e155-477a-a9a2-436917a6bcfd.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Sistemas</h2>
