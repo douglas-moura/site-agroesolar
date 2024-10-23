@@ -14,7 +14,7 @@
     }
     
     body {
-        @apply font-nunito m-0 text-base text-cinza-claro bg-branco
+        @apply font-nunito m-0 text-base text-preto bg-branco
     }
 
     main {
@@ -30,7 +30,7 @@
     }
 
     h3 {
-        @apply text-cinza text-xl font-extrabold 
+        @apply text-preto text-xl font-extrabold 
     }
 
     h4 {
@@ -64,7 +64,7 @@
     }
     
     .conteudo {
-        @apply grid gap-y-4 gap-x-8 mx-auto w-8/12
+        @apply grid gap-y-4 gap-x-8 mx-auto w-10/12
     }
     
     .coluna {
@@ -76,27 +76,35 @@
     }
 
     .nav-link {
-        @apply text-branco inline text-sm ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
+        @apply text-branco inline text-base ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
     }
 
     .banner-box {
-        @apply coluna animate-fade-in-right transition-all bg-branco rounded-lg overflow-hidden
+        @apply coluna animate-fade-in-right transition-all bg-branco rounded-lg shadow-lg
     }
 
     .box-titulo {
-        @apply bg-verde px-4 pt-4 pb-0 mb-0
+        @apply bg-verde px-6 pt-8 pb-0 mb-0
     }
 
     .dot {
         @apply cursor-pointer h-2 w-2 my-0 mx-4 bg-cinza-claro rounded-full inline-block transition-all hover:bg-verde
     }
 
-    .tab-celular {
-        @apply min-h-12 p-2 border-[1px] border-cinza bg-[#fff] text-xs text-center text-preto
+    .tab-celula {
+        @apply min-h-12 p-2 border-[1px] border-cinza bg-[#fff] text-center text-preto text-sm
+    }
+
+    .tab-celular-tit_1 {
+        @apply h-8 bg-verde font-black text-sm
+    }
+
+    .tab-celular-tit_2 {
+        @apply font-black h-16 text-[.7rem]
     }
 
     .tab-invest {
-        @apply h-3 min-w-28 p-0 text-[.75rem]
+        @apply h-3 p-0 text-[.6rem]
     }
 
     .active {
@@ -107,5 +115,9 @@
 @layer utilities {
     * {
         /*border: 1px solid red;*/
+    }
+
+    .box-titulo {
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
     }
 }
