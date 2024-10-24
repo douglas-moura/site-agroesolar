@@ -1,7 +1,7 @@
 <section class="sessao z-20 w-full h-dvh max-h-dvh overflow-hidden relative bg-img-banner bg-cover bg-center justify-end">
     <div class="coluna w-10/12 text-branco z-20 h-fit mx-auto">
         <div class="coluna items-center justify-center mb-16">
-            <img class="w-3/12 mb-4" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">
+            <img class="w-3/12 mb-4 img-sombra" src="./src/assets/img/logo-agro-e-solar-3.png" alt="">
             <h1 class="w-2/3 text-center">Transforme a Luz do Sol em Economia</h1>
             <p class="mt-2 mb-4 w-2/3 text-sm text-center">Reduza custos e potencialize seu negócio com soluções inteligentes. Transforme a luz do sol em economia significativa e uma operação mais ecológica, garantindo não apenas um futuro mais verde, mas também um presente mais eficiente e lucrativo.</p>
             <!--
@@ -19,7 +19,7 @@
                     <p class="text-branco text-xs">Agrifotovoltáico para agricultura mais produtiva</p>
                 </div>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
-                <p class="p-6 text-xs text-preto m-0">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola. Veja o estudo sobre cana de açucar em Santa Clotilde.</p>
+                <p class="p-6 text-xs text-preto m-0">O sistema agrifotovoltaico consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola. Veja o estudo sobre cana de açucar na usina Santa Clotilde.</p>
                 <iconify-icon icon="lucide:circle-arrow-down" class="text-verde m-6 mt-0" height="2rem" width="2rem"></iconify-icon>
             </span>
             <span class="banner-box">
@@ -45,11 +45,11 @@
             <span class="banner-box">
                 <div class="box-titulo relative">
                     <div class="absolute rounded-full h-12 w-12 -top-6 right-8 bg-[#ff7119]"></div>
-                    <h4 class="text-branco font-extrabold mb-0">Projetos Menores</h5>
+                    <h4 class="text-branco font-extrabold mb-0">O Seu Projeto</h5>
                     <p class="text-branco text-xs">Projetos para residências e pequenos negócios</p>
                 </div>
                 <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
-                <p class="p-6 text-xs text-preto m-0">Com menor custo inicial, permitindo economia desde o primeiro mês, na média, você paga o seu investimento em menos de 2 anos e meio.</p>
+                <p class="p-6 text-xs text-preto m-0">Oferecemos o menor custo inicial, permitindo economia desde o primeiro mês. Na média, você paga o seu investimento em menos de 2 anos e meio.</p>
                 <iconify-icon icon="lucide:circle-arrow-down" class="text-verde m-6 mt-0" height="2rem" width="2rem"></iconify-icon>
             </span>
         </div>

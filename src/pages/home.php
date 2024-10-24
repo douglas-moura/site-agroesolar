@@ -7,21 +7,16 @@
             <iconify-icon icon="lucide:chevrons-left" class="z-40 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
         </div>
         <div class="coluna justify-center">
-            <h2>Agro&Solar</h2>
+            <h2>Agrifotovoltáico</h2>
             <h3 class="font-extrabold text-azul">Tenha até 10 vezes mais lucro por safra</h3>
-            <p class="mb-4">A Agro&Solar tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. A empresa busca oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
+            <p class="mb-4">O sistema agrifotovoltáico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. A empresa busca oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
             <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecida pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
-        </div>
-    </container>
-    <container class="conteudo grid-cols-2 ">
-        <div class="coluna justify-center relative">
-            <h2 class="flex items-center"><iconify-icon icon="lucide:sun" class="mr-4"></iconify-icon>Agrifotovoltaico</h2>
-            <p class="mb-4">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
             <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
             <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
             <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
             <p class="mb-4">Seguem alguns exemplos ao lado:</p>
         </div>
+    </container>
         <!--
         <div class="relative hidden">
             <div class="relative m-auto w-full aspect-square">
@@ -64,55 +59,17 @@
         </div>
         -->
     </container>
-</section>
-
-<section class="sessao relative">
-    <container class="conteudo grid-cols-3">
-        <h3 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h3>
-        <div>
-            <p><strong>1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
-        </div>
-        <div>
-            <p><strong>2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
-            <ul>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reuso de água de chuva
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
-                </li>
-            </ul>
-        </div>
-        <div>
-            <p><strong>3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
-            <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
-            <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
-            <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
-        </div>
-    </container>
-</section>
-
-<section class="sessao bg-cinza-claro-2">
-    <container class="conteudo grid-cols-2">
+    <container class="conteudo grid-cols-2 mt-8">
         <div class=" col-span-2">
-            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">PESQUISA EM ANDAMENTO SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
-            <p class="">Local = usina santa clotilde – rio largo – alagoas</p>
+            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
+            <p class="">Local = usina Santa Clotilde – rio largo – alagoas</p>
             <p class="">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
         <img src="./src/assets/img/plantacao-cana-alagoas-1.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
         <img src="./src/assets/img/plantacao-cana-alagoas-2.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
-        <h2 class="col-span-2 font-extrabold mx-auto">Aumente em mais de 10 vezes a lucratividade</h2>
+        <h2 class="col-span-2 font-extrabold mx-auto text-azul">Aumente em mais de 10 vezes a lucratividade</h2>
         <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
             <thead>
                 <tr>
@@ -162,18 +119,18 @@
                     <td class="tab-celula">7,77%</td>
                 </tr>
                 <tr>
-                    <td class="tab-celula">Lucro por Hectare</td>
-                    <td class="tab-celula">R$ 4.459,80</td>
-                    <td class="tab-celula">R$ 541,95</td>
-                    <td class="tab-celula">R$ 3.917,85</td>
-                    <td class="tab-celula">722,92%</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">Lucro por Hectare</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">R$ 4.459,80</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">R$ 541,95</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">R$ 3.917,85</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">722,92%</td>
                 </tr>
                 <tr>
                     <td class="tab-celula" colspan="5"></td>
                 </tr>
                 <tr>
                     <td class="tab-celula"></td>
-                    <td class="tab-celula">Com mais 7% de ATR</td>
+                    <td class="tab-celula bg-verde font-extrabold">Com mais 7% de ATR</td>
                     <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
@@ -193,11 +150,11 @@
                     <td class="tab-celula">7,77%</td>
                 </tr>
                 <tr>
-                    <td class="tab-celula">Lucro por Hectare</td>
-                    <td class="tab-celula">R$ 5.561,45</td>
-                    <td class="tab-celula">R$ 541,95</td>
-                    <td class="tab-celula">R$ 5.019,50</td>
-                    <td class="tab-celula">926,19%</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">Lucro por Hectare</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">R$ 5.561,45</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">R$ 541,95</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">R$ 5.019,50</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">926,19%</td>
                 </tr>
                 <tr>
                     <td class="tab-celula" colspan="5"></td>
@@ -215,7 +172,7 @@
         <h2 class="mt-16 col-span-2 font-extrabold mx-auto">Fora a geração de energia elétrica</h2>
         <img src="./src/assets/img/plantacao-cana-alagoas-grafico.png" alt="" class="w-full shadow-2xl mb-16 rounded-lg col-span-2">
         <span class="mb-4">
-            <p>Para tanto, participamos de uma pesquisa para desenvolvimento de todo o potencial nesse segmento, confira nosso projeto de aumento da produtividade da cana em Santa Clotilde.</p>
+            <p>Veja em detalhes toda analize dos resultados obtidos na pesquisa para desenvolvimento de todo o potencial nesse segmento, logo abaixo, confira nosso projeto de aumento da produtividade da cana em Santa Clotilde.</p>
             <a class="mt-8" href="./src/assets/projeto_agrofotovoltaico_usina_santa_clotilde.pdf" target="_blank"><strong class="cursor-pointer text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
         </span>
     </container>
@@ -229,8 +186,8 @@
         <div class="coluna justify-center">
             <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Sistemas</h2>
             <p class="mb-16">
-                A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sitema e garante uma redução de sua conta de energia a partir do mês seguinte a instalação. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.
-                <br><br><strong>Na locação de sistemas fotovoltaicos, você investe zero e já sai ganhando no mês seguinte, desfrutando de economia na conta de energia.</strong>
+                A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia a partir do mês seguinte à instalação. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.
+                <br><br><strong>Na locação de sistemas fotovoltaicos, você investe zero e a economia gerada pode ser aplicada, gerando assim ganhos financeiros'.</strong>
             </p>
             <strong>
                 <ul class="grid gap-4">
@@ -242,7 +199,7 @@
             </strong>
         </div>
         <div id="tabela-investmento" class="col-span-2 mt-16">
-            <h3 class="mx-auto w-full text-center mt-16">ECONOMIA NAS CONTAS DE ELETRICIDADE 1Kw = R$ 1,00 (em R$)</h3>
+            <h3 class="mx-auto w-full text-center mt-16">ECONOMIA NAS CONTAS DE ELETRICIDADE SE 1kW = R$ 1,00 (em R$)</h3>
             <div class="w-full flex overflow-hidden">
                 <div class="w-4/12">
                     <table class="w-full" cellspacing="0" cellpadding="5">
@@ -265,130 +222,130 @@
                                 <td class="tab-celula tab-invest text-[#fff]" colspan="4">50%</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 1.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 12.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">1.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 25.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 25.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 1.500</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.500</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 18.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">1.500 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 35.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 35.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 2.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 2.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 24.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 45.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 45.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 3.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 3.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 36.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 65.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 65.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 4.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 4.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 48.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">4.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 85.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 85.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 5.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 5.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 60.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">5.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 105.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 105.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 6.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 6.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 72.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">6.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 125.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 125.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 7.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 7.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 84.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">7.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 145.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 145.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 8.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 8.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 96.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">8.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 165.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 165.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 9.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 9.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 108.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">9.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 185.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 185.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 10.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 10.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 120.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">10.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 205.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 205.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 11.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 11.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 132.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">11.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 225.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 225.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 12.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 12.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 144.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">12.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 245.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 245.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 13.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 13.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 156.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">13.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 265.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 265.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 14.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 14.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 168.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">14.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 285.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 285.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 15.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 15.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 180.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">15.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 305.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 305.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 16.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 16.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 192.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">16.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 325.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 325.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 17.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 17.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 204.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">17.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 345.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 345.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 18.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 18.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 216.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">18.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 365.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 365.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 19.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 19.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 228.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">19.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 385.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 385.000</td>
                             </tr>
                             <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 20.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 20.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 240.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">20.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 405.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 405.000</td>
                             </tr>
                         </tbody>
                     </table>
@@ -409,9 +366,9 @@
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 04</td>
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 05</td>
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 06</td>
-                                <td class="tab-celula bg-verde tab-celular-tit_2">Ano 07 até 20</td>
-                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">TOTAL S/ APLICAÇÃO</td>
-                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">TOTAL C/ APLICAÇÃO<br>1%/Mês</td>
+                                <td class="tab-celula bg-verde tab-celular-tit_2">Ano 07 até ano 20</td>
+                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">TOTAL S/ GANHO<br>FINANVEIRO</td>
+                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">TOTAL C/ GANHO<br>FINANCEIRO 1%/Mês</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>20%</strong></td>
@@ -662,6 +619,41 @@
     </container>
 </section>
 
+<section class="sessao relative">
+    <container class="conteudo grid-cols-3">
+        <h3 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h3>
+        <div>
+            <p><strong>1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
+        </div>
+        <div>
+            <p><strong>2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
+            <ul>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reuso de água de chuva
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p><strong>3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
+            <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
+            <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
+            <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
+        </div>
+    </container>
+</section>
+
 <section class="sessao">
     <container class="conteudo grid-cols-2">
         <div class="coluna justify-center">
@@ -683,12 +675,13 @@
         <div class="coluna justify-center">
             <h2 class="flex items-top">
                 <iconify-icon icon="lucide:house" class="mr-4"></iconify-icon>
-                Projetos Menores
+                O Seu Projeto
             </h2>
             <p>Na Agro&Solar, entendemos que pequenos negócios e residências buscam soluções acessíveis e sustentáveis. Nossos sistemas de energia solar são projetados para reduzir significativamente suas contas de luz, permitindo que você economize e invista em outras áreas. E o melhor: toda análise é gratuita! Você pode gerar sua própria energia sem altos investimentos iniciais, promovendo um ambiente mais sustentável. Junte-se a nós e transforme seu espaço em um exemplo de eficiência e responsabilidade ambiental.</p>
         </div>
     </container>
 </section>
+
 <section class="sessao bg-cover relative" style="background-image: url('./src/assets/img/agro-e-solar-banner-paineis-solares-1.jpg">
     <container class="z-40 conteudo grid-cols-4 gap-4">
         <div class="col-span-4 text-branco w-4/6 mx-auto text-center mb-8">
