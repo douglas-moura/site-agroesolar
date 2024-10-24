@@ -181,7 +181,7 @@
 <section class="sessao">
     <container class="conteudo grid-cols-2">
         <div>
-            <img src="./src/assets/img/5b2d47c9-e155-477a-a9a2-436917a6bcfd.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/foto-posto.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Sistemas</h2>
@@ -619,14 +619,14 @@
     </container>
 </section>
 
-<section class="sessao relative">
-    <container class="conteudo grid-cols-3">
-        <h3 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h3>
+<section class="sessao">
+    <container class="conteudo grid-cols-3 gap-16">
+        <h2 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
         <div>
-            <p><strong>1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
+            <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
         </div>
         <div>
-            <p><strong>2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
+            <p><strong class="text-3xl text-black mr-2">2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
             <ul>
                 <li class="mb-2 flex items-center">
                     <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
@@ -646,7 +646,7 @@
             </ul>
         </div>
         <div>
-            <p><strong>3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
+            <p><strong class="text-3xl text-black mr-2">3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
             <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
             <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
             <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
@@ -785,34 +785,50 @@
 </section>
 
 <section class="sessao">
-    <container class="conteudo grid-cols-2 gap-y-16 z-20">
-        <h2 class="col-span-2 flex items-center">
+    <container class="conteudo grid-cols-3">
+        <h2 class="col-span-3 flex items-center">
+            <iconify-icon icon="fa:handshake-o" class="text-4xl mr-4"></iconify-icon>
+            Nosso Parceiro Integrador
+        </h2>
+        <img src="./src/assets/img/logo-smart-ms.png" alt="">
+        <span class="col-span-2 flex items-center">
+            <p>A <strong>Smart MS</strong> é uma parceira da Agro&Solar, colaborando para oferecer soluções completas em energia solar. Enquanto a Agro&Solar realiza estudos e prospecção de clientes, a Smart MS se especializa na instalação de sistemas fotovoltaicos, garantindo segurança e confiabilidade em seus serviços. Juntas, elas promovem a eficiência energética e a sustentabilidade, atendendo às necessidades tanto de residências quanto de empresas. Essa parceria reforça o compromisso com a qualidade e a satisfação do cliente.</p>
+        </span>
+        <img src="./src/assets/img/Projeto Smart Leme_2.jpg" alt="" class="mt-16 rounded-lg">
+        <img src="./src/assets/img/Projeto Smart Pouso Alegre_2.jpg" alt="" class="mt-16 rounded-lg">
+        <img src="./src/assets/img/Projeto Smart Estiva_2.jpg" alt="" class="mt-16 rounded-lg">
+    </container>
+</section>
+
+<section class="sessao">
+    <container class="conteudo grid-cols-3 gap-y-8 gap-x-16 z-20">
+        <h2 class="col-span-3 flex items-center">
             <iconify-icon icon="lucide:circle-user-round" class="text-4xl mr-4"></iconify-icon>
             Equipe de Especialistas
         </h2>
         <span>
             <h3 class="flex items-center">Reynaldo Wongtschowski</h3>
-            <p class="">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
+            <p class="text-xs">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
         </span>
         <span>
             <h3 class="flex items-center">Neuler Peçanha</h3>
-            <p class="">Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
+            <p class="text-xs">Há mais de 30 anos especializado em análise, planejamento e execução de programas de aumento de produtividade. Destacam se trabalhos para Delco, Porto Seguro, Pfizer, SulAmérica, Castrol, Mapfre, Chevrolet, Pfizer, Monroe, Rhodia, Sanofi – Aventis, P&G, Medley, Zambom, Novartis, Syngenta e outros.</p>
         </span>
         <span>
             <h3 class="flex items-center">Claudio Bianor Sverzut</h3>
-            <p class="">Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
+            <p class="text-xs">Tem experiência na área de Engenharia Agrícola, com ênfase em Máquinas e Equipamentos, Conservação de Solo e Água, manejo de solos agrícolas atuando principalmente nos seguintes temas: agricultura, engenharia agrícola, máquinas agrícolas, solo e plantio direto. Tem 63 publicações e 19 teses e dissertações orientadas e defendidas.</p>
         </span>
         <span>
             <h3 class="flex items-center">João Domingos Biaggi</h3>
-            <p class="">Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
+            <p class="text-xs">Foi Professor titular da Universidade Estadual de Campinas. Tem experiência na área de Engenharia Agrícola, com ênfase em Engenharia de Processamento de Produtos Agrícolas, atuando principalmente nos seguintes temas: secagem, qualidade, alimentação animal, engenharia agrícola e gestão.</p>
         </span>
         <span>
             <h3 class="flex items-center">Ricardo Araújo Ferreira Jr</h3>
-            <p class="">Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
+            <p class="text-xs">Doutor em Agronomia (Energia na Agricultura) na Faculdade de Ciências Agronômicas/ UNESP-Botucatu. Tem trabalhado com conjunto com o INPE na confecção do Atlas solarimétrico do Estado de Alagoas. Tem se destacado pela sua participação ativa nos estudos sobre as potencialidades agrícolas do estado, vis-a-vis a radiação solar, solos e disponibilidade de água. É o coordenador do primeiro projeto de pesquisa a nível mundial relativo ao consórcio produção de cana e de energia elétrica no mesmo espaço físico.</p>
         </span>
         <span>
             <h3 class="flex items-center">Aryoldo Machado</h3>
-            <p class="">Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
+            <p class="text-xs">Graduado em Engenharia Mecânica na EESC-USP. Tem larga experiência em inovação tecnológica. Foi o introdutor do controle numérico de máquinas operatrizes no Brasil, tendo, inclusive, publicado o livro – COMANDO NUMÉRICO APLICADO ÀS MÁQUINAS FERRAMENTA. Trabalhou no desenvolvimento e na adaptação à realidade brasileira de máquinas operatrizes, máquinas da indústria de processamento de produtos.</p>
         </span>
     </container>
 </section>

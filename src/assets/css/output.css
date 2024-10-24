@@ -1061,6 +1061,10 @@ p{
   margin-top: 2rem;
 }
 
+.mr-8{
+  margin-right: 2rem;
+}
+
 .block{
   display: block;
 }
@@ -1239,12 +1243,34 @@ p{
   gap: 1.5rem;
 }
 
+.gap-16{
+  gap: 4rem;
+}
+
 .gap-y-16{
   row-gap: 4rem;
 }
 
 .gap-y-4{
   row-gap: 1rem;
+}
+
+.gap-y-32{
+  row-gap: 8rem;
+}
+
+.gap-y-8{
+  row-gap: 2rem;
+}
+
+.gap-x-8{
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-x-16{
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
 }
 
 .overflow-hidden{
@@ -1421,6 +1447,11 @@ p{
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-black{
