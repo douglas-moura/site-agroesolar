@@ -22,7 +22,7 @@
     }
     
     h1 {
-        @apply font-light text-5xl
+        @apply font-light text-4xl
     }
     
     h2 {
@@ -130,7 +130,7 @@
     }
 
     .box-titulo {
-        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
+        /*text-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);*/
     }
 
     .img-sombra {

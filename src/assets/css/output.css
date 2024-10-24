@@ -582,8 +582,8 @@ main{
 }
 
 h1{
-  font-size: 3rem;
-  line-height: 1;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
   font-weight: 300;
 }
 
@@ -933,6 +933,10 @@ p{
 
 .top-1\/2{
   top: 50%;
+}
+
+.bottom-0{
+  bottom: 0px;
 }
 
 .z-10{
@@ -1435,6 +1439,10 @@ p{
   font-weight: 400;
 }
 
+.font-semibold{
+  font-weight: 600;
+}
+
 .leading-4{
   line-height: 1rem;
 }
@@ -1510,7 +1518,7 @@ p{
 }
 
 .box-titulo {
-  text-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
+  /*text-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);*/
 }
 
 .img-sombra {

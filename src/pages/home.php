@@ -62,13 +62,13 @@
     <container class="conteudo grid-cols-2 mt-8">
         <div class=" col-span-2">
             <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
-            <p class="">Local = usina Santa Clotilde – rio largo – alagoas</p>
+            <p class="">Local = Usina Santa Clotilde – Rio Largo – Alagoas</p>
             <p class="">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
-        <img src="./src/assets/img/plantacao-cana-alagoas-1.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
-        <img src="./src/assets/img/plantacao-cana-alagoas-2.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
+        <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
+        <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
         <h2 class="col-span-2 font-extrabold mx-auto text-azul">Aumente em mais de 10 vezes a lucratividade</h2>
         <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
             <thead>
@@ -187,7 +187,7 @@
             <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Sistemas</h2>
             <p class="mb-16">
                 A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia a partir do mês seguinte à instalação. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.
-                <br><br><strong>Na locação de sistemas fotovoltaicos, você investe zero e a economia gerada pode ser aplicada, gerando assim ganhos financeiros'.</strong>
+                <br><br><strong>Na locação de sistemas fotovoltaicos, você investe zero e a economia gerada pode ser aplicada, gerando assim ganhos financeiros.</strong>
             </p>
             <strong>
                 <ul class="grid gap-4">
@@ -657,7 +657,10 @@
 <section class="sessao">
     <container class="conteudo grid-cols-2">
         <div class="coluna justify-center">
-            <h2 class="flex items-center"><iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>Grandes Projetos</h2>
+            <h2 class="flex items-center">
+                <iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>
+                Grandes Projetos
+            </h2>
             <p>Oferecemos projetos completos que incluem estudos topográficos, parecer de acesso, opções de investimento e autenticação com órgãos regionais. Trabalhamos com a abordagem 'turnkey', onde cuidamos de todas as etapas do projeto, desde a concepção até a execução, garantindo que você tenha uma solução pronta para uso. Além disso, analisamos investimentos e retornos para garantir a melhor solução para você.</p>
             <!--<p>A Lupo é uma renomada fábrica brasileira especializada em meias, cuecas e roupas íntimas, reconhecida pela qualidade e inovação em seus produtos. Com sede no interior de São Paulo, a empresa tem se destacado no mercado nacional e internacional, priorizando sustentabilidade e eficiência em suas operações. Ao adotar soluções como sistemas agrifotovoltaicos, empresas como a Lupo podem reduzir custos com energia e reforçar seu compromisso com práticas ambientais responsáveis.</p>-->
         </div>
