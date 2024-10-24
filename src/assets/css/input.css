@@ -107,6 +107,18 @@
         @apply h-3 p-0 text-[.6rem]
     }
 
+    .box-preco-invest {
+        @apply flex flex-col text-center p-8 rounded-xl border-[1px] border-[#ccc] text-branco
+    }
+
+    .btn-wtzp {
+        @apply bg-[#009900] p-2 rounded-full text-branco my-8 font-semibold flex items-center justify-center
+    }
+
+    .box-preco-benef {
+        @apply text-xs mt-2 list-disc
+    }
+
     .active {
         @apply bg-preto
     }

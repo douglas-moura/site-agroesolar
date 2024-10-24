@@ -18,7 +18,7 @@
             <h2 class="flex items-center"><iconify-icon icon="lucide:sun" class="mr-4"></iconify-icon>Agrifotovoltaico</h2>
             <p class="mb-4">O sistema solar (agrifotovoltaico) consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola.</p>
             <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
-            <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia  solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
+            <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
             <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
             <p class="mb-4">Seguem alguns exemplos ao lado:</p>
         </div>
@@ -134,7 +134,9 @@
                     <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
                 </tr>
-                <tr><td class="tab-celula" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celula" colspan="5"></td>
+                </tr>
                 <tr>
                     <td class="tab-celula">Produtividade</td>
                     <td class="tab-celula">84,5 Toneladas por Hectare</td>
@@ -142,7 +144,9 @@
                     <td class="tab-celula">Mais 25,4 Tons por hectare</td>
                     <td class="tab-celula">42,98% a mais</td>
                 </tr>
-                <tr><td class="tab-celula" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celula" colspan="5"></td>
+                </tr>
                 <tr>
                     <td class="tab-celula">Receita Bruta por Hectare</td>
                     <td class="tab-celula">R$ 15.737,79</td>
@@ -164,7 +168,9 @@
                     <td class="tab-celula">R$ 3.917,85</td>
                     <td class="tab-celula">722,92%</td>
                 </tr>
-                <tr><td class="tab-celula" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celula" colspan="5"></td>
+                </tr>
                 <tr>
                     <td class="tab-celula"></td>
                     <td class="tab-celula">Com mais 7% de ATR</td>
@@ -193,7 +199,9 @@
                     <td class="tab-celula">R$ 5.019,50</td>
                     <td class="tab-celula">926,19%</td>
                 </tr>
-                <tr><td class="tab-celula" colspan="5"></td></tr>
+                <tr>
+                    <td class="tab-celula" colspan="5"></td>
+                </tr>
             </tbody>
             <tfoot>
                 <tr>
@@ -267,13 +275,13 @@
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 18.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">1.500 kWh</td>
                                 <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 35.000</td>
-                            </tr>                            
+                            </tr>
                             <tr>
                                 <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 2.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 24.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
                                 <td class="tab-celula tab-invest bg-[#DAE9F8]">R$ 45.000</td>
-                            </tr>                            
+                            </tr>
                             <tr>
                                 <td class="tab-celula tab-invest bg-[#DAF2D0]">R$ 3.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 36.000</td>
@@ -655,7 +663,7 @@
 </section>
 
 <section class="sessao">
-    <container class="conteudo grid-cols-2"> 
+    <container class="conteudo grid-cols-2">
         <div class="coluna justify-center">
             <h2 class="flex items-center"><iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>Grandes Projetos</h2>
             <p>Oferecemos projetos completos que incluem estudos topográficos, parecer de acesso, opções de investimento e autenticação com órgãos regionais. Trabalhamos com a abordagem 'turnkey', onde cuidamos de todas as etapas do projeto, desde a concepção até a execução, garantindo que você tenha uma solução pronta para uso. Além disso, analisamos investimentos e retornos para garantir a melhor solução para você.</p>
@@ -673,10 +681,111 @@
             <img src="./src/assets/img/residencial.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
-            <h2 class="flex items-top"><iconify-icon icon="lucide:house" class="mr-4"></iconify-icon>Projetos Menores</h2>
+            <h2 class="flex items-top">
+                <iconify-icon icon="lucide:house" class="mr-4"></iconify-icon>
+                Projetos Menores
+            </h2>
             <p>Na Agro&Solar, entendemos que pequenos negócios e residências buscam soluções acessíveis e sustentáveis. Nossos sistemas de energia solar são projetados para reduzir significativamente suas contas de luz, permitindo que você economize e invista em outras áreas. E o melhor: toda análise é gratuita! Você pode gerar sua própria energia sem altos investimentos iniciais, promovendo um ambiente mais sustentável. Junte-se a nós e transforme seu espaço em um exemplo de eficiência e responsabilidade ambiental.</p>
         </div>
     </container>
+</section>
+<section class="sessao bg-cover relative" style="background-image: url('./src/assets/img/agro-e-solar-banner-paineis-solares-1.jpg">
+    <container class="z-40 conteudo grid-cols-4 gap-4">
+        <div class="col-span-4 text-branco w-4/6 mx-auto text-center mb-8">
+            <h2 class="text-verde font-extrabold">Veja aqui a melhor opção de investimento</h2>
+            <p>O valor do seu investimento pode depender das suas necessidades específicas. Uma maneira eficiente de avaliar isso é com base no seu consumo atual. Abaixo, apresentamos algumas opções disponíveis.</p>
+        </div>
+        <div class="box-preco-invest">
+            <p>Se o valor da sua conta é:</p>
+            <span class="text-3xl text-verde font-extrabold">R$ 300</span>
+            <hr class="w-2/3 border-[0.5px]">
+            <p>Investimento total estimado:</p>
+            <span class="text-3xl">R$ 10.800*</span>
+            <a href="" class="btn-wtzp">
+                <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
+                Contratar
+            </a>
+            <ul class="w-full text-left ml-4">
+                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Módulos Fotovoltaicos</li>
+                <li class="box-preco-benef">Inversor Solar</li>
+                <li class="box-preco-benef">Estruturas de Montagem</li>
+                <li class="box-preco-benef">Sistema de Monitoramento</li>
+                <li class="box-preco-benef">Cabos e Conectores</li>
+                <li class="box-preco-benef">Disjuntores e Proteções</li>
+                <li class="box-preco-benef">QDs e DPs</li>
+                <li class="box-preco-benef">Serviço de instalação</li>
+            </ul>
+        </div>
+        <div class="box-preco-invest">
+            <p>Se o valor da sua conta é:</p>
+            <span class="text-3xl text-verde font-extrabold">R$ 400</span>
+            <hr class="w-2/3 border-[0.5px]">
+            <p>Investimento total estimado:</p>
+            <span class="text-3xl">R$ 12.200*</span>
+            <a href="" class="btn-wtzp">
+                <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
+                Contratar
+            </a>
+            <ul class="w-full text-left ml-4">
+                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Módulos Fotovoltaicos</li>
+                <li class="box-preco-benef">Inversor Solar</li>
+                <li class="box-preco-benef">Estruturas de Montagem</li>
+                <li class="box-preco-benef">Sistema de Monitoramento</li>
+                <li class="box-preco-benef">Cabos e Conectores</li>
+                <li class="box-preco-benef">Disjuntores e Proteções</li>
+                <li class="box-preco-benef">QDs e DPs</li>
+                <li class="box-preco-benef">Serviço de instalação</li>
+            </ul>
+        </div>
+        <div class="box-preco-invest">
+            <p>Se o valor da sua conta é:</p>
+            <span class="text-3xl text-verde font-extrabold">R$ 500</span>
+            <hr class="w-2/3 border-[0.5px]">
+            <p>Investimento total estimado:</p>
+            <span class="text-3xl">R$ 15.500*</span>
+            <a href="" class="btn-wtzp">
+                <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
+                Contratar
+            </a>
+            <ul class="w-full text-left ml-4">
+                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Módulos Fotovoltaicos</li>
+                <li class="box-preco-benef">Inversor Solar</li>
+                <li class="box-preco-benef">Estruturas de Montagem</li>
+                <li class="box-preco-benef">Sistema de Monitoramento</li>
+                <li class="box-preco-benef">Cabos e Conectores</li>
+                <li class="box-preco-benef">Disjuntores e Proteções</li>
+                <li class="box-preco-benef">QDs e DPs</li>
+                <li class="box-preco-benef">Serviço de instalação</li>
+            </ul>
+        </div>
+        <div class="box-preco-invest">
+            <p>Se o valor da sua conta é:</p>
+            <span class="text-3xl text-verde font-extrabold">R$ 1.000</span>
+            <hr class="w-2/3 border-[0.5px]">
+            <p>Investimento total estimado:</p>
+            <span class="text-3xl">R$ 30.000*</span>
+            <a href="" class="btn-wtzp">
+                <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
+                Contratar
+            </a>
+            <ul class="w-full text-left ml-4">
+                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Módulos Fotovoltaicos</li>
+                <li class="box-preco-benef">Inversor Solar</li>
+                <li class="box-preco-benef">Estruturas de Montagem</li>
+                <li class="box-preco-benef">Sistema de Monitoramento</li>
+                <li class="box-preco-benef">Cabos e Conectores</li>
+                <li class="box-preco-benef">Disjuntores e Proteções</li>
+                <li class="box-preco-benef">QDs e DPs</li>
+                <li class="box-preco-benef">Serviço de instalação</li>
+            </ul>
+        </div>
+        <p class="col-span-4 mx-auto mt-8 text-center w-2/5 text-xs text-branco">* Os valores aqui divulgados são para efeitos comparativos e poderão sofrer alterações sem aviso prévio. Consulte o nosso time comercial para maiores informações.</p>
+    </container>
+    <div class="z-20 absolute bg-preto opacity-90 w-full h-full top-0 left-0"></div>
 </section>
 
 <section class="sessao">
@@ -687,7 +796,7 @@
         </h2>
         <span>
             <h3 class="flex items-center">Reynaldo Wongtschowski</h3>
-            <p class="">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e  geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
+            <p class="">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
         </span>
         <span>
             <h3 class="flex items-center">Neuler Peçanha</h3>
