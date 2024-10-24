@@ -60,7 +60,7 @@
 
 @layer components {
     .sessao {
-        @apply py-20 px-0 w-full flex-col flex z-40
+        @apply py-20 px-0 w-full flex-col flex z-40 relative
     }
     
     .conteudo {
@@ -80,7 +80,7 @@
     }
 
     .banner-box {
-        @apply coluna animate-fade-in-right transition-all bg-branco rounded-lg shadow-lg
+        @apply coluna animate-fade-in-right transition-all bg-branco rounded-lg shadow-lg h-full
     }
 
     .box-titulo {

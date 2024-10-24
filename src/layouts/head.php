@@ -13,11 +13,11 @@
                 <!--<img class="h-14 col-span-2" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">-->
                 <ul class="flex justify-between items-center w-full">
                     <!--<li><a href="/">Inicio</a></li>-->
-                    <li><a class="nav-link" href="#sctn-agr">Home</a></li>
-                    <li><a class="nav-link" href="#sctn-res">Equipe</a></li>
-                    <li><a class="nav-link" href="#sctn-grd">Faça um Orçamento</a></li>
-                    <li><a class="nav-link" href="#sctn-grd">Pesquisa</a></li>
-                    <li><a class="nav-link" href="#sctn-peq">Fale Conosco</a></li>
+                    <li><a class="nav-link" href="#banner">Home</a></li>
+                    <li><a class="nav-link" href="#equipe">Equipe</a></li>
+                    <li><a class="nav-link" href="#precos">Faça um Orçamento</a></li>
+                    <li><a class="nav-link" href="#pesquisa">Pesquisa</a></li>
+                    <li><a class="nav-link" href="#contato">Fale Conosco</a></li>
                 </ul>
             </div>
         </nav>

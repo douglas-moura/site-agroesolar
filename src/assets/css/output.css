@@ -673,6 +673,7 @@ p{
 }
 
 .sessao{
+  position: relative;
   z-index: 40;
   display: flex;
   width: 100%;
@@ -748,6 +749,7 @@ p{
 .banner-box{
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 @keyframes fadeInRight{
@@ -907,6 +909,14 @@ p{
   top: -1.5rem;
 }
 
+.-top-8{
+  top: -2rem;
+}
+
+.bottom-0{
+  bottom: 0px;
+}
+
 .bottom-4{
   bottom: 1rem;
 }
@@ -933,10 +943,6 @@ p{
 
 .top-1\/2{
   top: 50%;
-}
-
-.bottom-0{
-  bottom: 0px;
 }
 
 .z-10{
@@ -1059,10 +1065,6 @@ p{
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.mr-8{
-  margin-right: 2rem;
 }
 
 .block{
@@ -1235,6 +1237,10 @@ p{
   justify-content: space-between;
 }
 
+.gap-16{
+  gap: 4rem;
+}
+
 .gap-4{
   gap: 1rem;
 }
@@ -1243,34 +1249,17 @@ p{
   gap: 1.5rem;
 }
 
-.gap-16{
-  gap: 4rem;
-}
-
-.gap-y-16{
-  row-gap: 4rem;
+.gap-x-16{
+  -moz-column-gap: 4rem;
+       column-gap: 4rem;
 }
 
 .gap-y-4{
   row-gap: 1rem;
 }
 
-.gap-y-32{
-  row-gap: 8rem;
-}
-
 .gap-y-8{
   row-gap: 2rem;
-}
-
-.gap-x-8{
-  -moz-column-gap: 2rem;
-       column-gap: 2rem;
-}
-
-.gap-x-16{
-  -moz-column-gap: 4rem;
-       column-gap: 4rem;
 }
 
 .overflow-hidden{
@@ -1439,19 +1428,9 @@ p{
   line-height: 1.75rem;
 }
 
-.text-sm{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-2xl{
-  font-size: 1.5rem;
-  line-height: 2rem;
 }
 
 .font-black{

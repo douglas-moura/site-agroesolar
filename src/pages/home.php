@@ -1,6 +1,7 @@
 <?php include_once './src/layouts/banner.php'; ?>
 
 <section class="sessao bg-cinza-claro-2 relative overflow-hidden">
+    <span id="agrifotovoltaico" class="absolute -top-8"></span>
     <container class="conteudo mb-32 grid-cols-2">
         <div class="relative">
             <img src="./src/assets/img/engenheiro-com-placas.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
@@ -59,6 +60,7 @@
         </div>
         -->
     </container>
+    <span id="pesquisa" class="-top-8"></span>
     <container class="conteudo grid-cols-2 mt-8">
         <div class=" col-span-2">
             <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
@@ -179,12 +181,16 @@
 </section>
 
 <section class="sessao">
+    <span id="locacao" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div>
             <img src="./src/assets/img/foto-posto.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
-            <h2 class="flex items-center"><iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>Locação de Sistemas</h2>
+            <h2 class="flex items-center">
+                <iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>
+                Locação de Sistemas
+            </h2>
             <p class="mb-16">
                 A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia a partir do mês seguinte à instalação. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.
                 <br><br><strong>Na locação de sistemas fotovoltaicos, você investe zero e a economia gerada pode ser aplicada, gerando assim ganhos financeiros.</strong>
@@ -655,6 +661,7 @@
 </section>
 
 <section class="sessao">
+    <span id="grandes-projetos" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div class="coluna justify-center">
             <h2 class="flex items-center">
@@ -671,6 +678,7 @@
 </section>
 
 <section class="sessao">
+    <span id="seu-projeto" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div>
             <img src="./src/assets/img/residencial.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
@@ -686,6 +694,7 @@
 </section>
 
 <section class="sessao bg-cover relative" style="background-image: url('./src/assets/img/agro-e-solar-banner-paineis-solares-1.jpg">
+    <span id="precos" class="absolute -top-8"></span>
     <container class="z-40 conteudo grid-cols-4 gap-4">
         <div class="col-span-4 text-branco w-4/6 mx-auto text-center mb-8">
             <h2 class="text-verde font-extrabold">Veja aqui a melhor opção de investimento</h2>
@@ -801,6 +810,7 @@
 </section>
 
 <section class="sessao">
+    <span id="equipe" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-3 gap-y-8 gap-x-16 z-20">
         <h2 class="col-span-3 flex items-center">
             <iconify-icon icon="lucide:circle-user-round" class="text-4xl mr-4"></iconify-icon>
@@ -834,6 +844,7 @@
 </section>
 
 <section class="sessao bg-preto mt-24">
+    <span id="contato" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div>
             <h2 class="text-verde">Fale Conosco</h2>
