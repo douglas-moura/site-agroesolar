@@ -14,14 +14,14 @@
                 <ul class="flex justify-between items-center w-full">
                     <!--<li><a href="/">Inicio</a></li>-->
                     <li><a class="nav-link" href="#banner">Home</a></li>
-                    <li><a class="nav-link" href="#equipe">Equipe</a></li>
-                    <li><a class="nav-link" href="#precos">Faça um Orçamento</a></li>
                     <li><a class="nav-link" href="#pesquisa">Pesquisa</a></li>
+                    <li><a class="nav-link" href="#precos">Faça seu Orçamento</a></li>
+                    <li><a class="nav-link" href="#equipe">Equipe</a></li>
                     <li><a class="nav-link" href="#contato">Fale Conosco</a></li>
                 </ul>
             </div>
         </nav>
         <main>
-            <a href="/agroesolar/#nav-logo" class="z-50 fixed flex bottom-8 right-8 w-10 aspect-square">
+            <a href="/agroesolar/#banner" class="z-50 fixed flex bottom-8 right-8 w-10 aspect-square">
                 <iconify-icon icon="lucide:circle-arrow-up" class="text-verde" width="100%"></iconify-icon>
             </a>

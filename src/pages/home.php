@@ -2,7 +2,7 @@
 
 <section class="sessao bg-cinza-claro-2 relative overflow-hidden">
     <span id="agrifotovoltaico" class="absolute -top-8"></span>
-    <container class="conteudo mb-32 grid-cols-2">
+    <container class="conteudo mb-28 grid-cols-2">
         <div class="relative">
             <img src="./src/assets/img/engenheiro-com-placas.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
             <iconify-icon icon="lucide:chevrons-left" class="z-40 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
@@ -10,60 +10,50 @@
         <div class="coluna justify-center">
             <h2>Agrifotovoltáico</h2>
             <h3 class="font-extrabold text-azul">Tenha até 10 vezes mais lucro por safra</h3>
-            <p class="mb-4">O sistema agrifotovoltáico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. A empresa busca oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
-            <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecida pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
+            <p class="mb-4">O sistema agrifotovoltáico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. Buscamos oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
+            <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecido pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
             <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
             <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
             <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
-            <p class="mb-4">Seguem alguns exemplos ao lado:</p>
+            <p class="mb-4">Veja logo abaixo:</p>
         </div>
     </container>
-        <!--
-        <div class="relative hidden">
-            <div class="relative m-auto w-full aspect-square">
-                <div class="mySlides hidden h-full aspect-square transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/assets/img/img-slide-1.png" class="w-full h-full object-cover">
-                    <div class="h-12 text-branco bg-preto text-xs leading-4 py-4 px-0 absolute bottom-4 w-full text-center">COREIA DO SUL - EXPERIMENTO COM PLANTAÇÃO DE BROCOLIS </div>
-                </div>
-                <div class="mySlides hidden h-full aspect-square transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/assets/img/img-slide-2.png" class="w-full h-full object-cover">
-                    <div class="h-12 text-branco bg-preto text-xs leading-4 py-4 px-0 absolute bottom-4 w-full text-center">HOLANDA 3,8 HÁ DE FRAMBOESA – 2,7MW</div>
-                </div>
-                <div class="mySlides hidden h-full aspect-square transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/assets/img/img-slide-3.png" class="w-full h-full object-cover">
-                    <div class="h-12 text-branco bg-preto text-xs leading-4 py-4 px-0 absolute bottom-4 w-full text-center">ESTUFAS COM PAINÉIS SOLARES AO INVÉS DE “SOMBRITE”</div>
-                </div>
-                <div class="mySlides hidden h-full aspect-square transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/assets/img/img-slide-4.png" class="w-full h-full object-cover">
-                    <div class="h-12 text-branco bg-preto text-xs leading-4 py-4 px-0 absolute bottom-4 w-full text-center">FRANÇA – CONSÓRCIO ENTRE ENERGIA SOLAR FOTOVOLTAICA E UVAS</div>
-                </div>
-                <div class="mySlides hidden h-full aspect-square transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/assets/img/img-slide-5.png" class="w-full h-full object-cover">
-                    <div class="h-12 text-branco bg-preto text-xs leading-4 py-4 px-0 absolute bottom-4 w-full text-center">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
-                </div>
-                <div class="mySlides hidden h-full aspect-square transition-all duration-75 rounded-lg overflow-hidden">
-                    <img src="./src/assets/img/img-slide-6.jpg" class="w-full h-full object-cover">
-                    <div class="h-12 text-branco bg-preto text-xs leading-4 py-4 px-0 absolute bottom-4 w-full text-center">ALEMANHA – PLANTAÇÃO DE FRUTAS CARBONO ZERO</div>
-                </div>
-                
-                <a class="w-auto cursor-pointer absolute top-1/2 -m-1 p-4 text-branco font-bold text-3xl duration-75 rounded-md hover:bg-[rgba(0,0,0,0.8)]" onclick="plusSlides(-1)">&#10094;</a>
-                <a class="w-auto cursor-pointer absolute top-1/2 -m-1 p-4 text-branco font-bold text-3xl duration-75 rounded-md hover:bg-[rgba(0,0,0,0.8)] right-0" onclick="plusSlides(1)">&#10095;</a>
-            </div>
-            <div class="dots w-full text-center mt-4 justify-center">
-                <span class="dot" onclick="currentSlide(1)"></span>
-                <span class="dot" onclick="currentSlide(2)"></span>
-                <span class="dot" onclick="currentSlide(3)"></span>
-                <span class="dot" onclick="currentSlide(4)"></span>
-                <span class="dot" onclick="currentSlide(5)"></span>
-                <span class="dot" onclick="currentSlide(6)"></span>
-            </div>
+    <container class="conteudo grid-cols-3 gap-x-16 mb-28">
+        <h2 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
+        <div>
+            <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
         </div>
-        -->
+        <div>
+            <p><strong class="text-3xl text-black mr-2">2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
+            <ul>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reuso de água de chuva
+                </li>
+                <li class="mb-2 flex items-center">
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p><strong class="text-3xl text-black mr-2">3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
+            <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
+            <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
+            <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
+        </div>
     </container>
     <span id="pesquisa" class="-top-8"></span>
-    <container class="conteudo grid-cols-2 mt-8">
+    <container class="conteudo grid-cols-2">
         <div class=" col-span-2">
-            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO DE PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
+            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO NA PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
             <p class="">Local = Usina Santa Clotilde – Rio Largo – Alagoas</p>
             <p class="">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
@@ -83,6 +73,7 @@
                     <th class="tab-celula bg-verde">TESTEMUNHA</th>
                     <th class="tab-celula bg-verde">DIFERENÇA</th>
                     <th class="tab-celula bg-verde">COMPARATIVO</th>
+                    <th class="tab-celula bg-verde">GANHO TOTAL</th>
                 </tr>
             </thead>
             <tbody>
@@ -92,9 +83,10 @@
                     <td class="tab-celula">Área não sombreada</td>
                     <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
+                    <td class="tab-celula"></td>
                 </tr>
                 <tr>
-                    <td class="tab-celula" colspan="5"></td>
+                    <td class="tab-celula" colspan="6"></td>
                 </tr>
                 <tr>
                     <td class="tab-celula">Produtividade</td>
@@ -102,9 +94,10 @@
                     <td class="tab-celula">59,1 Toneladas por Hectare</td>
                     <td class="tab-celula">Mais 25,4 Tons por hectare</td>
                     <td class="tab-celula">42,98% a mais</td>
+                    <td class="tab-celula"></td>
                 </tr>
                 <tr>
-                    <td class="tab-celula" colspan="5"></td>
+                    <td class="tab-celula" colspan="6"></td>
                 </tr>
                 <tr>
                     <td class="tab-celula">Receita Bruta por Hectare</td>
@@ -112,6 +105,7 @@
                     <td class="tab-celula">R$ 11.007,14</td>
                     <td class="tab-celula">R$ 4.730,65</td>
                     <td class="tab-celula">42,98%</td>
+                    <td class="tab-celula">142.98%</td>
                 </tr>
                 <tr>
                     <td class="tab-celula">Custo de Produção por Hectare</td>
@@ -119,6 +113,7 @@
                     <td class="tab-celula">R$ 10.465,19</td>
                     <td class="tab-celula">R$ 812,80</td>
                     <td class="tab-celula">7,77%</td>
+                    <td class="tab-celula">107,77%</td>
                 </tr>
                 <tr>
                     <td class="tab-celula text-azul font-extrabold text-lg">Lucro por Hectare</td>
@@ -126,13 +121,15 @@
                     <td class="tab-celula text-azul font-extrabold text-lg">R$ 541,95</td>
                     <td class="tab-celula text-azul font-extrabold text-lg">R$ 3.917,85</td>
                     <td class="tab-celula text-azul font-extrabold text-lg">722,92%</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">822,92%</td>
                 </tr>
                 <tr>
-                    <td class="tab-celula" colspan="5"></td>
+                    <td class="tab-celula" colspan="6"></td>
                 </tr>
                 <tr>
                     <td class="tab-celula"></td>
                     <td class="tab-celula bg-verde font-extrabold">Com mais 7% de ATR</td>
+                    <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
                     <td class="tab-celula"></td>
@@ -143,6 +140,7 @@
                     <td class="tab-celula">R$ 11.007,14</td>
                     <td class="tab-celula">R$ 5.832,30</td>
                     <td class="tab-celula">52,99%</td>
+                    <td class="tab-celula">152,99%</td>
                 </tr>
                 <tr>
                     <td class="tab-celula">Custo de Produção por Hectare</td>
@@ -150,6 +148,7 @@
                     <td class="tab-celula">R$ 10.465,19</td>
                     <td class="tab-celula">R$ 812,80</td>
                     <td class="tab-celula">7,77%</td>
+                    <td class="tab-celula">107,77%</td>
                 </tr>
                 <tr>
                     <td class="tab-celula text-azul font-extrabold text-lg">Lucro por Hectare</td>
@@ -157,9 +156,10 @@
                     <td class="tab-celula text-azul font-extrabold text-lg">R$ 541,95</td>
                     <td class="tab-celula text-azul font-extrabold text-lg">R$ 5.019,50</td>
                     <td class="tab-celula text-azul font-extrabold text-lg">926,19%</td>
+                    <td class="tab-celula text-azul font-extrabold text-lg">1.026,19%</td>
                 </tr>
                 <tr>
-                    <td class="tab-celula" colspan="5"></td>
+                    <td class="tab-celula" colspan="6"></td>
                 </tr>
             </tbody>
             <tfoot>
@@ -171,10 +171,10 @@
                 </tr>
             </tfoot>
         </table>
-        <h2 class="mt-16 col-span-2 font-extrabold mx-auto">Fora a geração de energia elétrica</h2>
+        <h2 class="mt-16 col-span-2 font-extrabold mx-auto">Fora o ganho com a geração de energia elétrica</h2>
         <img src="./src/assets/img/plantacao-cana-alagoas-grafico.png" alt="" class="w-full shadow-2xl mb-16 rounded-lg col-span-2">
         <span class="mb-4">
-            <p>Veja em detalhes toda analize dos resultados obtidos na pesquisa para desenvolvimento de todo o potencial nesse segmento, logo abaixo, confira nosso projeto de aumento da produtividade da cana em Santa Clotilde.</p>
+            <p>Confira em detalhes toda analize dos resultados obtidos na pesquisa para desenvolvimento de todo o potencial nesse segmento, logo abaixo:</p>
             <a class="mt-8" href="./src/assets/projeto_agrofotovoltaico_usina_santa_clotilde.pdf" target="_blank"><strong class="cursor-pointer text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
         </span>
     </container>
@@ -191,16 +191,15 @@
                 <iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>
                 Locação de Sistemas
             </h2>
-            <p class="mb-16">
-                A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia a partir do mês seguinte à instalação. Além disso, a energia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante.
-                <br><br><strong>Na locação de sistemas fotovoltaicos, você investe zero e a economia gerada pode ser aplicada, gerando assim ganhos financeiros.</strong>
-            </p>
+            <p class="mb-16">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia em seguida à instalação. <strong>Além disso, a economia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante (veja na planilha abaixo).</strong></p>
             <strong>
                 <ul class="grid gap-4">
-                    <li>Redução Imediata na Conta de Luz</li>
-                    <li>Economia a Longo Prazo</li>
-                    <li>Flexibilidade e Acessibilidade</li>
-                    <li>Energia Limpa e Estável</li>
+                    <li>Redução imediata na conta de luz</li>
+                    <li>Economia sempre a longo prazo</li>
+                    <li>Flexibilidade e acessibilidade</li>
+                    <li>Energia limpa e estável</li>
+                    <li>Sustentabilidade</li>
+                    <li>Ganho de margem</li>
                 </ul>
             </strong>
         </div>
@@ -231,7 +230,7 @@
                                 <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.000</td>
                                 <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 12.000</td>
                                 <td class="tab-celula tab-invest bg-[#FBE2D5]">1.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 25.000</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 28.000</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.500</td>
@@ -372,9 +371,9 @@
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 04</td>
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 05</td>
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 06</td>
-                                <td class="tab-celula bg-verde tab-celular-tit_2">Ano 07 até ano 20</td>
-                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">TOTAL S/ GANHO<br>FINANVEIRO</td>
-                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">TOTAL C/ GANHO<br>FINANCEIRO 1%/Mês</td>
+                                <td class="tab-celula bg-verde tab-celular-tit_2">Ano 07 até<br>ano 20</td>
+                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">GANHO TOTAL<br>S/ APLICAÇÃO</td>
+                                <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">GANHO TOTAL C/<br>APLICAÇÃO<br>12% Real/Ano</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>20%</strong></td>
@@ -626,41 +625,6 @@
 </section>
 
 <section class="sessao">
-    <container class="conteudo grid-cols-3 gap-16">
-        <h2 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
-        <div>
-            <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
-        </div>
-        <div>
-            <p><strong class="text-3xl text-black mr-2">2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
-            <ul>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reuso de água de chuva
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
-                </li>
-            </ul>
-        </div>
-        <div>
-            <p><strong class="text-3xl text-black mr-2">3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
-            <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
-            <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
-            <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
-        </div>
-    </container>
-</section>
-
-<section class="sessao">
     <span id="grandes-projetos" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div class="coluna justify-center">
@@ -668,7 +632,7 @@
                 <iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>
                 Grandes Projetos
             </h2>
-            <p>Oferecemos projetos completos que incluem estudos topográficos, parecer de acesso, opções de investimento e autenticação com órgãos regionais. Trabalhamos com a abordagem 'turnkey', onde cuidamos de todas as etapas do projeto, desde a concepção até a execução, garantindo que você tenha uma solução pronta para uso. Além disso, analisamos investimentos e retornos para garantir a melhor solução para você.</p>
+            <p>Oferecemos projetos completos que incluem estudos topográficos, parecer de acesso, opções de financiamento e autorização com órgãos regionais. Trabalhamos com a abordagem 'turnkey', onde cuidamos de todas as etapas do projeto, desde a concepção até a execução, garantindo que você tenha uma solução pronta para uso. Além disso, analisamos investimentos e retornos para garantir a melhor solução para você.</p>
             <!--<p>A Lupo é uma renomada fábrica brasileira especializada em meias, cuecas e roupas íntimas, reconhecida pela qualidade e inovação em seus produtos. Com sede no interior de São Paulo, a empresa tem se destacado no mercado nacional e internacional, priorizando sustentabilidade e eficiência em suas operações. Ao adotar soluções como sistemas agrifotovoltaicos, empresas como a Lupo podem reduzir custos com energia e reforçar seu compromisso com práticas ambientais responsáveis.</p>-->
         </div>
         <div>
@@ -693,7 +657,7 @@
     </container>
 </section>
 
-<section class="sessao bg-cover relative" style="background-image: url('./src/assets/img/agro-e-solar-banner-paineis-solares-1.jpg">
+<section class="sessao bg-cover relative" style="background-image: url('./src/assets/img/foto-posto.jpg')">
     <span id="precos" class="absolute -top-8"></span>
     <container class="z-40 conteudo grid-cols-4 gap-4">
         <div class="col-span-4 text-branco w-4/6 mx-auto text-center mb-8">
@@ -702,7 +666,7 @@
         </div>
         <div class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 300</span>
+            <span class="text-3xl text-verde font-extrabold">R$ 282</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 10.800*</span>
@@ -711,7 +675,7 @@
                 Contratar
             </a>
             <ul class="w-full text-left ml-4">
-                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
                 <li class="box-preco-benef">Inversor Solar</li>
                 <li class="box-preco-benef">Estruturas de Montagem</li>
@@ -720,11 +684,12 @@
                 <li class="box-preco-benef">Disjuntores e Proteções</li>
                 <li class="box-preco-benef">QDs e DPs</li>
                 <li class="box-preco-benef">Serviço de instalação</li>
+                <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
         <div class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 400</span>
+            <span class="text-3xl text-verde font-extrabold">R$ 376</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 12.200*</span>
@@ -733,7 +698,7 @@
                 Contratar
             </a>
             <ul class="w-full text-left ml-4">
-                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
                 <li class="box-preco-benef">Inversor Solar</li>
                 <li class="box-preco-benef">Estruturas de Montagem</li>
@@ -742,11 +707,12 @@
                 <li class="box-preco-benef">Disjuntores e Proteções</li>
                 <li class="box-preco-benef">QDs e DPs</li>
                 <li class="box-preco-benef">Serviço de instalação</li>
+                <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
         <div class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 500</span>
+            <span class="text-3xl text-verde font-extrabold">R$ 470</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 15.500*</span>
@@ -755,7 +721,7 @@
                 Contratar
             </a>
             <ul class="w-full text-left ml-4">
-                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
                 <li class="box-preco-benef">Inversor Solar</li>
                 <li class="box-preco-benef">Estruturas de Montagem</li>
@@ -764,6 +730,7 @@
                 <li class="box-preco-benef">Disjuntores e Proteções</li>
                 <li class="box-preco-benef">QDs e DPs</li>
                 <li class="box-preco-benef">Serviço de instalação</li>
+                <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
         <div class="box-preco-invest">
@@ -771,13 +738,13 @@
             <span class="text-3xl text-verde font-extrabold">R$ 1.000</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
-            <span class="text-3xl">R$ 30.000*</span>
+            <span class="text-3xl">R$ 28.000*</span>
             <a href="" class="btn-wtzp">
                 <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
                 Contratar
             </a>
             <ul class="w-full text-left ml-4">
-                <li class="box-preco-benef">Projeto 3D</li>
+                <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
                 <li class="box-preco-benef">Inversor Solar</li>
                 <li class="box-preco-benef">Estruturas de Montagem</li>
@@ -786,6 +753,7 @@
                 <li class="box-preco-benef">Disjuntores e Proteções</li>
                 <li class="box-preco-benef">QDs e DPs</li>
                 <li class="box-preco-benef">Serviço de instalação</li>
+                <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
         <p class="col-span-4 mx-auto mt-8 text-center w-2/5 text-xs text-branco">* Os valores aqui divulgados são para efeitos comparativos e poderão sofrer alterações sem aviso prévio. Consulte o nosso time comercial para maiores informações.</p>
@@ -843,12 +811,13 @@
     </container>
 </section>
 
-<section class="sessao bg-preto mt-24">
+<section class="sessao mt-24 bg-preto">
     <span id="contato" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div>
-            <h2 class="text-verde">Fale Conosco</h2>
+            <h2 class="text-verde mb-8">Fale Conosco</h2>
             <ul class="grid gap-y-4">
+                <h3 class="text-verde mb-0">Neuler Peçanha</h3>
                 <li class="flex items-center text-cinza-claro">
                     <div class="w-5 mr-4">
                         <iconify-icon icon="lucide:mail" width="100%"></iconify-icon>
@@ -864,6 +833,7 @@
             </ul>
             <br><br>
             <ul class="grid gap-y-4">
+                <h3 class="text-verde mb-0">Reynaldo Wongtschowski</h3>
                 <li class="flex items-center text-cinza-claro">
                     <div class="w-5 mr-4">
                         <iconify-icon icon="lucide:mail" width="100%"></iconify-icon>

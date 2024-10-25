@@ -84,7 +84,7 @@
     }
 
     .box-titulo {
-        @apply bg-verde px-6 pt-8 pb-0 mb-0
+        @apply bg-verde px-4 pt-4 pb-0 mb-0
     }
 
     .dot {
@@ -100,7 +100,7 @@
     }
 
     .tab-celular-tit_2 {
-        @apply font-black h-16 text-[.7rem]
+        @apply font-black h-20 text-[.7rem]
     }
 
     .tab-invest {
@@ -108,7 +108,7 @@
     }
 
     .box-preco-invest {
-        @apply flex flex-col text-center p-8 rounded-xl border-[1px] border-[#ccc] text-branco
+        @apply flex flex-col text-center p-8 rounded-xl border-[1px] border-[#ccc] text-branco 
     }
 
     .btn-wtzp {
@@ -135,5 +135,9 @@
 
     .img-sombra {
         filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.486));
+    }
+
+    .box-preco-invest {
+        backdrop-filter: blur(10px);
     }
 }
