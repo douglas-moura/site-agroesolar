@@ -22,15 +22,15 @@
     }
     
     h1 {
-        @apply font-light text-4xl
+        @apply font-light text-2xl lg:text-4xl
     }
     
     h2 {
-        @apply text-verde text-3xl leading-9
+        @apply text-verde text-xl leading-9 lg:text-3xl
     }
 
     h3 {
-        @apply text-preto text-xl font-extrabold 
+        @apply text-preto text-base font-extrabold lg:text-xl
     }
 
     h4 {
@@ -64,7 +64,7 @@
     }
     
     .conteudo {
-        @apply grid gap-y-4 gap-x-8 mx-auto w-10/12
+        @apply grid gap-y-4 gap-x-8 mx-auto w-5/6 lg:w-10/12
     }
     
     .coluna {

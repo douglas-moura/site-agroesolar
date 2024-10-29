@@ -1,11 +1,11 @@
-<section id="banner" class="sessao z-20 w-full h-dvh max-h-dvh overflow-hidden relative bg-img-banner bg-cover bg-center justify-end">
+<section id="banner" class="sessao z-20 w-full overflow-hidden relative bg-img-banner bg-cover bg-center justify-end lg:h-dvh lg:max-h-dvh">
     <div class="coluna w-10/12 text-branco z-20 h-fit mx-auto">
         <div class="coluna items-center justify-center mb-12">
-            <img class="w-4/12 mb-6 img-sombra" src="./src/assets/img/logo-agro-e-solar-4.png" alt="">
-            <h1 class="w-2/3 mb-2 text-center">Transforme a Luz do Sol em Economia</h1>
-            <p class="m-0 w-2/3 text-sm text-center">Reduza custos e potencialize seu negócio com soluções inteligentes. Transforme a luz do sol em economia significativa e uma operação mais ecológica, garantindo não apenas um futuro mais verde, mas também um presente mais eficiente e lucrativo.</p>
+            <img class="w-4/6 mb-6 img-sombra lg:w-4/12" src="./src/assets/img/logo-agro-e-solar-4.png" alt="">
+            <h1 class="mb-2 text-center lg:w-2/3">Transforme a Luz do Sol em Economia</h1>
+            <p class="m-0 text-xs text-center lg:w-2/3 lg:text-sm">Reduza custos e potencialize seu negócio com soluções inteligentes. Transforme a luz do sol em economia significativa e uma operação mais ecológica, garantindo não apenas um futuro mais verde, mas também um presente mais eficiente e lucrativo.</p>
         </div>
-        <div class="grid grid-cols-4 gap-6">
+        <div class="grid gap-12 lg:grid-cols-4 lg:gap-6">
             <a href="#agrifotovoltaico">
                 <span class="banner-box">
                     <div class="box-titulo relative">

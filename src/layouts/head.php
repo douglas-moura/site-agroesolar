@@ -11,7 +11,7 @@
         <nav id="nav-logo" class="z-40 flex absolute top-0 w-full items-center min-h-20">
             <div class="flex w-8/12 mx-auto justify-between">
                 <!--<img class="h-14 col-span-2" src="./src/assets/img/logo-agro-e-solar-2.png" alt="">-->
-                <ul class="flex justify-between items-center w-full">
+                <ul class="justify-between items-center w-full hidden lg:flex">
                     <!--<li><a href="/">Inicio</a></li>-->
                     <li><a class="nav-link" href="#banner">Home</a></li>
                     <li><a class="nav-link" href="#pesquisa">Pesquisa</a></li>

@@ -2,12 +2,12 @@
 
 <section class="sessao bg-cinza-claro-2 relative overflow-hidden">
     <span id="agrifotovoltaico" class="absolute -top-8"></span>
-    <container class="conteudo mb-28 grid-cols-2">
+    <container class="conteudo mb-28 lg:grid-cols-2">
         <div class="relative">
-            <img src="./src/assets/img/engenheiro-com-placas.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/engenheiro-com-placas.jpg" alt="" class="aspect-square scale-90 rounded-lg object-cover lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
             <iconify-icon icon="lucide:chevrons-left" class="z-40 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
         </div>
-        <div class="coluna justify-center">
+        <div class="coluna justify-center mt-8 lg:mt-0">
             <h2>Agrifotovoltaico</h2>
             <h3 class="font-extrabold text-azul">Tenha até 10 vezes mais lucro por safra</h3>
             <p class="mb-4">O sistema agrifotovoltaico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. Buscamos oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
@@ -18,8 +18,8 @@
             <p class="mb-4">Veja aqui o caso da Usina de Santa Clotilde:</p>
         </div>
     </container>
-    <container class="conteudo grid-cols-3 gap-x-16 mb-28">
-        <h2 class="text-azul col-span-3 text-center mx-auto w-1/2 font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
+    <container class="conteudo gap-x-16 mb-28 lg:grid-cols-3">
+        <h2 class="text-azul text-center mx-auto font-extrabold lg:w-1/2 lg:col-span-3">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
         <div>
             <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
         </div>
@@ -51,17 +51,17 @@
         </div>
     </container>
     <span id="pesquisa" class="-top-8"></span>
-    <container class="conteudo grid-cols-2">
-        <div class=" col-span-2">
-            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO NA PRODUTIVIDADE NA CULTURA DE CANA DE AÇÚCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
+    <container class="conteudo lg:grid-cols-2">
+        <div class="lg:col-span-2">
+            <h3 class="text-center text-[#83a000] font-extrabold mx-auto lg:w-5/6">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO NA PRODUTIVIDADE NA CULTURA DE CANA DE AÇÚCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
             <p class="">Local = Usina Santa Clotilde – Rio Largo – Alagoas</p>
             <p class="">Primeira instalação do tipo, sobre cana de açúcar, em nível mundial</p>
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da Universidade Federal de Alagoas – Centro de Ciências Agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
-        <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl h-full">
-        <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl h-full">
-        <h2 class="mt-24 col-span-2 font-extrabold mx-auto text-azul">Aumente em mais de 10 vezes a lucratividade</h2>
+        <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl lg:h-full">
+        <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl lg:h-full">
+        <h2 class="mt-24 font-extrabold mx-auto text-azul lg:col-span-2">Aumente em mais de 10 vezes a lucratividade</h2>
         <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
             <thead>
                 <tr>
@@ -171,8 +171,8 @@
                 </tr>
             </tfoot>
         </table>
-        <h2 class="mt-16 col-span-2 font-extrabold mx-auto">Fora o ganho com a geração de energia elétrica</h2>
-        <img src="./src/assets/img/plantacao-cana-alagoas-grafico.png" alt="" class="w-full shadow-2xl mb-16 rounded-lg col-span-2">
+        <h2 class="mt-16 font-extrabold mx-auto lg:col-span-2">Fora o ganho com a geração de energia elétrica</h2>
+        <img src="./src/assets/img/plantacao-cana-alagoas-grafico.png" alt="" class="w-full shadow-2xl mb-16 rounded-lg lg:col-span-2">
         <span class="mb-4">
             <p>Confira em detalhes toda analize dos resultados obtidos na pesquisa para desenvolvimento de todo o potencial nesse segmento, logo abaixo:</p>
             <a class="mt-8" href="./src/assets/projeto_agrofotovoltaico_usina_santa_clotilde.pdf" target="_blank"><strong class="cursor-pointer text-azul">Projeto Usina SANTA CLOTILDE</strong></a>
@@ -182,9 +182,9 @@
 
 <section class="sessao">
     <span id="locacao" class="absolute -top-8"></span>
-    <container class="conteudo grid-cols-2">
+    <container class="conteudo lg:grid-cols-2">
         <div>
-            <img src="./src/assets/img/Projeto Smart Leme_3.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/Projeto Smart Leme_3.jpg" alt="" class="aspect-square rounded-lg object-cover scale-90 lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-center">
@@ -626,7 +626,7 @@
 
 <section class="sessao">
     <span id="grandes-projetos" class="absolute -top-8"></span>
-    <container class="conteudo grid-cols-2">
+    <container class="conteudo lg:grid-cols-2">
         <div class="coluna justify-center">
             <h2 class="flex items-center">
                 <iconify-icon icon="lucide:building-2" class="mr-4"></iconify-icon>
@@ -643,7 +643,7 @@
 
 <section class="sessao">
     <span id="seu-projeto" class="absolute -top-8"></span>
-    <container class="conteudo grid-cols-2">
+    <container class="conteudo lg:grid-cols-2">
         <div>
             <img src="./src/assets/img/pequeno-projetos.png" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
