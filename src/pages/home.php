@@ -59,9 +59,9 @@
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da Universidade Federal de Alagoas – Centro de Ciências Agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
-        <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
-        <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
-        <h2 class="col-span-2 font-extrabold mx-auto text-azul">Aumente em mais de 10 vezes a lucratividade</h2>
+        <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl h-full">
+        <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl h-full">
+        <h2 class="mt-24 col-span-2 font-extrabold mx-auto text-azul">Aumente em mais de 10 vezes a lucratividade</h2>
         <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
             <thead>
                 <tr>
@@ -849,7 +849,7 @@
                     <div class="w-5 mr-4">
                         <iconify-icon icon="lucide:phone" width="100%"></iconify-icon>
                     </div>
-                    <p class="m-0">+55 11 99999-9999</p>
+                    <p class="m-0">+55 11 94808-4740</p>
                 </li>
             </ul>
             <br><br>
@@ -865,7 +865,7 @@
                     <div class="w-5 mr-4">
                         <iconify-icon icon="lucide:phone" width="100%"></iconify-icon>
                     </div>
-                    <p class="m-0">+55 11 99999-9999</p>
+                    <p class="m-0">+55 11 98162-9859</p>
                 </li>
             </ul>
         </div>
