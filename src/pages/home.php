@@ -8,14 +8,14 @@
             <iconify-icon icon="lucide:chevrons-left" class="z-40 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
         </div>
         <div class="coluna justify-center">
-            <h2>Agrifotovoltáico</h2>
+            <h2>Agrifotovoltaico</h2>
             <h3 class="font-extrabold text-azul">Tenha até 10 vezes mais lucro por safra</h3>
-            <p class="mb-4">O sistema agrifotovoltáico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. Buscamos oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
+            <p class="mb-4">O sistema agrifotovoltaico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. Buscamos oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
             <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecido pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
             <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
             <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
             <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
-            <p class="mb-4">Veja logo abaixo:</p>
+            <p class="mb-4">Veja aqui o caso da Usina de Santa Clotilde:</p>
         </div>
     </container>
     <container class="conteudo grid-cols-3 gap-x-16 mb-28">
@@ -24,7 +24,7 @@
             <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
         </div>
         <div>
-            <p><strong class="text-3xl text-black mr-2">2.</strong> Produção de estrutura física de produção fotovoltaíca em estufas para área agrícola com:</p>
+            <p><strong class="text-3xl text-black mr-2">2.</strong> Produção de estrutura física fotovoltaica em estufas para área agrícola com:</p>
             <ul>
                 <li class="mb-2 flex items-center">
                     <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
@@ -36,7 +36,7 @@
                     <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
                 </li>
                 <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reuso de água de chuva
+                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reúso de água de chuva
                 </li>
                 <li class="mb-2 flex items-center">
                     <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
@@ -47,16 +47,16 @@
             <p><strong class="text-3xl text-black mr-2">3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
             <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
             <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
-            <p>Novo sistema de fixação de paineis que permite acompanhar os ciclos solares e geram significativo ganho de produtividade.</p>
+            <p>Novo sistema de fixação de painéis que permite acompanhar os ciclos solares e gera significativo ganho de produtividade.</p>
         </div>
     </container>
     <span id="pesquisa" class="-top-8"></span>
     <container class="conteudo grid-cols-2">
         <div class=" col-span-2">
-            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO NA PRODUTIVIDADE NA CULTURA DE CANA DE AÇUCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
+            <h3 class="text-center text-[#83a000] font-extrabold w-5/6 mx-auto">REALIDADE SOBRE GERAÇÃO FOTOVOLTAICA E AUMENTO NA PRODUTIVIDADE NA CULTURA DE CANA DE AÇÚCAR COM PARTICIPAÇÃO DA AGRO&SOLAR</h3>
             <p class="">Local = Usina Santa Clotilde – Rio Largo – Alagoas</p>
-            <p class="">Primeira instalação do tipo, sobre cana de açúcar, a nível mundial</p>
-            <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da universidade federal de alagoas – centro de ciências agrárias.</p>
+            <p class="">Primeira instalação do tipo, sobre cana de açúcar, em nível mundial</p>
+            <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da Universidade Federal de Alagoas – Centro de Ciências Agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
         <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl rounded-lg aspect-video object-cover">
@@ -184,14 +184,14 @@
     <span id="locacao" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div>
-            <img src="./src/assets/img/foto-posto.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/Projeto Smart Leme_3.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-center">
                 <iconify-icon icon="lucide:grid-3x3" class="mr-4"></iconify-icon>
                 Locação de Sistemas
             </h2>
-            <p class="mb-16">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltáicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia em seguida à instalação. <strong>Além disso, a economia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante (veja na planilha abaixo).</strong></p>
+            <p class="mb-16">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovoltaicos. Neste modelo, a Agro&Solar fornece gratuitamente o sistema e garante uma redução de sua conta de energia em seguida à instalação. <strong>Além disso, a economia gerada proporciona ganhos financeiros a longo prazo, tornando o investimento uma fonte de retorno constante (veja na planilha abaixo).</strong></p>
             <strong>
                 <ul class="grid gap-4">
                     <li>Redução imediata na conta de luz</li>
@@ -405,7 +405,7 @@
                                 <td class="tab-celula tab-invest">R$ 7.200</td>
                                 <td class="tab-celula tab-invest">R$ 9.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 158.400</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 407.399</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 534.537</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 4.800</td>
@@ -416,7 +416,7 @@
                                 <td class="tab-celula tab-invest">R$ 9.600</td>
                                 <td class="tab-celula tab-invest">R$ 12.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 211.200</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 466.238</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 712.716</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 7.200</td>
@@ -427,7 +427,7 @@
                                 <td class="tab-celula tab-invest">R$ 14.400</td>
                                 <td class="tab-celula tab-invest">R$ 18.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 316.800</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 583.916</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.069.075</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 9.600</td>
@@ -438,7 +438,7 @@
                                 <td class="tab-celula tab-invest">R$ 19.200</td>
                                 <td class="tab-celula tab-invest">R$ 24.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 422.400</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 701.594</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.361.049</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 12.000</td>
@@ -449,7 +449,7 @@
                                 <td class="tab-celula tab-invest">R$ 24.000</td>
                                 <td class="tab-celula tab-invest">R$ 30.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 528.000</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 819.272</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.781.791</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 14.400</td>
@@ -460,7 +460,7 @@
                                 <td class="tab-celula tab-invest">R$ 28.800</td>
                                 <td class="tab-celula tab-invest">R$ 36.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 633.600</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 936.949</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.138.149</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 16.800</td>
@@ -471,7 +471,7 @@
                                 <td class="tab-celula tab-invest">R$ 33.600</td>
                                 <td class="tab-celula tab-invest">R$ 42.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 739.200</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.054.627</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.494.508</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 19.200</td>
@@ -482,7 +482,7 @@
                                 <td class="tab-celula tab-invest">R$ 38.400</td>
                                 <td class="tab-celula tab-invest">R$ 48.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 844.800</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.172.305</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.850.866</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 21.600</td>
@@ -493,7 +493,7 @@
                                 <td class="tab-celula tab-invest">R$ 43.200</td>
                                 <td class="tab-celula tab-invest">R$ 54.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 950.400</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.289.983</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 3.207.224</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 24.000</td>
@@ -504,7 +504,7 @@
                                 <td class="tab-celula tab-invest">R$ 48.000</td>
                                 <td class="tab-celula tab-invest">R$ 60.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.056.000</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.407.661</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 3.563.582</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 26.400</td>
@@ -515,7 +515,7 @@
                                 <td class="tab-celula tab-invest">R$ 52.800</td>
                                 <td class="tab-celula tab-invest">R$ 66.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.161.600</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.525.338</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 3.919.941</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 28.800</td>
@@ -526,7 +526,7 @@
                                 <td class="tab-celula tab-invest">R$ 57.600</td>
                                 <td class="tab-celula tab-invest">R$ 72.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.267.200</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.643.016</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 4.276.299</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 31.200</td>
@@ -537,7 +537,7 @@
                                 <td class="tab-celula tab-invest">R$ 62.400</td>
                                 <td class="tab-celula tab-invest">R$ 78.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.372.800</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.760.694</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 4.632.657</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 33.600</td>
@@ -548,7 +548,7 @@
                                 <td class="tab-celula tab-invest">R$ 67.200</td>
                                 <td class="tab-celula tab-invest">R$ 84.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.478.400</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.878.372</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 4.989.015</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 36.000</td>
@@ -559,7 +559,7 @@
                                 <td class="tab-celula tab-invest">R$ 72.000</td>
                                 <td class="tab-celula tab-invest">R$ 90.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.584.000</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.996.050</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 5.345.374</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 38.400</td>
@@ -570,7 +570,7 @@
                                 <td class="tab-celula tab-invest">R$ 76.800</td>
                                 <td class="tab-celula tab-invest">R$ 96.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.689.600</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.113.727</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 5.701.732</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 40.800</td>
@@ -581,7 +581,7 @@
                                 <td class="tab-celula tab-invest">R$ 81.600</td>
                                 <td class="tab-celula tab-invest">R$ 102.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.795.200</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.231.405</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 6.058.090</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 43.200</td>
@@ -592,7 +592,7 @@
                                 <td class="tab-celula tab-invest">R$ 86.400</td>
                                 <td class="tab-celula tab-invest">R$ 108.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.900.800</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.349.083</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 6.306.328</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 45.600</td>
@@ -603,7 +603,7 @@
                                 <td class="tab-celula tab-invest">R$ 91.200</td>
                                 <td class="tab-celula tab-invest">R$ 114.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.006.400</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.466.761</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 6.770.807</td>
                             </tr>
                             <tr>
                                 <td class="tab-celula tab-invest">R$ 48.000</td>
@@ -614,7 +614,7 @@
                                 <td class="tab-celula tab-invest">R$ 96.000</td>
                                 <td class="tab-celula tab-invest">R$ 120.000</td>
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.112.000</td>
-                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.584.439</td>
+                                <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 7.127.165</td>
                             </tr>
                         </tbody>
                     </table>
@@ -636,7 +636,7 @@
             <!--<p>A Lupo é uma renomada fábrica brasileira especializada em meias, cuecas e roupas íntimas, reconhecida pela qualidade e inovação em seus produtos. Com sede no interior de São Paulo, a empresa tem se destacado no mercado nacional e internacional, priorizando sustentabilidade e eficiência em suas operações. Ao adotar soluções como sistemas agrifotovoltaicos, empresas como a Lupo podem reduzir custos com energia e reforçar seu compromisso com práticas ambientais responsáveis.</p>-->
         </div>
         <div>
-            <img src="./src/assets/img/fabrica.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/grande-projetos.png" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:20px 20px 0 #B3DE00;">
         </div>
     </container>
 </section>
@@ -645,7 +645,7 @@
     <span id="seu-projeto" class="absolute -top-8"></span>
     <container class="conteudo grid-cols-2">
         <div>
-            <img src="./src/assets/img/residencial.jpg" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/pequeno-projetos.png" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-top">
@@ -762,18 +762,39 @@
 </section>
 
 <section class="sessao">
-    <container class="conteudo grid-cols-3">
+    <container class="conteudo grid-cols-3 gap-8">
         <h2 class="col-span-3 flex items-center">
             <iconify-icon icon="fa:handshake-o" class="text-4xl mr-4"></iconify-icon>
             Nosso Parceiro Integrador
         </h2>
-        <img src="./src/assets/img/logo-smart-ms.png" alt="">
-        <span class="col-span-2 flex items-center">
+        <img src="./src/assets/img/logo-smart-ms.png" alt="" class="mb-12">
+        <span class="col-span-2 flex items-center mb-12">
             <p>A <strong>Smart MS</strong> é uma parceira da Agro&Solar, colaborando para oferecer soluções completas em energia solar. Enquanto a Agro&Solar realiza estudos e prospecção de clientes, a Smart MS se especializa na instalação de sistemas fotovoltaicos, garantindo segurança e confiabilidade em seus serviços. Juntas, elas promovem a eficiência energética e a sustentabilidade, atendendo às necessidades tanto de residências quanto de empresas. Essa parceria reforça o compromisso com a qualidade e a satisfação do cliente.</p>
         </span>
-        <img src="./src/assets/img/Projeto Smart Leme_2.jpg" alt="" class="mt-16 rounded-lg">
-        <img src="./src/assets/img/Projeto Smart Pouso Alegre_2.jpg" alt="" class="mt-16 rounded-lg">
-        <img src="./src/assets/img/Projeto Smart Estiva_2.jpg" alt="" class="mt-16 rounded-lg">
+        <span>
+            <img src="./src/assets/img/img-smart-1.png" alt="" class="rounded-lg">
+            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Leme - SP</p>
+        </span>
+        <span>
+            <img src="./src/assets/img/img-smart-2.png" alt="" class="rounded-lg">
+            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Estiva - MG</p>
+        </span>
+        <span>
+            <img src="./src/assets/img/img-smart-3.png" alt="" class="rounded-lg">
+            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Bambuí - MG</p>
+        </span>
+        <span>
+            <img src="./src/assets/img/img-smart-4.png" alt="" class="rounded-lg">
+            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Atibaia - SP</p>
+        </span>
+        <span>
+            <img src="./src/assets/img/img-smart-5.png" alt="" class="rounded-lg">
+            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Pouso Alegre - MG</p>
+        </span>
+        <span>
+            <img src="./src/assets/img/img-smart-6.png" alt="" class="rounded-lg">
+            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Pouso Alegre - MG</p>
+        </span>
     </container>
 </section>
 
@@ -786,7 +807,7 @@
         </h2>
         <span>
             <h3 class="flex items-center">Reynaldo Wongtschowski</h3>
-            <p class="text-xs">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e geração fotovoltáica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
+            <p class="text-xs">Mais de 55 anos de vida profissional dedicada à obtençao e transformação de energia com alta eficiência. Pioneiro na cogeração de energia e vapor e na reutilização de água industrial. Dedica-se atualmente ao desenvolvimento de energias sustentáveis, tais como o biometano e geração fotovoltaica. Elaboração do primeiro projeto nacional consorciando a produção de cana de açúcar com a energia elétrica.</p>
         </span>
         <span>
             <h3 class="flex items-center">Neuler Peçanha</h3>

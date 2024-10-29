@@ -1,7 +1,7 @@
 <section id="banner" class="sessao z-20 w-full h-dvh max-h-dvh overflow-hidden relative bg-img-banner bg-cover bg-center justify-end">
     <div class="coluna w-10/12 text-branco z-20 h-fit mx-auto">
         <div class="coluna items-center justify-center mb-12">
-            <img class="w-3/12 mb-4 img-sombra" src="./src/assets/img/logo-agro-e-solar-4.png" alt="">
+            <img class="w-4/12 mb-6 img-sombra" src="./src/assets/img/logo-agro-e-solar-4.png" alt="">
             <h1 class="w-2/3 mb-2 text-center">Transforme a Luz do Sol em Economia</h1>
             <p class="m-0 w-2/3 text-sm text-center">Reduza custos e potencialize seu negócio com soluções inteligentes. Transforme a luz do sol em economia significativa e uma operação mais ecológica, garantindo não apenas um futuro mais verde, mas também um presente mais eficiente e lucrativo.</p>
         </div>
@@ -10,8 +10,8 @@
                 <span class="banner-box">
                     <div class="box-titulo relative">
                         <div class="absolute rounded-full h-12 w-12 -top-6 right-8 bg-[#ff7119]"></div>
-                        <h4 class="text-preto font-black mb-0">Agrifotovoltáico</h5>
-                        <p class="text-preto text-xs">Agrifotovoltáico para agricultura mais produtiva</p>
+                        <h4 class="text-preto font-black mb-0">Agrifotovoltaico</h5>
+                        <p class="text-preto text-xs">Agrifotovoltaico para agricultura mais produtiva</p>
                     </div>
                     <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
                     <p class="p-4 text-xs text-preto m-0">O sistema agrifotovoltaico consiste na geração de energia elétrica de origem solar concomitante com a produção agrícola. Veja o estudo sobre cana de açucar na usina Santa Clotilde.</p>
@@ -26,7 +26,7 @@
                         <p class="text-preto text-xs">Investimento zero e economia já no primeiro mês</p>
                     </div>
                     <div class="bg-verde w-full h-4" style="clip-path: polygon(0 0, 100% 0, 0 100%);"></div>
-                    <p class="p-4 text-xs text-preto m-0">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade: a locação de sistemas fotovaoltáicos. Você não investe nada e ganha já no mês seguinte.</p>
+                    <p class="p-4 text-xs text-preto m-0">A Agro&Solar apresenta uma solução inovadora que combina economia e sustentabilidade. Você não investe nada e ganha já no mês seguinte.</p>
                     <iconify-icon icon="lucide:circle-arrow-down" class="text-verde m-4 mt-0" height="1.5rem" width="1.5rem"></iconify-icon>
                 </span>
             </a>
