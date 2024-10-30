@@ -62,7 +62,7 @@
         <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl lg:h-full">
         <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl lg:h-full">
         <h2 class="mt-24 font-extrabold mx-auto text-azul lg:col-span-2">Aumente em mais de 10 vezes a lucratividade</h2>
-        <table class="col-span-2 mx-0 shadow-xl" cellspacing="0" cellpadding="5">
+        <table class="mx-0 shadow-xl lg:col-span-2" cellspacing="0" cellpadding="5">
             <thead>
                 <tr>
                     <th class="tab-celula bg-verde p-6 text-base font-extrabold" colspan="6">ESTUDO DE RETORNO SOBRE ÁREA SOMBREADA POR USINA DE GERAÇÃO FOTOVOLTAICA. POR HECTARE (10.000 m²)</th>
@@ -636,16 +636,16 @@
             <!--<p>A Lupo é uma renomada fábrica brasileira especializada em meias, cuecas e roupas íntimas, reconhecida pela qualidade e inovação em seus produtos. Com sede no interior de São Paulo, a empresa tem se destacado no mercado nacional e internacional, priorizando sustentabilidade e eficiência em suas operações. Ao adotar soluções como sistemas agrifotovoltaicos, empresas como a Lupo podem reduzir custos com energia e reforçar seu compromisso com práticas ambientais responsáveis.</p>-->
         </div>
         <div>
-            <img src="./src/assets/img/grande-projetos.png" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/grande-projetos.png" alt="" class="aspect-square rounded-lg object-cover scale-90 lg:scale-100" style="box-shadow:20px 20px 0 #B3DE00;">
         </div>
     </container>
 </section>
 
 <section class="sessao">
     <span id="seu-projeto" class="absolute -top-8"></span>
-    <container class="conteudo lg:grid-cols-2">
+    <container class="conteudo flex flex-col-reverse lg:grid-cols-2 lg:grid">
         <div>
-            <img src="./src/assets/img/pequeno-projetos.png" alt="" class="aspect-square rounded-lg object-cover" style="box-shadow:-20px 20px 0 #B3DE00;">
+            <img src="./src/assets/img/pequeno-projetos.png" alt="" class="aspect-square rounded-lg object-cover scale-90 lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
         <div class="coluna justify-center">
             <h2 class="flex items-top">
@@ -659,12 +659,12 @@
 
 <section class="sessao bg-cover relative z-50" style="background-image: url('./src/assets/img/foto-posto.jpg')">
     <div id="form-contato" class="hidden fixed top-0 left-0 w-full h-dvh bg-red-500 bg-[#000000ad] z-40">
-        <div class="m-auto bg-branco w-1/3 p-4 rounded-md">
+        <div class="m-auto bg-branco p-4 rounded-md lg:w-1/3">
             <span class="flex items-center justify-between w-full mb-8">
                 <h3 class="m-0">Formulário de Contato</h3>
                 <iconify-icon id="btn-fechar" icon="akar-icons:x-small" height="2rem"></iconify-icon>
             </span>
-            <form action="" class="grid gap-4">
+            <form action="../php/enviar_email.php" method="post" class="grid gap-4">
                 <span class="flex flex-col">
                     <label for="" class="text-xs">Nome completo:</label>
                     <input type="text" name="nome" id="input-nome" class="input-campo" required>
@@ -689,13 +689,13 @@
                     <label for="" class="text-xs">Mensagem:</label>
                     <textarea name="mess" id="input-msg" cols="30" rows="5" class="input-campo" required></textarea>
                 </span>
-                <button id="btn-enviar" type="submit" value="" class="btn bg-verde text-base font-semibold mt-4">Enviar</button>
+                <input id="btn-enviar" type="submit" value="Enviar" class="btn bg-verde text-base font-semibold mt-4">
             </form>
         </div>
     </div>
     <span id="precos" class="absolute -top-8"></span>
-    <container class="z-30 conteudo grid-cols-4 gap-4">
-        <div class="col-span-4 text-branco w-4/6 mx-auto text-center mb-8">
+    <container class="z-30 conteudo gap-4 lg:grid-cols-4">
+        <div class="text-branco mx-auto text-center mb-8 lg:w-4/6 lg:col-span-4">
             <h2 class="text-verde font-extrabold">Veja aqui a melhor opção de investimento</h2>
             <p>O valor do seu investimento pode depender das suas necessidades específicas. Uma maneira eficiente de avaliar isso é com base no seu consumo atual. Abaixo, apresentamos algumas opções disponíveis.</p>
         </div>
@@ -791,19 +791,19 @@
                 <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
-        <p class="col-span-4 mx-auto mt-8 text-center w-2/5 text-xs text-branco">* Os valores aqui divulgados são para efeitos comparativos e poderão sofrer alterações sem aviso prévio. Consulte o nosso time comercial para maiores informações.</p>
+        <p class="mx-auto mt-8 text-center text-xs text-branco lg:col-span-4 lg:w-2/5">* Os valores aqui divulgados são para efeitos comparativos e poderão sofrer alterações sem aviso prévio. Consulte o nosso time comercial para maiores informações.</p>
     </container>
     <div class="z-20 absolute bg-preto opacity-90 w-full h-full top-0 left-0"></div>
 </section>
 
 <section class="sessao">
-    <container class="conteudo grid-cols-3 gap-8">
-        <h2 class="col-span-3 flex items-center">
+    <container class="conteudo gap-8 lg:grid-cols-3">
+        <h2 class="flex items-center lg:col-span-3">
             <iconify-icon icon="fa:handshake-o" class="text-4xl mr-4"></iconify-icon>
             Nosso Parceiro Integrador
         </h2>
         <img src="./src/assets/img/logo-smart-ms.png" alt="" class="mb-12">
-        <span class="col-span-2 flex items-center mb-12">
+        <span class="flex items-center mb-12 lg:col-span-2">
             <p>A <strong>Smart MS</strong> é uma parceira da Agro&Solar, colaborando para oferecer soluções completas em energia solar. Enquanto a Agro&Solar realiza estudos e prospecção de clientes, a Smart MS se especializa na instalação de sistemas fotovoltaicos, garantindo segurança e confiabilidade em seus serviços. Juntas, elas promovem a eficiência energética e a sustentabilidade, atendendo às necessidades tanto de residências quanto de empresas. Essa parceria reforça o compromisso com a qualidade e a satisfação do cliente.</p>
         </span>
         <span>
@@ -835,8 +835,8 @@
 
 <section class="sessao">
     <span id="equipe" class="absolute -top-8"></span>
-    <container class="conteudo grid-cols-3 gap-y-8 gap-x-16">
-        <h2 class="col-span-3 flex items-center">
+    <container class="conteudo gap-y-8 gap-x-16 lg:grid-cols-3">
+        <h2 class="flex items-center lg:col-span-3">
             <iconify-icon icon="lucide:circle-user-round" class="text-4xl mr-4"></iconify-icon>
             Equipe de Especialistas
         </h2>
@@ -869,7 +869,7 @@
 
 <section class="sessao mt-24 bg-preto">
     <span id="contato" class="absolute -top-8"></span>
-    <container class="conteudo grid-cols-2">
+    <container class="conteudo lg:grid-cols-2">
         <div>
             <h2 class="text-verde mb-8">Fale Conosco</h2>
             <ul class="grid gap-y-4">

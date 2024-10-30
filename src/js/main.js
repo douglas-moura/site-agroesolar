@@ -15,6 +15,7 @@ document.querySelectorAll('span.contratar-preco').forEach((elemet) => {
     })
 })
 
+/*
 document.getElementById('btn-enviar').addEventListener('click', () => {
     const nome = document.getElementById('input-nome').value
     const email = document.getElementById('input-email').value
@@ -41,3 +42,4 @@ function enviarEmail(content) {
     window.location.href = `mailto:${destinatario}?subject=${encodeURIComponent(assunto)}&body=${encodeURIComponent(corpo)}`;
     alert('E-mail enviado')
 }
+*/
