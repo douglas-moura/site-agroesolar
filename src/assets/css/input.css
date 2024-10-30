@@ -56,6 +56,10 @@
     p {
         @apply mb-4
     }
+
+    iconify-icon {
+        @apply cursor-pointer
+    }
 }
 
 @layer components {
@@ -72,7 +76,7 @@
     }
     
     .btn {
-        @apply text-sm outline-none border-0 font-semibold inline-flex items-center transition-all py-3 px-6 rounded-full hover:px-10
+        @apply cursor-pointer text-sm outline-none border-0 font-semibold inline-flex items-center transition-all py-3 px-6 rounded hover:px-10
     }
 
     .nav-link {
@@ -112,7 +116,7 @@
     }
 
     .btn-wtzp {
-        @apply bg-[#009900] p-2 rounded-full text-branco my-8 font-semibold flex items-center justify-center
+        @apply cursor-pointer bg-[#009900] p-2 rounded-full text-branco my-8 font-semibold flex items-center justify-center
     }
 
     .box-preco-benef {
@@ -121,6 +125,10 @@
 
     .active {
         @apply bg-preto
+    }
+
+    .input-campo {
+        @apply border-[1px] border-cinza-claro rounded p-2 text-xs outline-none
     }
 }
 

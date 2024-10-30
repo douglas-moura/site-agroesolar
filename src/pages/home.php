@@ -657,23 +657,58 @@
     </container>
 </section>
 
-<section class="sessao bg-cover relative" style="background-image: url('./src/assets/img/foto-posto.jpg')">
+<section class="sessao bg-cover relative z-50" style="background-image: url('./src/assets/img/foto-posto.jpg')">
+    <div id="form-contato" class="hidden fixed top-0 left-0 w-full h-dvh bg-red-500 bg-[#000000ad] z-40">
+        <div class="m-auto bg-branco w-1/3 p-4 rounded-md">
+            <span class="flex items-center justify-between w-full mb-8">
+                <h3 class="m-0">Formulário de Contato</h3>
+                <iconify-icon id="btn-fechar" icon="akar-icons:x-small" height="2rem"></iconify-icon>
+            </span>
+            <form action="" class="grid gap-4">
+                <span class="flex flex-col">
+                    <label for="" class="text-xs">Nome completo:</label>
+                    <input type="text" name="nome" id="input-nome" class="input-campo" required>
+                </span>
+                <span class="flex flex-col">
+                    <label for="" class="text-xs">E-mail:</label>
+                    <input type="email" name="email" id="input-email" class="input-campo" required>
+                </span>
+                <span class="flex flex-col">
+                    <label for="" class="text-xs">Telefone:</label>
+                    <input type="text" name="tel" id="input-tel" class="input-campo" required>
+                </span>
+                <span class="flex flex-col">
+                    <label for="" class="text-xs">Serviço de Interesse:</label>
+                    <input type="text" name="serv" id="input-serv" class="input-campo" value="Locação de Sistema Fotovoltaico" required>
+                </span>
+                <span class="flex flex-col">
+                    <label for="" class="text-xs">Valor atual da sua conta:</label>
+                    <input type="text" name="conta" id="input-valor-conta" class="input-campo" required>
+                </span>
+                <span class="flex flex-col">
+                    <label for="" class="text-xs">Mensagem:</label>
+                    <textarea name="mess" id="input-msg" cols="30" rows="5" class="input-campo" required></textarea>
+                </span>
+                <button id="btn-enviar" type="submit" value="" class="btn bg-verde text-base font-semibold mt-4">Enviar</button>
+            </form>
+        </div>
+    </div>
     <span id="precos" class="absolute -top-8"></span>
-    <container class="z-40 conteudo grid-cols-4 gap-4">
+    <container class="z-30 conteudo grid-cols-4 gap-4">
         <div class="col-span-4 text-branco w-4/6 mx-auto text-center mb-8">
             <h2 class="text-verde font-extrabold">Veja aqui a melhor opção de investimento</h2>
             <p>O valor do seu investimento pode depender das suas necessidades específicas. Uma maneira eficiente de avaliar isso é com base no seu consumo atual. Abaixo, apresentamos algumas opções disponíveis.</p>
         </div>
-        <div class="box-preco-invest">
+        <div id="box-preco-1" class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 282</span>
+            <span id="valor-1" class="text-3xl text-verde font-extrabold">R$ 282</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 10.800*</span>
-            <a href="" class="btn-wtzp">
+            <span id="contrata-preco-1" href="" class="contratar-preco btn-wtzp">
                 <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
                 Contratar
-            </a>
+            </span>
             <ul class="w-full text-left ml-4">
                 <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
@@ -687,16 +722,16 @@
                 <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
-        <div class="box-preco-invest">
+        <div id="box-preco-2" class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 376</span>
+            <span id="valor-2" class="text-3xl text-verde font-extrabold">R$ 376</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 12.200*</span>
-            <a href="" class="btn-wtzp">
+            <span id="contrata-preco-2" href="" class="contratar-preco btn-wtzp">
                 <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
                 Contratar
-            </a>
+            </span>
             <ul class="w-full text-left ml-4">
                 <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
@@ -710,16 +745,16 @@
                 <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
-        <div class="box-preco-invest">
+        <div id="box-preco-3" class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 470</span>
+            <span id="valor-3" class="text-3xl text-verde font-extrabold">R$ 470</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 15.500*</span>
-            <a href="" class="btn-wtzp">
+            <span id="contrata-preco-3" href="" class="contratar-preco btn-wtzp">
                 <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
                 Contratar
-            </a>
+            </span>
             <ul class="w-full text-left ml-4">
                 <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
@@ -733,16 +768,16 @@
                 <li class="box-preco-benef text-[#FEB42F]">Manutenção (opcional)</li>
             </ul>
         </div>
-        <div class="box-preco-invest">
+        <div id="box-preco-4" class="box-preco-invest">
             <p>Se o valor da sua conta é:</p>
-            <span class="text-3xl text-verde font-extrabold">R$ 1.000</span>
+            <span id="valor-4" class="text-3xl text-verde font-extrabold">R$ 1.000</span>
             <hr class="w-2/3 border-[0.5px]">
             <p>Investimento total estimado:</p>
             <span class="text-3xl">R$ 28.000*</span>
-            <a href="" class="btn-wtzp">
+            <span id="contrata-preco-4" href="" class="contratar-preco btn-wtzp">
                 <iconify-icon icon="akar-icons:whatsapp-fill" class="mr-2"></iconify-icon>
                 Contratar
-            </a>
+            </span>
             <ul class="w-full text-left ml-4">
                 <li class="box-preco-benef">Análise com Drone</li>
                 <li class="box-preco-benef">Módulos Fotovoltaicos</li>
@@ -800,7 +835,7 @@
 
 <section class="sessao">
     <span id="equipe" class="absolute -top-8"></span>
-    <container class="conteudo grid-cols-3 gap-y-8 gap-x-16 z-20">
+    <container class="conteudo grid-cols-3 gap-y-8 gap-x-16">
         <h2 class="col-span-3 flex items-center">
             <iconify-icon icon="lucide:circle-user-round" class="text-4xl mr-4"></iconify-icon>
             Equipe de Especialistas
