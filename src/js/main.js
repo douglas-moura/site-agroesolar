@@ -15,6 +15,18 @@ document.querySelectorAll('span.contratar-preco').forEach((elemet) => {
     })
 })
 
+function abrirMenuMobile() {
+    const menuMobile = document.getElementById('menu-mobile')
+    menuMobile.style.transform = 'translateX(0)'
+}
+
+function fecharMenuMobile() {
+    const menuMobile = document.getElementById('menu-mobile')
+    setTimeout(() => {
+        menuMobile.style.transform = 'translateX(100%)'
+    }, 200)
+}
+
 /*
 document.getElementById('btn-enviar').addEventListener('click', () => {
     const nome = document.getElementById('input-nome').value
