@@ -29,7 +29,7 @@
                 </ul>
             </div>
         </nav>
-        <div id="menu-mobile" class="fixed w-full h-dvh bg-branco z-50 transition-all duration-100" style="transform: translateX(100%);">
+        <div id="menu-mobile" class="fixed w-full h-dvh bg-branco z-50 transition-all duration-100 lg:hidden" style="transform: translateX(100%);">
             <iconify-icon icon="ri:close-fill" class="text-preto m-4" width="2rem" onclick="fecharMenuMobile()"></iconify-icon>
             <li class="list-none p-4"><a class="" href="#banner" onclick="fecharMenuMobile()">Home</a></li>
             <li class="list-none p-4"><a class="" href="#pesquisa" onclick="fecharMenuMobile()">Pesquisa</a></li>
