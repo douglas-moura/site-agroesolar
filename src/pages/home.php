@@ -5,7 +5,7 @@
     <container class="conteudo mb-28 lg:grid-cols-2">
         <div class="relative">
             <img src="./src/assets/img/engenheiro-com-placas.jpg" alt="" class="aspect-square scale-90 rounded-lg object-cover lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
-            <iconify-icon icon="lucide:chevrons-left" class="z-40 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
+            <iconify-icon icon="lucide:chevrons-left" class="z-30 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
         </div>
         <div class="coluna justify-center mt-8 lg:mt-0">
             <h2>Agrifotovoltaico</h2>
@@ -18,7 +18,7 @@
             <p class="mb-4">Veja aqui o caso da Usina de Santa Clotilde:</p>
         </div>
     </container>
-    <container class="conteudo gap-x-16 mb-28 lg:grid-cols-3">
+    <container class="conteudo gap-y-16 mb-28 lg:gap-x-16 lg:grid-cols-3">
         <h2 class="text-azul text-center mx-auto font-extrabold lg:w-1/2 lg:col-span-3">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
         <div>
             <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
@@ -206,14 +206,17 @@
         <div id="tabela-investmento" class="col-span-2 mt-16">
             <h3 class="mx-auto w-full text-center mt-16">ECONOMIA NAS CONTAS DE ELETRICIDADE SE 1kW = R$ 1,00 (em R$)</h3>
             <div class="w-full flex overflow-hidden">
-                <div class="w-4/12">
+                <div class="w-full">
                     <table class="w-full" cellspacing="0" cellpadding="5">
                         <thead>
                             <tr>
-                                <th class="tab-celula tab-celular-tit_1 w-1/4">CONTA</th>
-                                <th class="tab-celula tab-celular-tit_1 w-1/4">CONTA</th>
-                                <th class="tab-celula tab-celular-tit_1 w-1/4">CONSUMO</th>
-                                <th class="tab-celula tab-celular-tit_1 w-1/4">COMPRA</th>
+                                <th class="tab-celula tab-celular-tit_1">CONTA</th>
+                                <th class="tab-celula tab-celular-tit_1">CONTA</th>
+                                <th class="tab-celula tab-celular-tit_1">CONSUMO</th>
+                                <th class="tab-celula tab-celular-tit_1">COMPRA</th>
+                                <th class="tab-celula tab-celular-tit_1" colspan="7">ECONOMIA POR ANO</th>
+                                <th class="tab-celula tab-celular-tit_1" colspan="2">ECONOMIA TOTAL R$</th>
+                            </tr>
                             </tr>
                         </thead>
                         <tbody>
@@ -222,149 +225,6 @@
                                 <td class="tab-celula bg-[#B5E6A2] tab-celular-tit_2">Anual</td>
                                 <td class="tab-celula bg-[#FBE2D5] tab-celular-tit_2">KWh/mês</td>
                                 <td class="tab-celula bg-[#DAE9F8] tab-celular-tit_2">Invest.</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest text-[#fff]" colspan="4">50%</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 12.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">1.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 28.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.500</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 18.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">1.500 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 35.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 2.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 24.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 45.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 3.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 36.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 65.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 4.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 48.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">4.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 85.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 5.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 60.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">5.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 105.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 6.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 72.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">6.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 125.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 7.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 84.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">7.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 145.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 8.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 96.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">8.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 165.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 9.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 108.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">9.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 185.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 10.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 120.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">10.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 205.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 11.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 132.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">11.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 225.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 12.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 144.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">12.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 245.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 13.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 156.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">13.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 265.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 14.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 168.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">14.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 285.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 15.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 180.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">15.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 305.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 16.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 192.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">16.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 325.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 17.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 204.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">17.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 345.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 18.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 216.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">18.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 365.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 19.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 228.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">19.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 385.000</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 20.000</td>
-                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 240.000</td>
-                                <td class="tab-celula tab-invest bg-[#FBE2D5]">20.000 kWh</td>
-                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 405.000</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="w-8/12 overflow-x-scroll">
-                    <table class="w-full" cellspacing="0" cellpadding="5">
-                        <thead>
-                            <tr>
-                                <th class="tab-celula tab-celular-tit_1 w-7/12" colspan="7">ECONOMIA POR ANO</th>
-                                <th class="tab-celula tab-celular-tit_1 w-5/12" colspan="2">ECONOMIA TOTAL R$</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="min-h-16">
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 01</td>
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 02</td>
                                 <td class="tab-celula bg-verde tab-celular-tit_2">Ano 03</td>
@@ -376,6 +236,7 @@
                                 <td class="tab-celula bg-[#ADD8E6] tab-celular-tit_2">GANHO TOTAL C/<br>APLICAÇÃO<br>12% Real/Ano</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest text-[#fff]" colspan="4"></td>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>20%</strong></td>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>20%</strong></td>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>30%</strong></td>
@@ -383,9 +244,13 @@
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>40%</strong></td>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>40%</strong></td>
                                 <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"><strong>50%</strong></td>
-                                <td class="tab-celula tab-invest font-extrabold text-[#ff0000]"></td>
+                                <td class="tab-celula tab-invest font-extrabold text-[#ff0000]" colspan="2"></td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 12.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">1.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 28.000</td>
                                 <td class="tab-celula tab-invest">R$ 2.400</td>
                                 <td class="tab-celula tab-invest">R$ 2.400</td>
                                 <td class="tab-celula tab-invest">R$ 3.600</td>
@@ -397,6 +262,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 356.358</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 1.500</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 18.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">1.500 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 35.000</td>
                                 <td class="tab-celula tab-invest">R$ 3.600</td>
                                 <td class="tab-celula tab-invest">R$ 3.600</td>
                                 <td class="tab-celula tab-invest">R$ 5.400</td>
@@ -408,6 +277,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 534.537</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 2.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 24.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 45.000</td>
                                 <td class="tab-celula tab-invest">R$ 4.800</td>
                                 <td class="tab-celula tab-invest">R$ 4.800</td>
                                 <td class="tab-celula tab-invest">R$ 7.200</td>
@@ -419,6 +292,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 712.716</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 3.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 36.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">2.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 65.000</td>
                                 <td class="tab-celula tab-invest">R$ 7.200</td>
                                 <td class="tab-celula tab-invest">R$ 7.200</td>
                                 <td class="tab-celula tab-invest">R$ 10.800</td>
@@ -430,6 +307,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.069.075</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 4.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 48.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">4.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 85.000</td>
                                 <td class="tab-celula tab-invest">R$ 9.600</td>
                                 <td class="tab-celula tab-invest">R$ 9.600</td>
                                 <td class="tab-celula tab-invest">R$ 14.400</td>
@@ -441,6 +322,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.361.049</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 5.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 60.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">5.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 105.000</td>
                                 <td class="tab-celula tab-invest">R$ 12.000</td>
                                 <td class="tab-celula tab-invest">R$ 12.000</td>
                                 <td class="tab-celula tab-invest">R$ 18.000</td>
@@ -452,6 +337,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 1.781.791</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 6.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 72.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">6.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 125.000</td>
                                 <td class="tab-celula tab-invest">R$ 14.400</td>
                                 <td class="tab-celula tab-invest">R$ 14.400</td>
                                 <td class="tab-celula tab-invest">R$ 21.600</td>
@@ -463,6 +352,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.138.149</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 7.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 84.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">7.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 145.000</td>
                                 <td class="tab-celula tab-invest">R$ 16.800</td>
                                 <td class="tab-celula tab-invest">R$ 16.800</td>
                                 <td class="tab-celula tab-invest">R$ 25.200</td>
@@ -474,6 +367,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.494.508</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 8.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 96.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">8.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 165.000</td>
                                 <td class="tab-celula tab-invest">R$ 19.200</td>
                                 <td class="tab-celula tab-invest">R$ 19.200</td>
                                 <td class="tab-celula tab-invest">R$ 28.800</td>
@@ -485,6 +382,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 2.850.866</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 9.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 108.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">9.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 185.000</td>
                                 <td class="tab-celula tab-invest">R$ 21.600</td>
                                 <td class="tab-celula tab-invest">R$ 21.600</td>
                                 <td class="tab-celula tab-invest">R$ 32.400</td>
@@ -496,6 +397,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 3.207.224</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 10.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 120.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">10.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 205.000</td>
                                 <td class="tab-celula tab-invest">R$ 24.000</td>
                                 <td class="tab-celula tab-invest">R$ 24.000</td>
                                 <td class="tab-celula tab-invest">R$ 36.000</td>
@@ -507,6 +412,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 3.563.582</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 11.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 132.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">11.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 225.000</td>
                                 <td class="tab-celula tab-invest">R$ 26.400</td>
                                 <td class="tab-celula tab-invest">R$ 26.400</td>
                                 <td class="tab-celula tab-invest">R$ 39.600</td>
@@ -518,6 +427,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 3.919.941</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 12.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 144.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">12.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 245.000</td>
                                 <td class="tab-celula tab-invest">R$ 28.800</td>
                                 <td class="tab-celula tab-invest">R$ 28.800</td>
                                 <td class="tab-celula tab-invest">R$ 43.200</td>
@@ -529,6 +442,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 4.276.299</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 13.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 156.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">13.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 265.000</td>
                                 <td class="tab-celula tab-invest">R$ 31.200</td>
                                 <td class="tab-celula tab-invest">R$ 31.200</td>
                                 <td class="tab-celula tab-invest">R$ 46.800</td>
@@ -540,6 +457,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 4.632.657</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 14.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 168.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">14.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 285.000</td>
                                 <td class="tab-celula tab-invest">R$ 33.600</td>
                                 <td class="tab-celula tab-invest">R$ 33.600</td>
                                 <td class="tab-celula tab-invest">R$ 50.400</td>
@@ -551,6 +472,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 4.989.015</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 15.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 180.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">15.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 305.000</td>
                                 <td class="tab-celula tab-invest">R$ 36.000</td>
                                 <td class="tab-celula tab-invest">R$ 36.000</td>
                                 <td class="tab-celula tab-invest">R$ 54.000</td>
@@ -562,6 +487,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 5.345.374</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 16.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 192.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">16.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 325.000</td>
                                 <td class="tab-celula tab-invest">R$ 38.400</td>
                                 <td class="tab-celula tab-invest">R$ 38.400</td>
                                 <td class="tab-celula tab-invest">R$ 57.600</td>
@@ -573,6 +502,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 5.701.732</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 17.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 204.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">17.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 345.000</td>
                                 <td class="tab-celula tab-invest">R$ 40.800</td>
                                 <td class="tab-celula tab-invest">R$ 40.800</td>
                                 <td class="tab-celula tab-invest">R$ 61.200</td>
@@ -584,6 +517,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 6.058.090</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 18.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 216.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">18.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 365.000</td>
                                 <td class="tab-celula tab-invest">R$ 43.200</td>
                                 <td class="tab-celula tab-invest">R$ 43.200</td>
                                 <td class="tab-celula tab-invest">R$ 64.800</td>
@@ -595,6 +532,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 6.306.328</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 19.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 228.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">19.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 385.000</td>
                                 <td class="tab-celula tab-invest">R$ 45.600</td>
                                 <td class="tab-celula tab-invest">R$ 45.600</td>
                                 <td class="tab-celula tab-invest">R$ 68.400</td>
@@ -606,6 +547,10 @@
                                 <td class="tab-celula tab-invest bg-[#ADD8E6]">R$ 6.770.807</td>
                             </tr>
                             <tr>
+                                <td class="tab-celula tab-invest bg-[#DAF2D0] font-black">R$ 20.000</td>
+                                <td class="tab-celula tab-invest bg-[#B5E6A2]">R$ 240.000</td>
+                                <td class="tab-celula tab-invest bg-[#FBE2D5]">20.000 kWh</td>
+                                <td class="tab-celula tab-invest bg-[#DAE9F8] font-black">R$ 405.000</td>
                                 <td class="tab-celula tab-invest">R$ 48.000</td>
                                 <td class="tab-celula tab-invest">R$ 48.000</td>
                                 <td class="tab-celula tab-invest">R$ 72.000</td>
@@ -657,7 +602,7 @@
     </container>
 </section>
 
-<section class="sessao bg-cover relative z-50" style="background-image: url('./src/assets/img/foto-posto.jpg')">
+<section class="sessao bg-cover relative z-40" style="background-image: url('./src/assets/img/foto-posto.jpg')">
     <div id="form-contato" class="hidden fixed top-0 left-0 w-full h-dvh bg-red-500 bg-[#000000ad] z-40">
         <div class="m-auto bg-branco p-4 rounded-md lg:w-1/3">
             <span class="flex items-center justify-between w-full mb-8">
@@ -694,7 +639,7 @@
         </div>
     </div>
     <span id="precos" class="absolute -top-8"></span>
-    <container class="z-30 conteudo gap-4 lg:grid-cols-4">
+    <container class="z-20 conteudo gap-4 lg:grid-cols-4">
         <div class="text-branco mx-auto text-center mb-8 lg:w-4/6 lg:col-span-4">
             <h2 class="text-verde font-extrabold">Veja aqui a melhor opção de investimento</h2>
             <p>O valor do seu investimento pode depender das suas necessidades específicas. Uma maneira eficiente de avaliar isso é com base no seu consumo atual. Abaixo, apresentamos algumas opções disponíveis.</p>
@@ -793,7 +738,7 @@
         </div>
         <p class="mx-auto mt-8 text-center text-xs text-branco lg:col-span-4 lg:w-2/5">* Os valores aqui divulgados são para efeitos comparativos e poderão sofrer alterações sem aviso prévio. Consulte o nosso time comercial para maiores informações.</p>
     </container>
-    <div class="z-20 absolute bg-preto opacity-90 w-full h-full top-0 left-0"></div>
+    <div class="z-10 absolute bg-preto opacity-90 w-full h-full top-0 left-0"></div>
 </section>
 
 <section class="sessao">
@@ -808,27 +753,27 @@
         </span>
         <span>
             <img src="./src/assets/img/img-smart-1.png" alt="" class="rounded-lg">
-            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Leme - SP</p>
+            <p class="mt-3 mb-0 text-xs lg:text-base">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Leme - SP</p>
         </span>
         <span>
             <img src="./src/assets/img/img-smart-2.png" alt="" class="rounded-lg">
-            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Estiva - MG</p>
+            <p class="mt-3 mb-0 text-xs lg:text-base">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Estiva - MG</p>
         </span>
         <span>
             <img src="./src/assets/img/img-smart-3.png" alt="" class="rounded-lg">
-            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Bambuí - MG</p>
+            <p class="mt-3 mb-0 text-xs lg:text-base">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Bambuí - MG</p>
         </span>
         <span>
             <img src="./src/assets/img/img-smart-4.png" alt="" class="rounded-lg">
-            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Atibaia - SP</p>
+            <p class="mt-3 mb-0 text-xs lg:text-base">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Atibaia - SP</p>
         </span>
         <span>
             <img src="./src/assets/img/img-smart-5.png" alt="" class="rounded-lg">
-            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Pouso Alegre - MG</p>
+            <p class="mt-3 mb-0 text-xs lg:text-base">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Pouso Alegre - MG</p>
         </span>
         <span>
             <img src="./src/assets/img/img-smart-6.png" alt="" class="rounded-lg">
-            <p class="mt-3 mb-0">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Pouso Alegre - MG</p>
+            <p class="mt-3 mb-0 text-xs lg:text-base">Projeto Empresarial - Rede Dom Pedro de postos <br> Cidade: Pouso Alegre - MG</p>
         </span>
     </container>
 </section>
