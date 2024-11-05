@@ -993,6 +993,16 @@ iconify-icon{
   margin-right: auto;
 }
 
+.my-8{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.my-16{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .mb-0{
   margin-bottom: 0px;
 }
@@ -1399,6 +1409,11 @@ iconify-icon{
   line-height: 1rem;
 }
 
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
 .font-black{
   font-weight: 900;
 }
@@ -1480,10 +1495,6 @@ iconify-icon{
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.duration-200{
-  transition-duration: 200ms;
 }
 
 .duration-100{

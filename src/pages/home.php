@@ -2,53 +2,53 @@
 
 <section class="sessao bg-cinza-claro-2 relative overflow-hidden">
     <span id="agrifotovoltaico" class="absolute -top-8"></span>
-    <container class="conteudo mb-28 lg:grid-cols-2">
+    <container class="conteudo lg:grid-cols-2">
         <div class="relative">
             <img src="./src/assets/img/engenheiro-com-placas.jpg" alt="" class="aspect-square scale-90 rounded-lg object-cover lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
             <iconify-icon icon="lucide:chevrons-left" class="z-30 top-0 -right-8 text-9xl text-verde absolute"></iconify-icon>
         </div>
         <div class="coluna justify-center mt-8 lg:mt-0">
             <h2>Agrifotovoltaico</h2>
-            <h3 class="font-extrabold text-azul">Tenha até 10 vezes mais lucro por safra</h3>
-            <p class="mb-4">O sistema agrifotovoltaico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. Buscamos oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
-            <p class="mb-4">Nossa visão é ser líder no mercado de energias renováveis, reconhecido pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
-            <p class="mb-4">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
-            <p class="mb-4">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
-            <p class="mb-4">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
-            <p class="mb-4">Veja aqui o caso da Usina de Santa Clotilde:</p>
+            <h3 class="text-azul font-extrabold">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h3>
+            <div class="mb-8">
+                <p><strong class="text-xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
+            </div>
+            <div class="mb-8">
+                <p><strong class="text-xl text-black mr-2">2.</strong> Produção de estrutura física fotovoltaica em estufas para área agrícola com:</p>
+                <ul>
+                    <li class="mb-2 flex items-center">
+                        <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
+                    </li>
+                    <li class="mb-2 flex items-center">
+                        <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
+                    </li>
+                    <li class="mb-2 flex items-center">
+                        <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
+                    </li>
+                    <li class="mb-2 flex items-center">
+                        <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reúso de água de chuva
+                    </li>
+                    <li class="mb-2 flex items-center">
+                        <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <p><strong class="text-xl text-black mr-2">3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
+                <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
+                <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
+                <p>Novo sistema de fixação de painéis que permite acompanhar os ciclos solares e gera significativo ganho de produtividade.</p>
+            </div>
         </div>
     </container>
-    <container class="conteudo gap-y-16 mb-28 lg:gap-x-16 lg:grid-cols-3">
-        <h2 class="text-azul text-center mx-auto font-extrabold lg:w-1/2 lg:col-span-3">Gerando inovação para os mercados que utilizam painéis fotovoltaicos</h2>
-        <div>
-            <p><strong class="text-3xl text-black mr-2">1.</strong> Uso compartilhado do solo para atividades agropastoris e geração de energia fotovoltaica para oferecer uma solução sustentável que maximiza o aproveitamento da terra.</p>
-        </div>
-        <div>
-            <p><strong class="text-3xl text-black mr-2">2.</strong> Produção de estrutura física fotovoltaica em estufas para área agrícola com:</p>
-            <ul>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Adição de iluminação especial
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Fertirrigação
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Controles de umidade e temperatura
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Captura e reúso de água de chuva
-                </li>
-                <li class="mb-2 flex items-center">
-                    <iconify-icon icon="lucide:chevrons-right" class="mr-4"></iconify-icon>Injeção de CO2
-                </li>
-            </ul>
-        </div>
-        <div>
-            <p><strong class="text-3xl text-black mr-2">3.</strong> Revolucionar as fazendas de produção de energia fotovoltaica com 3 grandes inovações:</p>
-            <p>Trackers blindados com nova tecnologia que oferece custos reduzidos, maior vida útil e menos manutenção;</p>
-            <p>Mancais em substituição aos rolamentos que oferecem menor custo, maior vida útil e manutenção zero;</p>
-            <p>Novo sistema de fixação de painéis que permite acompanhar os ciclos solares e gera significativo ganho de produtividade.</p>
-        </div>
+    <container class="conteudo my-16">
+        <h2 class="font-extrabold text-azul">Tenha até 10 vezes mais lucro por safra</h2>
+        <p class="mb-2">O sistema agrifotovoltaico tem como missão promover a sustentabilidade e a eficiência energética, integrando a geração de energia solar com práticas agrícolas inovadoras. Buscamos oferecer soluções acessíveis que beneficiem tanto os produtores rurais quanto o meio ambiente.</p>
+        <p class="mb-2">Nossa visão é ser líder no mercado de energias renováveis, reconhecido pela excelência em tecnologias agrifotovoltaicas, contribuindo para um futuro mais sustentável e impulsionando a transformação do setor agrícola por meio da energia solar.</p>
+        <p class="mb-2">Utilizando esta sistemática, cai o principal argumento contra o uso da geração elétrica com energia solar, ou seja, a inutilização de terras férteis para agricultura.</p>
+        <p class="mb-2">Ao contrário do que se pode imaginar, a redução da energia solar incidente nas plantas pode melhorar a qualidade dos produtos agrícolas e aumentar a colheita.</p>
+        <p class="mb-2">Pelo fato de o sistema manter temperaturas mais baixas, sombreamento parcial e maior umidade, altera o microclima da plantação e consegue-se obter redução significativa no uso de água pela diminuição da evapotranspiração e aumento da produtividade de várias lavouras em função da diminuição do stress causado pelo excesso de calor e de luminosidade.</p>
+        <p class="mb-2">Veja aqui o caso da Usina de Santa Clotilde:</p>
     </container>
     <span id="pesquisa" class="-top-8"></span>
     <container class="conteudo lg:grid-cols-2">
