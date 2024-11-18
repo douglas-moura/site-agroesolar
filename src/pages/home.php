@@ -184,7 +184,7 @@
 
 <section class="sessao">
     <span id="locacao" class="absolute -top-8"></span>
-    <container class="conteudoc lg:grid-cols-2">
+    <container class="conteudo lg:grid-cols-2">
         <div>
             <img src="./src/assets/img/Projeto Smart Leme_3.jpg" alt="" class="aspect-square rounded-lg object-cover scale-90 lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
