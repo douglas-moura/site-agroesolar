@@ -1543,6 +1543,10 @@ iconify-icon{
     margin-top: 4rem;
   }
 
+  .lg\:mb-24{
+    margin-bottom: 6rem;
+  }
+
   .lg\:flex{
     display: flex;
   }

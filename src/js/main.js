@@ -4,7 +4,7 @@ document.getElementById('btn-fechar').addEventListener('click', function () {
     popup.classList.add('hidden')
     popup.classList.remove('flex')
 })
-
+/*
 document.querySelectorAll('span.contratar-preco').forEach((elemet) => {
     elemet.addEventListener('click', () => {
         const index = elemet.attributes[0].value.substring(elemet.attributes[0].value.length - 1)
@@ -14,7 +14,7 @@ document.querySelectorAll('span.contratar-preco').forEach((elemet) => {
         popup.classList.add('flex')
     })
 })
-
+*/
 function abrirMenuMobile() {
     const menuMobile = document.getElementById('menu-mobile')
     menuMobile.style.transform = 'translateX(0)'

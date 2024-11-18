@@ -59,8 +59,8 @@
             <p class="">Experimento financiado pelo governo do estado e realizado com ajuda da Universidade Federal de Alagoas – Centro de Ciências Agrárias.</p>
             <p class="">Experimento agronômico em execução, já gerando energia.</p>
         </div>
-        <img src="./src/assets/img/ano_01.png" alt="" class="mb-24 shadow-2xl lg:h-full">
-        <img src="./src/assets/img/ano_02.png" alt="" class="mb-24 shadow-2xl lg:h-full">
+        <img src="./src/assets/img/ano_01.png" alt="" class="shadow-2xl lg:h-full lg:mb-24">
+        <img src="./src/assets/img/ano_02.png" alt="" class="shadow-2xl lg:h-full lg:mb-24">
         <h2 class="mt-24 font-extrabold mx-auto text-azul text-center lg:col-span-2">Aumente em mais de 10 vezes a lucratividade</h2>
         <div class="w-full overflow-x-scroll lg:overflow-x-auto lg:col-span-2">
             <table class="mx-0 w-full shadow-xl" cellspacing="0" cellpadding="5">
@@ -184,7 +184,7 @@
 
 <section class="sessao">
     <span id="locacao" class="absolute -top-8"></span>
-    <container class="conteudo lg:grid-cols-2">
+    <container class="conteudoc lg:grid-cols-2">
         <div>
             <img src="./src/assets/img/Projeto Smart Leme_3.jpg" alt="" class="aspect-square rounded-lg object-cover scale-90 lg:scale-100" style="box-shadow:-20px 20px 0 #B3DE00;">
         </div>
@@ -609,7 +609,7 @@
                 <h3 class="m-0">Formulário de Contato</h3>
                 <iconify-icon id="btn-fechar" icon="akar-icons:x-small" height="2rem"></iconify-icon>
             </span>
-            <form action="../php/enviar_email.php" method="post" class="grid gap-4">
+            <form action="" method="post" class="grid gap-4">
                 <span class="flex flex-col">
                     <label for="" class="text-xs">Nome completo:</label>
                     <input type="text" name="nome" id="input-nome" class="input-campo" required>
