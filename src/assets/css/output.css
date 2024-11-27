@@ -651,8 +651,8 @@ a, svg, button{
 }
 
 li, p{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 p{
@@ -722,6 +722,12 @@ iconify-icon{
 @media (min-width: 1024px){
   .conteudo{
     width: 83.333333%;
+  }
+}
+
+@media (min-width: 1280px){
+  .conteudo{
+    width: 66.666667%;
   }
 }
 

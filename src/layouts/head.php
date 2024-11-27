@@ -8,6 +8,14 @@
         <link rel="stylesheet" href="../src/css/base.css">
         -->
     </head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-792401398"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-792401398');
+    </script>
     <body>
         <nav id="nav-logo" class="z-50 flex absolute top-0 w-full items-center min-h-20">
             <div class="flex mx-auto justify-between w-5/6 lg:w-8/12">
