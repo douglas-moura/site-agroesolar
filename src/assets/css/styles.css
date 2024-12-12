@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply m-0 p-0 box-border
+    }
+
+    html {
+        @apply scroll-smooth
+    }
+    
+    body {
+        @apply font-nunito m-0 text-base text-preto bg-branco
+    }
+
+    main {
+        @apply min-h-full
+    }
+    
+    h1 {
+        @apply font-light text-2xl lg:text-4xl
+    }
+    
+    h2 {
+        @apply text-verde text-xl leading-9 lg:text-3xl
+    }
+
+    h3 {
+        @apply text-preto text-base font-extrabold lg:text-xl
+    }
+
+    h4 {
+        @apply text-sm
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        @apply mb-6
+    }
+
+    hr {
+        @apply w-3/12 mx-auto border-2 my-8 border-cinza-claro opacity-20
+    }
+    
+    a, svg, button {
+        @apply no-underline cursor-pointer m-0
+    }
+    
+    li, p {
+        @apply text-xl
+    }
+
+    p {
+        @apply mb-4
+    }
+
+    iconify-icon {
+        @apply cursor-pointer
+    }
+}
+
+@layer components {
+    .sessao {
+        @apply py-20 px-0 w-full flex-col flex z-40 relative
+    }
+    
+    .conteudo {
+        @apply grid gap-y-4 gap-x-8 mx-auto w-5/6 lg:w-10/12 xl:w-8/12
+    }
+    
+    .coluna {
+        @apply flex flex-col
+    }
+    
+    .btn {
+        @apply cursor-pointer text-sm outline-none border-0 font-semibold inline-flex items-center transition-all py-3 px-6 rounded hover:px-10
+    }
+
+    .nav-link {
+        @apply text-branco inline text-base ml-12 py-2 px-0 border-b-4 border-[rgba(0,0,0,0)] transition-all duration-200 hover:border-verde
+    }
+
+    .banner-box {
+        @apply coluna animate-fade-in-right transition-all bg-branco rounded-lg shadow-lg h-full
+    }
+
+    .box-titulo {
+        @apply bg-verde px-4 pt-4 pb-0 mb-0
+    }
+
+    .dot {
+        @apply cursor-pointer h-2 w-2 my-0 mx-4 bg-cinza-claro rounded-full inline-block transition-all hover:bg-verde
+    }
+
+    .tab-celula {
+        @apply min-h-12 p-2 border-[1px] border-cinza bg-[#fff] text-center text-preto text-sm
+    }
+
+    .tab-celular-tit_1 {
+        @apply h-8 bg-verde font-black text-sm
+    }
+
+    .tab-celular-tit_2 {
+        @apply font-black h-20 text-[.7rem]
+    }
+
+    .tab-invest {
+        @apply h-3 p-0 text-[.6rem]
+    }
+
+    .box-preco-invest {
+        @apply flex flex-col text-center p-8 rounded-xl border-[1px] border-[#ccc] text-branco 
+    }
+
+    .btn-wtzp {
+        @apply cursor-pointer bg-[#009900] p-2 rounded-full text-branco my-8 font-semibold flex items-center justify-center
+    }
+
+    .box-preco-benef {
+        @apply text-xs mt-2 list-disc
+    }
+
+    .active {
+        @apply bg-preto
+    }
+
+    .input-campo {
+        @apply border-[1px] border-cinza-claro rounded p-2 text-xs outline-none
+    }
+}
+
+@layer utilities {
+    .img-sombra {
+        filter: drop-shadow(0px 2px 0px rgba(0, 0, 0, 0.486));
+    }
+
+    .box-preco-invest {
+        backdrop-filter: blur(10px);
+    }
+}
