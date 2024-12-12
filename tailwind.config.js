@@ -7,7 +7,8 @@ module.exports = {
                 nunito: ['Nunito', 'sans-serif']
             },
             backgroundImage: {
-                'img-banner': "url('../img/agro-e-solar-banner-paineis-solares-3.jpg')"
+                'img-banner': "url('../img/agro-e-solar-banner-paineis-solares-3.jpg')",
+                'posto': "url('../img/foto-posto.jpg')"
             },
             animation: {
                 'fade-in-right': 'fadeInRight 2s ease-in-out',
