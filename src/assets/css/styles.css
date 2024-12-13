@@ -6,7 +6,7 @@
 
 @layer base {
     * {
-        @apply m-0 p-0 box-border
+        @apply m-0 p-0 box-border border-[0px] border-red-500
     }
 
     html {
@@ -129,6 +129,22 @@
 
     .input-campo {
         @apply border-[1px] border-cinza-claro rounded p-2 text-xs outline-none
+    }
+
+    .box-lp-diferenciais {
+        @apply border-[1px] border-neutral-200 flex
+    }
+
+    .box-lp-icone {
+        @apply flex w-1/5 h-full bg-neutral-200
+    }
+
+    .box-lp-icone iconify-icon {
+        @apply text-2xl mx-auto mt-12
+    }
+
+    .box-lp-texto {
+        @apply w-4/5 p-4
     }
 }
 

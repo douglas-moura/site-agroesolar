@@ -38,6 +38,7 @@ module.exports = {
             'cinza-claro-2': '#f9f9f9',
             'azul': '#0045A0',
             'verde': '#B3DE00',
+            'verde-escuro': '#7A9F00',
             'verde-claro': '#faffe3',
             'black': 'rgb(0 0 0)',
             'white': 'rgb(255 255 255)',
