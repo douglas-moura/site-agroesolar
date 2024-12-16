@@ -60,7 +60,7 @@ module.exports = {
             filename: 'pages/locacao-de-sistemas.html', // Nome do arquivo de saída
         }),
         new MiniCssExtractPlugin({
-            filename: 'styles.css', // Nome do CSS extraído
+            filename: 'styles.[contenthash].css', // Nome do CSS extraído
         }),
         new CopyWebpackPlugin({
             patterns: [
