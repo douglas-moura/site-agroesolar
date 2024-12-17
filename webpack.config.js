@@ -2,9 +2,11 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 module.exports = {
-    mode: 'development', // Pode ser 'development' ou 'production'
+    mode: 'production', // Pode ser 'development' ou 'production'
+    //mode: 'development', // Pode ser 'development' ou 'production'
     entry: './src/index.ts', // Arquivo de entrada principal
     output: {
         filename: 'index.js', // Nome do arquivo gerado
@@ -32,7 +34,7 @@ module.exports = {
                 ],
             },
             {
-                test: /\.(png|jpg|jpeg|gif|svg)$/, // Processa imagens
+                test: /\.(png|jpg|jpeg|gif|svg)$/i, // Processa imagens
                 type: 'asset/resource',
                 generator: {
                     filename: 'img/[name][ext]', // Pasta de saída para imagens
@@ -75,5 +77,21 @@ module.exports = {
     },
     resolve: {
         extensions: ['.tsx', '.ts', '.js'], // Permite importar arquivos sem especificar a extensão
+    },
+    optimization: {
+        minimize: true,
+        minimizer: [
+            new ImageMinimizerPlugin({
+                minimizer: {
+                    implementation: ImageMinimizerPlugin.imageminMinify,
+                    options: {
+                        plugins: [
+                            ["imagemin-mozjpeg", { quality: 40 }],
+                            ["imagemin-pngquant", { quality: [0.3, 0.5] }],
+                        ],
+                    },
+                },
+            }),
+        ],
     },
 };
