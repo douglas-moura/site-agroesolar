@@ -1,8 +1,9 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
+const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
     mode: 'production', // Pode ser 'development' ou 'production'
@@ -56,10 +57,14 @@ module.exports = {
             favicon: './src/favicon.ico', // Caminho do favicon
             template: './src/index.html', // Arquivo HTML base
             filename: 'index.html', // Nome do arquivo de saída
+            inject: 'body',  // Injetando o JS no final do body para não afetar o carregamento
+            scriptLoading: 'blocking',  // Não usar defer ou async
         }),
         new HtmlWebpackPlugin({
             template: './src/pages/locacao-de-sistemas.html', // Caminho do arquivo da página
             filename: 'pages/locacao-de-sistemas.html', // Nome do arquivo de saída
+            inject: 'body',  // Injetando o JS no final do body para não afetar o carregamento
+            scriptLoading: 'blocking',  // Não usar defer ou async
         }),
         new MiniCssExtractPlugin({
             filename: 'styles.[contenthash].css', // Nome do CSS extraído
@@ -81,6 +86,7 @@ module.exports = {
     optimization: {
         minimize: true,
         minimizer: [
+            new CssMinimizerPlugin(),
             new ImageMinimizerPlugin({
                 minimizer: {
                     implementation: ImageMinimizerPlugin.imageminMinify,
