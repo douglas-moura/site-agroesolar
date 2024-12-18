@@ -9,7 +9,8 @@ module.exports = {
             backgroundImage: {
                 'img-banner': "url('../img/agro-e-solar-banner-paineis-solares-3.jpg')",
                 'posto': "url('../img/foto-posto.jpg')",
-                'agro-2': "url('../img/agro-2.png')"
+                'agro-2': "url('../img/agro-2.png')",
+                'paineis-campo': "url('../img/5b2d47c9-e155-477a-a9a2-436917a6bcfd.jpg')",
             },
             animation: {
                 'fade-in-right': 'fadeInRight 2s ease-in-out',

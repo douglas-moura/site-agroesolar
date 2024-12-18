@@ -50,7 +50,7 @@
     }
     
     li, p {
-        @apply text-xl
+        @apply text-base
     }
 
     p {
@@ -66,15 +66,15 @@
     .sessao {
         @apply py-20 px-0 w-full flex-col flex z-40 relative
     }
-    
+
     .conteudo {
-        @apply grid gap-y-4 gap-x-8 mx-auto w-5/6 xl:w-7/12
+        @apply grid gap-y-4 gap-x-8 mx-auto w-5/6 xl:w-8/12 2xl:w-7/12
     }
-    
+
     .coluna {
         @apply flex flex-col
     }
-    
+
     .btn {
         @apply cursor-pointer text-sm outline-none border-0 font-semibold inline-flex items-center transition-all py-3 px-6 rounded hover:px-10
     }
@@ -136,15 +136,15 @@
     }
 
     .box-lp-icone {
-        @apply flex w-1/5 h-full bg-neutral-200
+        @apply flex w-1/6 h-full bg-neutral-200
     }
 
     .box-lp-icone iconify-icon {
-        @apply text-2xl mx-auto mt-12
+        @apply text-xl mx-auto mt-12
     }
 
     .box-lp-texto {
-        @apply w-4/5 p-4
+        @apply w-5/6 p-4 bg-white
     }
 }
 

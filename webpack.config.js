@@ -6,8 +6,8 @@ const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
-    mode: 'production', // Pode ser 'development' ou 'production'
-    //mode: 'development', // Pode ser 'development' ou 'production'
+    //mode: 'production', // Pode ser 'development' ou 'production'
+    mode: 'development', // Pode ser 'development' ou 'production'
     entry: './src/index.ts', // Arquivo de entrada principal
     output: {
         filename: 'index.js', // Nome do arquivo gerado
@@ -19,7 +19,8 @@ module.exports = {
             {
                 test: /\.css$/, // Processa arquivos CSS
                 use: [
-                    'style-loader', // Injeta CSS no DOM durante o desenvolvimento
+                    //'style-loader', // Injeta CSS no DOM durante o desenvolvimento
+                    MiniCssExtractPlugin.loader, // Extrai o CSS para um arquivo separado
                     'css-loader', // Lê arquivos CSS
                     {
                         loader: 'postcss-loader', // Processa o Tailwind via PostCSS
@@ -67,7 +68,7 @@ module.exports = {
             scriptLoading: 'blocking',  // Não usar defer ou async
         }),
         new MiniCssExtractPlugin({
-            filename: 'styles.[contenthash].css', // Nome do CSS extraído
+            filename: 'styles.css', // Nome do CSS extraído
         }),
         new CopyWebpackPlugin({
             patterns: [
