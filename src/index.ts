@@ -1,5 +1,6 @@
 import './assets/css/styles.css'
 import Chart from 'chart.js/auto'
+import { economiaConta, Conta } from './assets/helpers/economiaConta'
 
 (document.getElementById('btn-menu-mobile') as HTMLUListElement)?.addEventListener('click', function():void {
     const menuMobile = document.getElementById('menu-mobile') as HTMLDivElement
@@ -15,6 +16,26 @@ array.forEach(element => {
             menuMobile.style.transform = 'translateX(100%)'
         }, 200)
     })
+})
+
+const value = document.querySelector("#valor-range") as HTMLParagraphElement
+const input = document.querySelector("#range-conta") as HTMLInputElement
+
+value.textContent = input.value
+
+input.addEventListener("input", (ev) => {
+    const target = ev.target as HTMLInputElement
+    const numericValue = parseFloat(target.value.replace(/[^0-9.-]+/g, "")) || 0
+    value.textContent = numericValue.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 0})
+    const valorTexto = numericValue.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 0}).toString()
+    
+    for (let i = 0; i < economiaConta.length; i++) {
+        const contaAtual: Conta = economiaConta[i]     
+
+        if (contaAtual.ContaMensal == numericValue) {
+            console.log(contaAtual.ContaMensal)
+        }
+    }
 })
 
 window.addEventListener('load', () => {
