@@ -17,17 +17,23 @@
             <section class="bg-gradient-to-b from-verde from-80% to-neutral-100 to-20% pt-16 pb-40">
                 <div class="conteudo grid-cols-2 p-12 rounded-xl bg-agro-2 bg-cover bg-center relative">
                     <span class="z-30">
+                        <p class="text-white m-0 text-xl font-black mb-4 2xl:text-2xl">LOCAÇÃO DE SISTEMAS FOTOVOLTAICOS: VOCÊ NÃO GASTA NADA E TEM 20% DE ECONOMIA NA CONTA DE LUZ IMEDIATAMENTE</p>
+                        <p class="text-white m-0 text-sm font-extrabold 2xl:text-base">No final do contrato, terá uma economia de mais de 50%.</p>
+                        <!--
                         <p class="text-white m-0 text-xl font-black mb-4 2xl:text-2xl">LOCAÇÃO DE SISTEMAS FOTOVOLTAICOS: A FAVOR DO MEIO AMBIENTE E DO SEU BOLSO</p>
                         <p class="text-white m-0 text-sm font-extrabold 2xl:text-base">Precisa reduzir a conta de luz da sua empresa e otimizar investimentos?</p>
                         <p class="text-white m-0 text-sm font-normal 2xl:text-base">A solução inteligente que une sustentabilidade, economia e praticidade está aqui.</p>
+                        -->
                         <button class="mt-8 btn bg-verde text-neutral-800 font-semibold">Solicitar Análise</button>
                     </span>
-                    <img class="absolute z-30 -skew-x-6 w-1/2 scale-75 saturate-200 brightness-125 right-0 -top-0 2xl:scale-50 2xl:-top-24" src="../assets/img/placa-solar-transparente.png">
-                    <img class="absolute z-30 -skew-x-6 w-1/2 scale-75 saturate-200 brightness-125 right-8 -top-8 2xl:scale-50 2xl:-top-32" src="../assets/img/placa-solar-transparente.png">
+                    <span class="flex justify-center items-start relative">
+                        <img class="absolute z-30 -skew-x-6 w-2/3 saturate-200 brightness-125 -mt-0 -ml-0 2xl:scale-50 2xl:-top-24" src="../assets/img/placa-solar-transparente.png">
+                        <img class="absolute z-30 -skew-x-6 w-2/3 saturate-200 brightness-125 -mt-8 -ml-16 2xl:scale-50 2xl:-top-32" src="../assets/img/placa-solar-transparente.png">
+                    </span>
                     <div class="absolute z-20 rounded-xl top-0 left-0 h-full w-full bg-gradient-to-r from-[#000000cc] to-[#0000002a]"></div>
                 </div>
             </section>
-            <section class="py-12 bg-neutral-100 pt-32">
+            <section class="py-12 bg-neutral-100 pt-16">
                 <div class="conteudo grid-cols-5">
                     <div class="col-span-3">
                         <p class="text-2xl mb-8 text-verde-escuro font-extrabold 2xl:text-2xl">Economize com energia solar enquanto conquista ganhos financeiros significativos.</p>
@@ -147,7 +153,7 @@
                         </ul>
                     </span>
                     <span class="mb-8">
-                        <div class="conteudo w-full grid-cols-4 gap-6">
+                        <div class="grid w-full grid-cols-4 gap-6">
                             <p class="col-span-4 text-3xl font-extrabold text-white">Benefícios da Locação</p>
                             <div class="flex flex-col bg-neutral-100 rounded-lg shadow-lg p-8 relative">
                                 <span class="absolute flex -top-3 -left-3 aspect-square bg-azul rounded-full w-10 items-center justify-center">
@@ -180,6 +186,9 @@
                                 <p class="text-base mb-6 text-neutral-800 font-extrabold">Economia Acumulada com Correção<br>(1% ao mês):</p>
                                 <p class="m-0 text-xs mb-4">Com os valores economizados aplicados a 12% ao  ano, o montante pode ultrapassar R$ 356.000  ao longo de 20 anos, proporcionando um lucro significativo além da economia nas contas de luz.</p>
                             </div>
+                        </div>
+                        <div class="mt-12">
+                            <canvas id="myChart" class="w-full max-h-[500px] p-12 bg-neutral-100 rounded-lg"></canvas>
                         </div>
                     </span>
                 </div>

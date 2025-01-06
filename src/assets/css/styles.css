@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+sm	640px	@media (min-width: 640px) { ... }
+md	768px	@media (min-width: 768px) { ... }
+lg	1024px	@media (min-width: 1024px) { ... }
+xl	1280px	@media (min-width: 1280px) { ... }
+2xl	1536px	@media (min-width: 1536px) { ... }
+*/
+
 @layer base {
     * {
         @apply m-0 p-0 box-border border-[0px] border-red-500
@@ -68,7 +76,7 @@
     }
 
     .conteudo {
-        @apply grid gap-y-4 gap-x-8 mx-auto w-5/6 xl:w-8/12 2xl:w-7/12
+        @apply grid gap-y-4 gap-x-8 mx-auto w-5/6 2xl:w-8/12
     }
 
     .coluna {
@@ -155,5 +163,9 @@
 
     .box-preco-invest {
         backdrop-filter: blur(10px);
+    }
+
+    canvas {
+        display: block;
     }
 }
