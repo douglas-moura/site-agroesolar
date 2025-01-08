@@ -14,7 +14,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 @layer base {
     * {
-        @apply m-0 p-0 box-border border-[1px] border-red-500
+        @apply m-0 p-0 box-border border-[0px] border-red-500
     }
 
     html {
@@ -22,7 +22,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
     }
     
     body {
-        @apply font-nunito m-0 text-base text-preto bg-branco
+        @apply font-nunito m-0 text-base text-neutral-600 bg-branco
     }
 
     main {
@@ -58,7 +58,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
     }
     
     li, p {
-        @apply text-base
+        @apply text-sm
     }
 
     p {
