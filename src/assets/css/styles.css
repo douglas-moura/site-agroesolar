@@ -158,6 +158,14 @@ xl	1280px	@media (min-width: 1280px) { ... }
     .tab-orcamento-valores {
         @apply text-right
     }
+
+    .lp-banner strong {
+        @apply text-neutral-600 font-extrabold
+    }
+
+    .lp-lista-item {
+        @apply text-neutral-200 text-sm list-disc
+    }
 }
 
 @layer utilities {
@@ -167,6 +175,16 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
     .box-preco-invest {
         backdrop-filter: blur(10px);
+    }
+
+    .lp-back {
+        background: linear-gradient(
+            to left,
+            rgba(0, 69, 160, .1),
+            rgba(3, 39, 87, 1)
+        ), url('../img/agro-e-solar-banner-paineis-solares-1.jpg');
+        background-position: center center;
+        background-size: cover;
     }
 
     canvas {
