@@ -16,6 +16,21 @@ export interface Conta {
 
 export const economiaConta = [
     {
+        ContaMensal: 0,
+        ContaAnual: 0,
+        Consumo: "0 kWh",
+        Investimento: 0,
+        EconomiaAno01: 0,
+        EconomiaAno02: 0,
+        EconomiaAno03: 0,
+        EconomiaAno04: 0,
+        EconomiaAno05: 0,
+        EconomiaAno06: 0,
+        EconomiaAno07: 0,
+        GanhoTotalSemAplicacao: 0,
+        GanhoTotalComAplicacao: 0 
+    },
+    {
         ContaMensal: 1000,
         ContaAnual: 12000,
         Consumo: "1.000 kWh",

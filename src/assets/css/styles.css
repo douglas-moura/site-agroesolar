@@ -72,7 +72,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
 @layer components {
     .sessao {
-        @apply py-20 px-0 w-full flex-col flex z-40 relative
+        @apply py-20 px-0 w-full flex flex-col z-40 relative
     }
 
     .conteudo {
@@ -84,7 +84,7 @@ xl	1280px	@media (min-width: 1280px) { ... }
     }
 
     .btn {
-        @apply cursor-pointer text-sm outline-none border-0 font-semibold inline-flex items-center transition-all py-3 px-6 rounded hover:px-10
+        @apply cursor-pointer text-sm outline-none border-0 font-semibold inline-flex items-center justify-center transition-all py-3 px-6 rounded hover:px-10
     }
 
     .nav-link {
@@ -153,6 +153,10 @@ xl	1280px	@media (min-width: 1280px) { ... }
 
     .box-lp-texto {
         @apply w-5/6 p-4 bg-white
+    }
+
+    .tab-orcamento-valores {
+        @apply text-right
     }
 }
 

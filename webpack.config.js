@@ -67,6 +67,12 @@ module.exports = {
             inject: 'body',  // Injetando o JS no final do body para não afetar o carregamento
             scriptLoading: 'blocking',  // Não usar defer ou async
         }),
+        new HtmlWebpackPlugin({
+            template: './src/lp/locacao.html', // Caminho do arquivo da página
+            filename: 'lp/locacao.html', // Nome do arquivo de saída
+            inject: 'body',  // Injetando o JS no final do body para não afetar o carregamento
+            scriptLoading: 'blocking',  // Não usar defer ou async
+        }),
         new MiniCssExtractPlugin({
             filename: 'styles.css', // Nome do CSS extraído
         }),
