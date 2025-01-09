@@ -4,7 +4,7 @@ import { montarGrafico } from './assets/helpers/graficoEconomia'
 
 (document.getElementById('btn-menu-mobile') as HTMLUListElement)?.addEventListener('click', function():void {
     const menuMobile = document.getElementById('menu-mobile') as HTMLDivElement
-    menuMobile.style.transform = 'translateX(0)'
+    if (menuMobile) menuMobile.style.transform = 'translateX(0)'
 })
 
 const array = Array.from(document.getElementsByClassName('fechar-menu') as HTMLCollection)
@@ -13,25 +13,25 @@ array.forEach(element => {
     element.addEventListener('click', function ():void {
         const menuMobile = document.getElementById('menu-mobile') as HTMLDivElement        
         setTimeout(() => {
-            menuMobile.style.transform = 'translateX(100%)'
+            if (menuMobile) menuMobile.style.transform = 'translateX(100%)'
         }, 200)
     })
 })
 
 const input = document.querySelector("#range-conta") as HTMLInputElement
 
-const tabContaMensal = document.getElementById('conta-mensal') as HTMLElement
-const tabConsumo = document.getElementById('consumo') as HTMLElement
-const tabCompra = document.getElementById('compra') as HTMLElement
-const tabAno01 = document.getElementById('ano-01') as HTMLElement
-const tabAno02 = document.getElementById('ano-02') as HTMLElement
-const tabAno03 = document.getElementById('ano-03') as HTMLElement
-const tabAno04 = document.getElementById('ano-04') as HTMLElement
-const tabAno05 = document.getElementById('ano-05') as HTMLElement
-const tabAno06 = document.getElementById('ano-06') as HTMLElement
-const tabAno07 = document.getElementById('ano-07') as HTMLElement
-const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic') as HTMLElement
-const tabGanhoComAplic = document.getElementById('ganho-com-aplic') as HTMLElement
+const tabContaMensal = document.getElementById('conta-mensal')! as HTMLElement
+const tabConsumo = document.getElementById('consumo')! as HTMLElement
+const tabCompra = document.getElementById('compra')! as HTMLElement
+const tabAno01 = document.getElementById('ano-01')! as HTMLElement
+const tabAno02 = document.getElementById('ano-02')! as HTMLElement
+const tabAno03 = document.getElementById('ano-03')! as HTMLElement
+const tabAno04 = document.getElementById('ano-04')! as HTMLElement
+const tabAno05 = document.getElementById('ano-05')! as HTMLElement
+const tabAno06 = document.getElementById('ano-06')! as HTMLElement
+const tabAno07 = document.getElementById('ano-07')! as HTMLElement
+const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic')! as HTMLElement
+const tabGanhoComAplic = document.getElementById('ganho-com-aplic')! as HTMLElement
 
 input.addEventListener("input", (ev) => {
     const target = ev.target as HTMLInputElement
@@ -66,7 +66,6 @@ input.addEventListener("input", (ev) => {
             ]
         }
     }
-
 
     // Criação do gráfico
     montarGrafico(data)
