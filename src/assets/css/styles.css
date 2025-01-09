@@ -155,8 +155,12 @@ xl	1280px	@media (min-width: 1280px) { ... }
         @apply w-5/6 p-4 bg-white
     }
 
+    .tab-descr-valor {
+        @apply text-xs
+    }
+
     .tab-orcamento-valores {
-        @apply text-right
+        @apply text-right w-2/5 h-8 text-xs
     }
 
     .lp-banner strong {

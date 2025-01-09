@@ -5,6 +5,7 @@
   },
   "dependencies": {
     "chart.js": "^4.4.7",
+    "chartjs-plugin-datalabels": "^2.2.0",
     "feather-icons": "^4.29.2",
     "style-loader": "^4.0.0"
   },
