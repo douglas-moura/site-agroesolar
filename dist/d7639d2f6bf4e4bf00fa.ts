@@ -50,7 +50,7 @@ input.addEventListener("input", (ev) => {
     tabGanhoComAplic.innerHTML = formatoReais(economiaAcumulada(contaAnual));
     document.getElementById('btn-simulador').addEventListener('click', function () {
         if (numericValue > 0) {
-            this.setAttribute('href', `https://api.whatsapp.com/send?phone=5511933791364&text=Ol%C3%A1!%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20loca%C3%A7%C3%A3o%20de%20sistemas%20fotovoltaicos.%0A%0AO%20valor%20m%C3%A9dio%20da%20minha%20conta%20%C3%A9:%20${formatoReais(numericValue)}`);
+            this.setAttribute('href', `https://api.whatsapp.com/send?phone=5511948084740&text=Ol%C3%A1!%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20loca%C3%A7%C3%A3o%20de%20sistemas%20fotovoltaicos.%0A%0AO%20valor%20m%C3%A9dio%20da%20minha%20conta%20%C3%A9:%20${formatoReais(numericValue)}`);
             this.setAttribute('target', '_blank');
         }
         else {
