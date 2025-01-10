@@ -34,12 +34,13 @@ const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic')! as HTMLElem
 const tabGanhoComAplic = document.getElementById('ganho-com-aplic')! as HTMLElement
 
 input.addEventListener("input", (ev) => {
+    console.log('foi')
     const target = ev.target as HTMLInputElement
     const numericValue = parseFloat(target.value.replace(/[^0-9.-]+/g, "")) || 0
     let data: number[] = []
     
     for (let i = 0; i < economiaConta.length; i++) {
-        const contaAtual: Conta = economiaConta[i]     
+        const contaAtual: Conta = economiaConta[i]
 
         if (contaAtual.ContaMensal == numericValue) {
             tabContaMensal.innerHTML = contaAtual.ContaMensal.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
