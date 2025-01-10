@@ -1,6 +1,5 @@
 import './assets/css/styles.css'
-import { economiaConta, Conta } from './assets/helpers/economiaConta'
-import { montarGrafico } from './assets/helpers/graficoEconomia'
+import { formatoReais, economiaAcumulada, formatoKWh } from './assets/helpers/formatarNumeros'
 
 (document.getElementById('btn-menu-mobile') as HTMLUListElement)?.addEventListener('click', function():void {
     const menuMobile = document.getElementById('menu-mobile') as HTMLDivElement
@@ -20,9 +19,9 @@ array.forEach(element => {
 
 const input = document.querySelector("#range-conta") as HTMLInputElement
 
-const tabContaMensal = document.getElementById('conta-mensal')! as HTMLElement
+const tabContaAnual = document.getElementById('conta-anual')! as HTMLElement
 const tabConsumo = document.getElementById('consumo')! as HTMLElement
-const tabCompra = document.getElementById('compra')! as HTMLElement
+//const tabCompra = document.getElementById('compra')! as HTMLElement
 const tabAno01 = document.getElementById('ano-01')! as HTMLElement
 const tabAno02 = document.getElementById('ano-02')! as HTMLElement
 const tabAno03 = document.getElementById('ano-03')! as HTMLElement
@@ -34,48 +33,37 @@ const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic')! as HTMLElem
 const tabGanhoComAplic = document.getElementById('ganho-com-aplic')! as HTMLElement
 
 input.addEventListener("input", (ev) => {
-    console.log('foi')
     const target = ev.target as HTMLInputElement
     const numericValue = parseFloat(target.value.replace(/[^0-9.-]+/g, "")) || 0
-    let data: number[] = []
+    const contaAnual = numericValue * 12
     
-    for (let i = 0; i < economiaConta.length; i++) {
-        const contaAtual: Conta = economiaConta[i]
+    tabContaAnual.innerHTML = formatoReais(contaAnual)
+    tabConsumo.innerHTML = formatoKWh(contaAnual)
+    //tabCompra.innerHTML = "?"
+    tabAno01.innerHTML = formatoReais(contaAnual * 0.2)
+    tabAno02.innerHTML = formatoReais(contaAnual * 0.2)
+    tabAno03.innerHTML = formatoReais(contaAnual * 0.3)
+    tabAno04.innerHTML = formatoReais(contaAnual * 0.3)
+    tabAno05.innerHTML = formatoReais(contaAnual * 0.4)
+    tabAno06.innerHTML = formatoReais(contaAnual * 0.4)
+    tabAno07.innerHTML = formatoReais(contaAnual * 0.5)
+    tabGanhoSemAplic.innerHTML = formatoReais(
+        (contaAnual * 0.2) +
+        (contaAnual * 0.2) +
+        (contaAnual * 0.3) +
+        (contaAnual * 0.3) +
+        (contaAnual * 0.4) +
+        (contaAnual * 0.4) +
+        ((contaAnual * 0.5) * 14)
+    )
+    tabGanhoComAplic.innerHTML = formatoReais(economiaAcumulada(contaAnual));
 
-        if (contaAtual.ContaMensal == numericValue) {
-            tabContaMensal.innerHTML = contaAtual.ContaMensal.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabConsumo.innerHTML = contaAtual.Consumo
-            tabCompra.innerHTML = contaAtual.Investimento.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno01.innerHTML = contaAtual.EconomiaAno01.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno02.innerHTML = contaAtual.EconomiaAno02.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno03.innerHTML = contaAtual.EconomiaAno03.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno04.innerHTML = contaAtual.EconomiaAno04.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno05.innerHTML = contaAtual.EconomiaAno05.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno06.innerHTML = contaAtual.EconomiaAno06.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabAno07.innerHTML = contaAtual.EconomiaAno07.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabGanhoSemAplic.innerHTML = contaAtual.GanhoTotalSemAplicacao.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-            tabGanhoComAplic.innerHTML = contaAtual.GanhoTotalComAplicacao.toLocaleString("pt-BR", {style:"currency", currency:"BRL", minimumFractionDigits: 2})
-
-            data = [
-                contaAtual.EconomiaAno01,
-                contaAtual.EconomiaAno02,
-                contaAtual.EconomiaAno03,
-                contaAtual.EconomiaAno04,
-                contaAtual.EconomiaAno05,
-                contaAtual.EconomiaAno06,
-                contaAtual.EconomiaAno07,
-            ]
+    (document.getElementById('btn-simulador') as HTMLLinkElement).addEventListener('click', function() {
+        if (numericValue > 0) {
+            this.setAttribute('href', `https://api.whatsapp.com/send?phone=5511933791364&text=Ol%C3%A1!%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20loca%C3%A7%C3%A3o%20de%20sistemas%20fotovoltaicos.%0A%0AO%20valor%20m%C3%A9dio%20da%20minha%20conta%20%C3%A9:%20${formatoReais(numericValue)}`)
+            this.setAttribute('target', '_blank')
+        } else {
+            alert('Por favor, insira um valor maior que 0 (ZERO)')
         }
-    }
-
-    // Criação do gráfico
-    montarGrafico(data)
-})
-
-window.addEventListener('load', () => {
-
-    const data: number[] = [0, 0, 0, 0, 0, 0, 0]
-
-    // Criação do gráfico
-    montarGrafico(data)
+    })
 })

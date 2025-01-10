@@ -23,7 +23,9 @@
                         <img class="w-72 mb-6" src="../assets/img/logo-agro-e-solar-5.png" alt="">
                         <p class="text-3xl font-extrabold uppercase leading-10 text-azul">Comece com a economia de 20% ao ano e aumenta para 50%</p>
                         <p class="text-xl uppercase text-neutral-400"><strong>Veja:</strong> Uma conta de <strong>R$ 1.000</strong> pode te dar uma economia de <strong>R$ 356.358</strong> em 20 anos.</p>
-                        <button class="btn w-80 mt-12 text-xl shadow-md rounded-lg bg-verde text-branco font-extrabold">Quero economizar</button>
+                        <a class="mt-12  w-80" href="https://api.whatsapp.com/send?phone=5511933791364&text=Ol%C3%A1!%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20loca%C3%A7%C3%A3o%20de%20sistemas%20fotovoltaicos." target="_blank">
+                            <button class="btn w-full text-xl shadow-md rounded-lg bg-verde text-branco font-extrabold">Quero trocar</button>
+                        </a>
                     </div>
                     <img src="../assets/img/pequeno-projetos.png" alt="" class="rounded-lg col-span-2" style="box-shadow:-20px 20px 0 #B3DE00">
                 </div>
@@ -101,61 +103,71 @@
                         </span>
                     </div>
                 </div>
-                <div class="conteudo grid-cols-5">
-                    <!--<input class="w-1/3 mx-auto col-span-5" type="range" name="" id="range-conta" value="0" min="0" max="20000" step="1000">-->
-                    <input class="w-1/3 mx-auto col-span-5" type="number" name="" id="range-conta" value="0" min="0" max="20000">
-                    <table class="w-full col-span-2">
-                        <tbody>
-                            <tr>
-                                <td class="tab-descr-valor">CONTA (Mensal)</td>
-                                <td id="conta-mensal" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">CONSUMO (KWh/mês)</td>
-                                <td id="consumo" class="tab-orcamento-valores">0 kWh</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">COMPRA (Invest.)</td>
-                                <td id="compra" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>                            
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 01</td>
-                                <td id="ano-01" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 02</td>
-                                <td id="ano-02" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 03</td>
-                                <td id="ano-03" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 04</td>
-                                <td id="ano-04" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 05</td>
-                                <td id="ano-05" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 06</td>
-                                <td id="ano-06" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">Economia no Ano 07 até ano 20</td>
-                                <td id="ano-07" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">GANHO TOTAL S/ APLICAÇÃO</td>
-                                <td id="ganho-sem-aplic" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                            <tr>
-                                <td class="tab-descr-valor">GANHO TOTAL C/ APLICAÇÃO (12% Real/Ano)</td>
-                                <td id="ganho-com-aplic" class="tab-orcamento-valores">R$ 0,00</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                <div class="conteudo mt-20">
+                    <div class="w-1/2 mx-auto p-16 rounded-xl bg-white shadow-lg">
+                        <h2>Faça uma simulação</h2>
+                        <span class="mb-16 font-extrabold">
+                            <label for="">Indira o valor médio da sua conta mensal: R$ </label>
+                            <input class="outline-0 border-0" type="number" name="" id="range-conta" value="0" min="0" max="20000">
+                        </span>
+                        <table class="w-full mt-6">
+                            <tbody>
+                                <tr>
+                                    <td class="tab-descr-valor">CONTA (Anual)</td>
+                                    <td id="conta-anual" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">CONSUMO (KWh/mês)</td>
+                                    <td id="consumo" class="tab-orcamento-valores">0 kWh</td>
+                                </tr>
+                                <!--
+                                <tr>
+                                    <td class="tab-descr-valor">COMPRA (Invest.)</td>
+                                    <td id="compra" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                -->
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 01</td>
+                                    <td id="ano-01" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 02</td>
+                                    <td id="ano-02" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 03</td>
+                                    <td id="ano-03" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 04</td>
+                                    <td id="ano-04" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 05</td>
+                                    <td id="ano-05" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 06</td>
+                                    <td id="ano-06" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">Economia no Ano 07 até ano 20</td>
+                                    <td id="ano-07" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">GANHO TOTAL S/ APLICAÇÃO</td>
+                                    <td id="ganho-sem-aplic" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                                <tr>
+                                    <td class="tab-descr-valor">GANHO TOTAL C/ APLICAÇÃO (12% Real/Ano)</td>
+                                    <td id="ganho-com-aplic" class="tab-orcamento-valores">R$ 0,00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <a id="btn-simulador">
+                            <button class="btn w-full mt-16 uppercase text-base shadow-md rounded-lg bg-azul p-4 text-branco font-extrabold">Fale com um consultor</button>
+                        </a>
+                    </div>
                 </div>
             </section>
             <section class="py-20 bg-neutral-800">
@@ -201,9 +213,9 @@
                         <img class="rounded-lg" src="../assets/img/grande-projetos.png" alt="" style="box-shadow:-20px 20px 0 #B3DE00">
                     </div>
                 </div>
-                <div class="conteudo">
+                <a class="conteudo" href="https://api.whatsapp.com/send?phone=5511933791364&text=Ol%C3%A1!%0A%0AGostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20loca%C3%A7%C3%A3o%20de%20sistemas%20fotovoltaicos." target="_blank">
                     <button class="btn w-1/2 mt-20 mx-auto uppercase text-lg shadow-md rounded-lg bg-azul p-6 text-branco font-extrabold">Fale Conosco e veja como funciona!</button>
-                </div>
+                </a>
             </section>
         </main>
         <footer></footer>

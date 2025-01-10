@@ -6,8 +6,8 @@ const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
-    //mode: 'production', // Pode ser 'development' ou 'production'
-    mode: 'development', // Pode ser 'development' ou 'production'
+    mode: 'production', // Pode ser 'development' ou 'production'
+    //mode: 'development', // Pode ser 'development' ou 'production'
     entry: './src/index.ts', // Arquivo de entrada principal
     output: {
         filename: 'index.js', // Nome do arquivo gerado
