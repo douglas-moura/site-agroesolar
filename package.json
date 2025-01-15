@@ -1,13 +1,19 @@
 {
   "scripts": {
     "start": "webpack serve --open",
-    "build": "webpack"
+    "build": "webpack",
+    "start:api": "json-server --watch db/db.json --port 4000"
   },
   "dependencies": {
     "axios": "^1.7.9",
+    "body-parser": "^1.20.3",
     "chart.js": "^4.4.7",
     "chartjs-plugin-datalabels": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
     "feather-icons": "^4.29.2",
+    "fs": "^0.0.1-security",
+    "fs-extra": "^11.2.0",
     "json-server": "^1.0.0-beta.3",
     "style-loader": "^4.0.0"
   },
