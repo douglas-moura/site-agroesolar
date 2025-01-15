@@ -1,5 +1,6 @@
 import './assets/css/styles.css';
 import { formatoReais, economiaAcumulada, formatoKWh } from './assets/helpers/formatarNumeros';
+import axios from "axios";
 document.getElementById('btn-menu-mobile')?.addEventListener('click', function () {
     const menuMobile = document.getElementById('menu-mobile');
     if (menuMobile)
@@ -15,9 +16,28 @@ array.forEach(element => {
         }, 200);
     });
 });
+document.getElementById('btn-ativar-simulador')?.addEventListener('click', (e) => {
+    e.preventDefault();
+    const nome = document.getElementById('input-nome');
+    const tele = document.getElementById('input-tel');
+    axios.post("http://localhost:4000/leads", {
+        nome: nome.value,
+        tel: tele.value,
+        data: new Date().toLocaleDateString("pt-BR")
+    })
+        .then((response) => {
+        console.log("Resposta:", response.data);
+        const boxSimulador = document.getElementById('box-simulador');
+        boxSimulador.classList.remove('hidden');
+    })
+        .catch((error) => {
+        console.error("Erro:", error);
+    });
+});
 const input = document.querySelector("#range-conta");
 const tabContaAnual = document.getElementById('conta-anual');
 const tabConsumo = document.getElementById('consumo');
+const tabCompra = document.getElementById('compra');
 const tabAno01 = document.getElementById('ano-01');
 const tabAno02 = document.getElementById('ano-02');
 const tabAno03 = document.getElementById('ano-03');
@@ -25,6 +45,7 @@ const tabAno04 = document.getElementById('ano-04');
 const tabAno05 = document.getElementById('ano-05');
 const tabAno06 = document.getElementById('ano-06');
 const tabAno07 = document.getElementById('ano-07');
+const contaAnualA20 = document.getElementById('conta-anual-a20');
 const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic');
 const tabGanhoComAplic = document.getElementById('ganho-com-aplic');
 input.addEventListener("input", (ev) => {
@@ -33,6 +54,7 @@ input.addEventListener("input", (ev) => {
     const contaAnual = numericValue * 12;
     tabContaAnual.innerHTML = formatoReais(contaAnual);
     tabConsumo.innerHTML = formatoKWh(contaAnual);
+    tabCompra.innerHTML = formatoReais(contaAnual * 3.5);
     tabAno01.innerHTML = formatoReais(contaAnual * 0.2);
     tabAno02.innerHTML = formatoReais(contaAnual * 0.2);
     tabAno03.innerHTML = formatoReais(contaAnual * 0.3);
@@ -40,13 +62,8 @@ input.addEventListener("input", (ev) => {
     tabAno05.innerHTML = formatoReais(contaAnual * 0.4);
     tabAno06.innerHTML = formatoReais(contaAnual * 0.4);
     tabAno07.innerHTML = formatoReais(contaAnual * 0.5);
-    tabGanhoSemAplic.innerHTML = formatoReais((contaAnual * 0.2) +
-        (contaAnual * 0.2) +
-        (contaAnual * 0.3) +
-        (contaAnual * 0.3) +
-        (contaAnual * 0.4) +
-        (contaAnual * 0.4) +
-        ((contaAnual * 0.5) * 14));
+    contaAnualA20.innerHTML = formatoReais(contaAnual * 20);
+    tabGanhoSemAplic.innerHTML = formatoReais((contaAnual * 0.2) + (contaAnual * 0.2) + (contaAnual * 0.3) + (contaAnual * 0.3) + (contaAnual * 0.4) + (contaAnual * 0.4) + ((contaAnual * 0.5) * 14));
     tabGanhoComAplic.innerHTML = formatoReais(economiaAcumulada(contaAnual));
     document.getElementById('btn-simulador').addEventListener('click', function () {
         if (numericValue > 0) {
