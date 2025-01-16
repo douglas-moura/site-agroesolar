@@ -194,4 +194,15 @@ xl	1280px	@media (min-width: 1280px) { ... }
     canvas {
         display: block;
     }
+
+    /* Esconder os controladores de input tipo number em navegadores modernos */
+    input[type="number"]::-webkit-outer-spin-button,
+    input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    input[type="number"] {
+        -moz-appearance: textfield; /* Para Firefox */
+    }
 }

@@ -2,6 +2,8 @@ import './assets/css/styles.css'
 import { testeServeApi } from './assets/helpers/fetch'
 import { formatoReais, economiaAcumulada, formatoKWh } from './assets/helpers/formatarNumeros'
 import axios, { AxiosResponse } from "axios"
+import emailjs from 'emailjs-com';
+
 
 // FUNCIONALIDADES MENU MOBILE
 
@@ -23,6 +25,7 @@ array.forEach(element => {
 
 // FORMULARIO PARA ABRIR SIMULADOR
 
+/*
 interface Lead {
     nome: string
     tel: string
@@ -41,13 +44,12 @@ interface Lead {
     })
     .then((response: AxiosResponse<Lead>) => {
         console.log("Resposta:", response.data)
-        const boxSimulador = document.getElementById('box-simulador') as HTMLDivElement
-        boxSimulador.classList.remove('hidden')
     })
     .catch((error: string) => {
         console.error("Erro:", error)
     })
 })
+*/
 
 // SIMULADOR DE ECONOMIA ANUAL
 
@@ -102,6 +104,34 @@ input.addEventListener("input", (ev) => {
     })
 });
 
-(document.getElementById('api-btn') as HTMLButtonElement).addEventListener('click', function() {
-    testeServeApi()
+// Inicialize o EmailJS com seu User ID
+emailjs.init("1oStTlvolPOmGxroU"); // Substitua pelo seu User ID
+
+// Função para enviar o e-mail
+(document.getElementById("contact-form") as HTMLFormElement).addEventListener("submit", function(event: Event) {
+    event.preventDefault()
+
+    const nome_form: string = (document.getElementById('input-nome') as HTMLInputElement).value
+    const tel_form: string = (document.getElementById('input-tel') as HTMLInputElement).value
+    
+    if (nome_form !== '' && tel_form !== '') {        
+        // Enviar o e-mail usando seu Service ID e Template ID
+        emailjs.send("service_d1s9app", "template_t4dzpwm", {
+            name: nome_form,
+            tel: tel_form,
+            data: new Date().toLocaleDateString('pt-BR')
+        })
+        .then(
+            function(response) {
+                console.log('E-mail enviado com sucesso!', response);
+            }, function(error) {
+                console.error('Erro ao enviar e-mail', error);
+            }
+        )
+        
+        const boxSimulador = document.getElementById('box-simulador') as HTMLDivElement
+        boxSimulador.classList.remove('hidden')
+    } else {
+        alert('Por favor, preencha todos os dados')
+    }
 })

@@ -107,16 +107,17 @@
                     <div class="mx-auto rounded-xl bg-white shadow-lg p-4 -ml-4 -mr-4 lg:ml-auto lg:mr-auto lg:w-1/2 lg:p-16">
                         <h2>Faça uma simulação aqui e agora</h2>
                         <div class="mb-12">
-                            <form action="" class="flex flex-col w-full">
+                            <form action="" method="" id="contact-form" class="flex flex-col w-full">
                                 <span class="w-full mb-4">
                                     <label for="simulador-nome" class="absolute text-[10px] ml-4 mt-1 h-6">Nome Completo</label>
-                                    <input id="input-nome" type="text" name="simulador-nome" class="input-campo w-full pt-8">
+                                    <input id="input-nome" type="text" name="name" class="input-campo w-full pt-8">
                                 </span>
                                 <span class="w-full mb-4">
                                     <label for="simulador-tel" class="absolute text-[10px] ml-4 mt-1 h-6">Telefone</label>
-                                    <input id="input-tel" placeholder="__ _____-____" type="tel" name="simulador-tel" class="input-campo w-full pt-8">
+                                    <input id="input-tel" placeholder="__ _____-____" type="number" name="tel" class="input-campo w-full pt-8">
                                 </span>
-                                <button id="btn-ativar-simulador" class="btn bg-verde font-extrabold text-xl">Enviar</button>
+                                <!--<button id="btn-ativar-simulador" class="btn bg-verde font-extrabold text-xl">Enviar</button>-->
+                                <button type="submit" id="btn-ativar-simulador" class="btn bg-verde font-extrabold text-xl">Enviar</button>
                             </form>
                         </div>
                         <div id="box-simulador" class="hidden">
