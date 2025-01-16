@@ -1,7 +1,5 @@
 import './assets/css/styles.css'
-import { testeServeApi } from './assets/helpers/fetch'
 import { formatoReais, economiaAcumulada, formatoKWh } from './assets/helpers/formatarNumeros'
-import axios, { AxiosResponse } from "axios"
 import emailjs from 'emailjs-com';
 
 
