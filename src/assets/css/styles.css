@@ -170,6 +170,18 @@ xl	1280px	@media (min-width: 1280px) { ... }
     .lp-lista-item {
         @apply text-neutral-200 text-sm list-disc
     }
+
+    .tabela-simulador tbody tr {
+        @apply odd:bg-neutral-100
+    }
+
+    .tabela-simulador tbody tr td {
+        @apply first:pl-4 last:pr-4
+    }
+
+    .tabela-simulador tbody tr td {
+        @apply py-4
+    }
 }
 
 @layer utilities {
