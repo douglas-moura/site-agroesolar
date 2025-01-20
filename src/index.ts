@@ -59,7 +59,7 @@ emailjs.init("1oStTlvolPOmGxroU"); // Substitua pelo seu User ID
 // SIMULADOR DE ECONOMIA ANUAL
 
 // input valor da conta
-const input = document.querySelector("#range-conta") as HTMLInputElement
+const input = document.querySelector("#input-valor-conta") as HTMLInputElement
 
 // células da tabela
 const tabContaAnual = document.getElementById('conta-anual')! as HTMLElement
@@ -76,10 +76,28 @@ const contaAnualA20 = document.getElementById('conta-anual-a20')! as HTMLElement
 const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic')! as HTMLElement
 const tabGanhoComAplic = document.getElementById('ganho-com-aplic')! as HTMLElement
 
+input.addEventListener("change", function() {
+})
+
 // simulador
 input.addEventListener("input", (ev) => {
-    // pega valo da conta e converte em conta anual
     const target = ev.target as HTMLInputElement
+
+    let value = target.value
+
+    // Remove tudo que não for número
+    value = value.replace(/\D/g, "")
+
+    // Formata o valor como moeda
+    value = (parseFloat(value) / 100).toLocaleString("pt-BR", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+    })
+
+    // Define o valor formatado no input
+    target.value = value
+
+    // pega valo da conta e converte em conta anual
     const numericValue = parseFloat(target.value.replace(/[^0-9.-]+/g, "")) || 0
     const contaAnual = numericValue * 12
     
