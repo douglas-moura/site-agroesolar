@@ -214,7 +214,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
         alert('Por favor, preencha todos os dados');
     }
 });
-const input = document.querySelector("#range-conta");
+const input = document.querySelector("#input-valor-conta");
 const tabContaAnual = document.getElementById('conta-anual');
 const tabConsumo = document.getElementById('consumo');
 const tabCompra = document.getElementById('compra');
@@ -225,8 +225,17 @@ const tabAno07 = document.getElementById('ano-07');
 const contaAnualA20 = document.getElementById('conta-anual-a20');
 const tabGanhoSemAplic = document.getElementById('ganho-sem-aplic');
 const tabGanhoComAplic = document.getElementById('ganho-com-aplic');
+input.addEventListener("change", function () {
+});
 input.addEventListener("input", (ev) => {
     const target = ev.target;
+    let value = target.value;
+    value = value.replace(/\D/g, "");
+    value = (parseFloat(value) / 100).toLocaleString("pt-BR", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+    });
+    target.value = value;
     const numericValue = parseFloat(target.value.replace(/[^0-9.-]+/g, "")) || 0;
     const contaAnual = numericValue * 12;
     tabContaAnual.innerHTML = formatoReais(contaAnual);
