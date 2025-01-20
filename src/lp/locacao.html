@@ -13,7 +13,7 @@
             <section class="bg-neutral-800 lp-back py-8 lg:py-16">
                 <div class="conteudo">
                     <span class="flex justify-center flex-col h-60">
-                        <h1 class="font-extrabold text-neutral-100 uppercase lg:text-6xl">Troque seu fornecedor <br> e tenha <strong class="text-verde">20% de economia</strong> <br> em sua conta imediatamente</h1>
+                        <h1 class="font-extrabold text-neutral-100 uppercase lg:text-6xl">Troque seu fornecedor de energia <br> e tenha <strong class="text-verde">20% de economia</strong> <br> em sua conta imediatamente</h1>
                     </span>
                 </div>
             </section>
@@ -22,7 +22,7 @@
                     <div class="flex flex-col justify-center lg:col-span-3 lg:pr-16">
                         <img class="w-full mb-6 lg:w-72" src="../assets/img/logo-agro-e-solar-5.png" alt="Logotipo Agro&Solar">
                         <p class="font-extrabold uppercase text-azul lg:text-3xl lg:leading-10">Comece com a economia de 20% ao ano e chegue até 50%</p>
-                        <p class="uppercase text-neutral-400 lg:text-xl"><strong>Veja:</strong> Uma conta de <strong>R$ 1.000</strong> pode te dar uma economia de <strong>R$ 356.358</strong> em 20 anos.</p>
+                        <p class="text-neutral-400 lg:text-xl"><strong>Veja:</strong> Aplicando a economia de uma conta de <strong>R$ 1.000</strong> pode te dar um retorno de <strong>R$ 356.358</strong> em 20 anos.</p>
                         <a class="mt-12 w-full lg:w-80 scroll-smooth scroll-p-8" href="#simulador" target="">
                             <button class="btn w-full text-xl shadow-md rounded-lg bg-verde text-branco font-extrabold">Faça uma simulação</button>
                         </a>
@@ -113,7 +113,7 @@
                                     <input id="input-nome" type="text" name="name" class="input-campo w-full p-2 pt-6">
                                 </span>
                                 <span class="w-full mb-4">
-                                    <label for="simulador-tel" class="absolute text-[10px] ml-2 mt-1 h-6">Telefone</label>
+                                    <label for="simulador-tel" class="absolute text-[10px] ml-2 mt-1 h-6">WhatsApp</label>
                                     <input id="input-tel" placeholder="__ _____-____" type="number" name="tel" class="input-campo w-full p-2 pt-6">
                                 </span>
                                 <!--<button id="btn-ativar-simulador" class="btn bg-verde font-extrabold text-xl">Enviar</button>-->
@@ -133,6 +133,10 @@
                                     <tr>
                                         <td class="tab-descr-valor">CONTA (Anual)</td>
                                         <td id="conta-anual" class="tab-orcamento-valores">R$ 0,00</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="tab-descr-valor font-black text-sm">CONTA TOTAL EM 20 ANOS</td>
+                                        <td id="conta-anual-a20" class="tab-orcamento-valores font-black text-sm">R$ 0,00</td>
                                     </tr>
                                     <tr>
                                         <td class="tab-descr-valor">CONSUMO (KWh/mês)</td>
@@ -175,10 +179,6 @@
                                     <tr>
                                         <td class="tab-descr-valor">Economia do 7º ao 20º ano</td>
                                         <td id="ano-07" class="tab-orcamento-valores">R$ 0,00</td>
-                                    </tr>
-                                    <tr>
-                                        <td class="tab-descr-valor font-black text-sm">CONTA TOTAL EM 20 ANOS</td>
-                                        <td id="conta-anual-a20" class="tab-orcamento-valores font-black text-sm">R$ 0,00</td>
                                     </tr>
                                     <tr>
                                         <td class="tab-descr-valor font-black text-sm text-azul">ECONOMIA TOTAL SEM APLICAÇÃO</td>
