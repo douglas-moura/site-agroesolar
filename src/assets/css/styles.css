@@ -107,16 +107,24 @@ xl	1280px	@media (min-width: 1280px) { ... }
         @apply min-h-12 p-2 border-[1px] border-cinza bg-[#fff] text-center text-preto text-sm
     }
 
-    .tab-celular-tit_1 {
-        @apply h-8 bg-verde font-black text-sm
+    .tab-celula-tit_1 {
+        @apply h-8 bg-verde font-black text-white text-sm bg-[#315D28] lg:min-w-0
     }
 
-    .tab-celular-tit_2 {
-        @apply font-black h-20 text-[.7rem]
+    .tab-celula-tit_2 {
+        @apply font-black h-12 text-[.7rem] text-white bg-[#8EC045] w-[10%] lg:min-w-0
     }
 
     .tab-invest {
         @apply h-3 p-0 text-[.6rem]
+    }
+
+    .tab-celular-linha {
+        @apply odd:bg-[#DFDFDE]
+    }
+
+    .tab-celula-linha td {
+        @apply text-[.6rem]
     }
 
     .box-preco-invest {
