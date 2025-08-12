@@ -6,7 +6,7 @@ const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 
 module.exports = {
-    mode: 'development', // Pode ser 'development' ou 'production'
+    mode: 'production', // Pode ser 'development' ou 'production'
     //mode: 'development', // Pode ser 'development' ou 'production'
     entry: './src/index.ts', // Arquivo de entrada principal
     output: {
@@ -55,7 +55,7 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            favicon: './src/favicon.ico', // Caminho do favicon
+            favicon: './src/favicon.png', // Caminho do favicon
             template: './src/index.html', // Arquivo HTML base
             filename: 'index.html', // Nome do arquivo de saída
             inject: 'body',  // Injetando o JS no final do body para não afetar o carregamento
